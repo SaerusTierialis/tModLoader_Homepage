@@ -1,4 +1,4 @@
-# General Notes:
+## General Notes
 * Classes will have anywhere from 1 to 4 active abilities (most will have 2)
 	* Relative to other classes, Cleric/Saint has more abilities and these abilities have more depth
 * Abilities are listed in order of unlock
@@ -9,11 +9,11 @@
 	* The longer duration is kept
 	* The larger effect magnitude is kept
 
-# New Stats
+## New Stats
 * **Healing Power**
 	* Boosts all healing output from abilities
 
-# Ability Types
+## Ability Types
 * **Passive**
 	* Have a constant effect that does not directly pertain to an ability
 * **Active**
@@ -26,8 +26,8 @@
 	* Sub-ability shares a cooldown with the main active
 	* Hold the "Alternate Effect" hotkey when activating the main ability to use the alternate ability instead
 
-# Class Abilities
-## Cleric/Saint
+## Class Abilities
+### Cleric/Saint
 * **Passive: Purity (Cleric 10)**
 	* Gain 10% Healing Power per debuff immunity up to 100%
 	* Supports most vanilla debuffs:
