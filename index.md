@@ -26,8 +26,8 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 
 # Revamp Progress:
 - [x] [Cleric/Saint Abilities](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/3) ([v1.3.8](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/releases/tag/v1.3.8))
-- [ ] [New Stats System](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/1)
 - [ ] [New Statuses System](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/4)
+- [ ] [New Stats System](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/1)
 - [ ] Settings UI
 - [ ] New Class/XP System
 - [ ] Class/Ability Selection UI
