@@ -32,11 +32,11 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 - [ ] New Class/XP System
 - [ ] Class/Ability Selection UI
 - [ ] Ranged-Class Abilities
-- [ ] Melee-Class Abilities
+- [ ] Hybrid-Class Abilities
 - [ ] Magic-Class Abilities
+- [ ] Melee-Class Abilities
 - [ ] Minion-Class Abilities
 - [ ] Theif-Class Abilities
-- [ ] Hybrid-Class Abilities
 - [ ] [General Improvements](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/2)
 
 *Changes are likely to be implemented in the order above.*
