@@ -8,7 +8,7 @@
 * Wiki (not yet)
 
 # Revamp Links:
-* [Temporary Ability Info](./Temp_Abilities_Info.md)
+* [Temporary Rework Documentation](./Temporary_Rework_User_Documentation.md) (Includes Ability Info)
 * [Revamp Overall Progress](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
 # Revamp Summary:
