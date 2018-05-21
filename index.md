@@ -36,7 +36,7 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 - [ ] Magic-Class Abilities
 - [ ] Melee-Class Abilities
 - [ ] Minion-Class Abilities
-- [ ] Theif-Class Abilities
+- [ ] Thief-Class Abilities
 - [ ] [General Improvements](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestone/2)
 
 *Changes are likely to be implemented in the order above.*
