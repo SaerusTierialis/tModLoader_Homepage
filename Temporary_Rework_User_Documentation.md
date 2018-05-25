@@ -9,6 +9,12 @@
 	* The longer duration is kept
 	* The larger effect magnitude is kept
 
+## Using abilities
+1. Equip accessory
+1. Meet level requirements
+1. Assign hotkeys (Settings -> Controls, scroll down to Mod Controls)
+1. Press hotkey(s)
+
 ## New Stats
 * **Healing Power**
 	* Boosts all healing output from abilities
