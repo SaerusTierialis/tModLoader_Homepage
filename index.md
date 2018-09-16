@@ -41,7 +41,7 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 
 *Changes are likely to be implemented rouhgly in the order above.*
 
-### Acknowledgement for sprite use
+# Acknowledgement for sprite use
 Sprites adapted from: game-icons.net (used with modifications)
 
 license: https://creativecommons.org/licenses/by/3.0/
