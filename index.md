@@ -1,6 +1,6 @@
 # General Links:
 * [Discord](https://discord.gg/KXf9zen)
-* [Forum Post](https://forums.terraria.org/index.php?threads/experience-and-classes.53048)
+* [Forum](https://forums.terraria.org/index.php?threads/experience-and-classes.53048)
 * [Changelog](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/blob/master/description.txt)
 * [Source](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses)
 * [Report a bug or request a feature](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/issues/new/choose)
