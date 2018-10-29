@@ -9,6 +9,7 @@
 # Revamp Links:
 * [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric ability descriptions)
 * [Progress Overview](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
+* [Progress Specifics](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
 
 # Revamp Highlights:
 There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
