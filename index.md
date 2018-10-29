@@ -12,7 +12,7 @@
 
 # Revamp Highlights:
 There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
-* Classes will no longer be accessories and will isntead be toggled on/off in a new UI
+* Classes will no longer be accessories and will instead be toggled on/off in a new UI
 * Level/XP will be per class
 * Bonuses will be dramatically reduced. This will be most noticeable on damage-related stats.
 * Bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
