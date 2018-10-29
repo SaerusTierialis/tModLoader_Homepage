@@ -18,6 +18,7 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 * Bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
 * Multi-classing will be easier and more worthwhile, but you will be limited to one sub-class
 * All classes will receive active abilities that enable new, unique playstyles
+* Out-of-game documentation should no longer be needed
 
 # Acknowledgement for sprite use
 Sprites adapted from: game-icons.net (used with modifications)
