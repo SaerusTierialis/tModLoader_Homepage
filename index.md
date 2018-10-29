@@ -7,7 +7,7 @@
 * [My other tModLoader mods](https://github.com/SaerusTierialis?utf8=%E2%9C%93&tab=repositories&q=tmodloader&type=&language=)
 
 # Revamp Links:
-* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (Includes Ability Info)
+* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric ability descriptions)
 * [Progress Overview](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
 # Revamp Highlights:
