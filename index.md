@@ -19,10 +19,11 @@ There is a **major** revamp is in the works! Please visit our Discord if you hav
 * Classes will no longer be accessories and will instead be toggled on/off in a new UI
 * Level/XP will be per class
 * Bonuses will be dramatically reduced. This will be most noticeable on damage-related stats.
-* Bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
+* Core bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
 * Multi-classing will be easier and more worthwhile, but you will be limited to one sub-class
 * All classes will receive active abilities that enable new, unique playstyles
 * Out-of-game documentation should no longer be needed
+* Everything is being rebuilt from the ground up with a variety of improvements
 
 ## Acknowledgement for sprite use
 Sprites adapted from: game-icons.net (used with modifications)
