@@ -11,10 +11,10 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 
 ## Revamp Links:
 * [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric abilities)
-* [Progress Overview](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
-* [Progress Specifics](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
 
 ## Revamp Highlights:
+ETA: I hope to release before the winter holidays
+
 There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
 * Classes will no longer be accessories and will instead be toggled on/off in a new UI
 * Level/XP will be per class
