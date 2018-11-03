@@ -11,7 +11,8 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 
 ## Revamp Links:
 * [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric abilities)
-* [Progress and Plans (incomplete)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
+* [Progress and Plans (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
+* [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
 ## Revamp Highlights:
 ETA: I hope to release before the winter holidays
