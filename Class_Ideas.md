@@ -13,7 +13,7 @@ Abilities should NOT:
 
 
 1. Novice
-    * *No abilities. Low, balanced stats. Power scales all damage types.*
+    * No abilities. Low, balanced stats. Power scales all damage types.
 
 1. Melee
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
@@ -25,6 +25,7 @@ Abilities should NOT:
     1. Guardian
         * Tank class
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
+
 1. Ranged
     * Base ability might be a gravity trap that is enhanced by the subclasses
     1. Sniper
@@ -41,5 +42,32 @@ Abilities should NOT:
         * Turret might have a support aura and/or debuff aura for added utility
         * Turret will scale with both ranged and minion
         * While the turret is out, player damage is decreased. The overall damage will be slightly increased if both the player and turret are hitting. The idea is that the turret is not just "free damage", but instead allows you to attack from multiple locations/angles.
+
 1. Magic
+   * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
     1. Elementalist
+        * Damage magic class
+        * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
+        * Selecting oppsite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
+        * Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
+        * Overall, this class offers primarily damage-focused buffs at the cost of mana and attention.
+     1. Sage/Seer/Mystic
+         * Utility class
+         * No good ideas yet
+1. Thief
+   * Speedy class that can use any weapons except minion
+   * Base ability could be stealth, a burst of speed, etc
+   1. Assassin
+         * Attacks from stealth to deal bonus damage
+         * Can use any weapons except minion
+   1. Ninja
+         * Throwing-focused class
+         * No good ideas yet
+   1. Name needed (previously the ranged-only gunslinger)
+         * A class that triggers bonus attacks (or spells) by attacking at precise moments
+         * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
+         * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This may be the most skill-based class.
+1. Minion
+1. Cleric/Saint
+      * Unchanged. See [here](./Temporary_Rework_User_Documentation.md).
+1. Hybrid
