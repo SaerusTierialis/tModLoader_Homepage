@@ -83,6 +83,7 @@ Abilities should NOT:
 
 1. Minion
       * Base ability can recall minions to your location. 
+
       1. Soul Binder
          * Focuses on having a few very strong minions
          * Can sacrafice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacraficed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
