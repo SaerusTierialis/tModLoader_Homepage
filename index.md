@@ -10,7 +10,7 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 * [Report a bug or request a feature](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/issues/new/choose)
 
 ## Revamp Links:
-* [Revamped Classes](./Class_Ideas.md)
+* [Revamped Classes](./Revamp_Classes.md)
 * [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric abilities)
 * [Progress and Plans (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
 * [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
