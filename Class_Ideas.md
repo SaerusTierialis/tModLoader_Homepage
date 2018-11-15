@@ -90,14 +90,14 @@ Abilities should NOT:
          * Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
          * Will have an ability to heal minions using the player's own life.
          * The two toggle abilities can only be used when no minions are currently summoned
-         * These abilities may or may not affect sentries
+         * If possible, soul binding will affect sentries
       
       1. Minion Master
          * Gains more control over minions
          * An ability to teleport minions to the cursor
          * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
          * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
-         * It should be possible to include sentries in all of these abilities
+         * If possible, these abiltiies will affect sentries
       
       1. No Sentry Class
          * The way that sentries are implemented is very messy and hard to work with. Most sentries don't even use sentry capacity and instead just have a hard limit of one per sentry type. No sentry-focused class is planned at this time, but I might revisit this once the other classes are complete. I personally enjoy sentries so I would eventually like to find a way to make it work.
