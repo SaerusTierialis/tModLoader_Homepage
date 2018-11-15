@@ -102,3 +102,6 @@ Abilities should NOT:
             * When 1 resource is emptied, the other damage types gain a larger bonus
             * Bonus defense while wielding a melee weapon when the melee resource is not empty
             * Bonus mana regen when the magic resource is empty (replenish mana after you've used magic to empty the resource)
+      * Note re minions:
+            * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
+            * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
