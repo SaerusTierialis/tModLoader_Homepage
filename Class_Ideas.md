@@ -17,6 +17,7 @@ Abilities should NOT:
 
 1. Melee
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
+
     1. Knight (rename?)
         * Basic damage class
         * no good ideas yet
@@ -32,6 +33,7 @@ Abilities should NOT:
 
 1. Ranged
     * Base ability might be a gravity trap that is enhanced by the subclasses
+    
     1. Sniper
         * High damage, crit-focused
         * Snipe ability locks the player in place (even in the air) and prevents the use of weapons/items. The player can then shoot off a few very powerful attacks. The player will be able to end the ability early.
@@ -50,6 +52,7 @@ Abilities should NOT:
 
 1. Magic
    * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
+    
     1. Elementalist
         * Damage magic class
         * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
@@ -93,7 +96,7 @@ Abilities should NOT:
             * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tikis) or to keep minions together when moving.
             * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
       
-1. Cleric/Saint
+1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
       * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
 
