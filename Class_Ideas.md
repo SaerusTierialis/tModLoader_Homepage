@@ -1,5 +1,17 @@
 These idea are not final. If you have feedback or ideas, please share them on our [Discord](https://discord.gg/KXf9zen).
 
+
+Abilties should do one or more of the following:
+* Have a risk/reward element
+* Require skill or timing to use
+* Create a new playstyle
+
+
+Abilities should NOT:
+* Be "press and forget"
+* Grant free damage with no downside
+
+
 1. Novice
     * *No abilities. Low, balanced stats. Power scales all damage types.*
 
