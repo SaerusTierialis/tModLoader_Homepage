@@ -30,6 +30,9 @@ Abilities should NOT:
         * Tank class
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
         * blocking just before recieving an attack should have a bonus
+        
+     1. No Yo-Yo Class
+        * There is no yo-yo specific class, but several classes will be able to use yo-yos very effectively.
 
 1. Ranged
     * Base ability might be a gravity trap that is enhanced by the subclasses
