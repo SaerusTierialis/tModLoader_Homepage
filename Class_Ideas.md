@@ -51,7 +51,7 @@ Abilities should NOT:
         * Turret has some interaction with enemies caught in the trap (fire a missle?)
         * Turret might have a support aura and/or debuff aura for added utility
         * Turret will scale with both ranged and minion
-        * While the turret is out, player damage is decreased. The overall damage will be slightly increased if both the player and turret are hitting. The idea is that the turret is not just "free damage", but instead allows you to attack from multiple locations/angles.
+        * While the turret is out, player damage is decreased. The idea is that the turret is not just "free damage", but instead allows you to attack from multiple locations/angles. However, the overall damage should be a slight increased if both the player weapon and turret are aimed well. 
 
 1. Magic
    * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
