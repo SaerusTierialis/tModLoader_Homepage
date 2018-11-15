@@ -98,6 +98,9 @@ Abilities should NOT:
          * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
          * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
       
+      1. Sentry Class (or lack thereof)
+         * The way that sentries are implemented is very messy and hard to work with. Most sentries don't even use sentry capacity and instead just have a hard limit of one. Even the damage scaling is more-or-less a free for all. No sentry class is planned at this time, but I might revisit this once the other classes are complete. I personally enjoy sentries so I'd like to find a way to make it work eventually.
+      
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
       * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
