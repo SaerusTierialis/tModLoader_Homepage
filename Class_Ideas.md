@@ -96,7 +96,7 @@ Abilities should NOT:
          * Gains more control over minions
          * An ability to teleport minions to the cursor
          * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
-         * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
+         * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits.
          * If possible, these abiltiies will affect sentries
       
       1. No Sentry Class
