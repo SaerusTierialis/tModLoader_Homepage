@@ -71,6 +71,8 @@ Abilities should NOT:
    1. Assassin
          * Attacks from stealth to deal bonus damage
          * Can use any weapons except minion
+         * Might gain bonus damage for hitting from behind
+         * The stealth attack would deal more damage the closer you are to the target
    
    1. Ninja
          * Throwing-focused class
