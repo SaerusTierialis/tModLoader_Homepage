@@ -67,7 +67,23 @@ Abilities should NOT:
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
          * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
          * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This may be the most skill-based class.
+
 1. Minion
+      * Base ability can recall minions to your location. 
+      1. Soul Binder
+            * Focuses on having a few very strong minions
+            * Can sacrafice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacraficed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
+            * Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
+            * Will have an ability to heal minions using the player's own life.
+            * The two toggle abilities can only be used when no minions are currently summoned
+            * These abilities do not affect sentries
+      1. Minion Master
+            * Gains more control over minions
+            * An ability to teleport minions to the cursor
+            * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tikis) or to keep minions together when moving.
+            * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
+      
 1. Cleric/Saint
       * Unchanged. See [here](./Temporary_Rework_User_Documentation.md).
+
 1. Hybrid
