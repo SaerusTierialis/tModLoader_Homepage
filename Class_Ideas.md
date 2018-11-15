@@ -83,18 +83,18 @@ Abilities should NOT:
 1. Minion
       * Base ability can recall minions to your location. 
       1. Soul Binder
-            * Focuses on having a few very strong minions
-            * Can sacrafice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacraficed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
-            * Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
-            * Will have an ability to heal minions using the player's own life.
-            * The two toggle abilities can only be used when no minions are currently summoned
-            * These abilities do not affect sentries
+         * Focuses on having a few very strong minions
+         * Can sacrafice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacraficed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
+         * Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
+         * Will have an ability to heal minions using the player's own life.
+         * The two toggle abilities can only be used when no minions are currently summoned
+         * These abilities do not affect sentries
       
       1. Minion Master
-            * Gains more control over minions
-            * An ability to teleport minions to the cursor
-            * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tikis) or to keep minions together when moving.
-            * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
+         * Gains more control over minions
+         * An ability to teleport minions to the cursor
+         * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
+         * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
       
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
@@ -110,9 +110,9 @@ Abilities should NOT:
       * When any 2 of the 4 resources are emptied, all 4 resources refill
       * The desired effect is that players are rewarded for using multiple damage types (any combination of melee/ranged/magic/thowing) and penalized for using just one
       * Some ideas for enhancing this through passives:
-            * When 1 resource is emptied, the other damage types gain a larger bonus
-            * Bonus defense while wielding a melee weapon when the melee resource is not empty
-            * Bonus mana regen when the magic resource is empty (replenish mana after you've used magic to empty the resource)
+         * When 1 resource is emptied, the other damage types gain a larger bonus
+         * Bonus defense while wielding a melee weapon when the melee resource is not empty
+         * Bonus mana regen when the magic resource is empty (replenish mana after you've used magic to empty the resource)
       * Note re minions:
-            * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
-            * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
+         * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
+         * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
