@@ -19,12 +19,14 @@ Abilities should NOT:
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
     1. Knight (rename?)
         * Basic damage class
+        * no good ideas yet
     1. Berserker
-        * Attack speed class with a rage mechanic
+        * Attack speed class with a rage mechanic of some kind
         * maybe shouts/warcrys?
     1. Guardian
         * Tank class
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
+        * blocking just before recieving an attack should have a bonus
 
 1. Ranged
     * Base ability might be a gravity trap that is enhanced by the subclasses
@@ -84,6 +86,19 @@ Abilities should NOT:
             * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse?
       
 1. Cleric/Saint
-      * Unchanged. See [here](./Temporary_Rework_User_Documentation.md).
+      * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
+      * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization.
 
-1. Hybrid
+1. Hybrid (tier 2) and Hybrid Prime (tier 3)
+      * Scales all damage types equally
+      * Toggle ability to allow damage bonuses from equipment to apply to all damage types (perhaps at 80% value?)
+      * Has a resource bar for each damage type except minion
+      * Using a weapon while you have its resource offers a large damage boost
+      * Using a weapon while its resource is depleted incurs a large damage penalty
+      * Every time that you use a weapon, its resource will deplete for a few seconds (not based on attack speed or damage dealt)
+      * When any 2 of the 4 resources are emptied, all 4 resources refill
+      * The desired effect is that players are rewarded for using multiple damage types (any combination of melee/ranged/magic/thowing) and penalized for using just one
+      * Some ideas for enhancing this through passives:
+            * When 1 resource is emptied, the other damage types gain a larger bonus
+            * Bonus defense while wielding a melee weapon when the melee resource is not empty
+            * Bonus mana regen when the magic resource is empty (replenish mana after you've used magic to empty the resource)
