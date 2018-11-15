@@ -67,6 +67,7 @@ Abilities should NOT:
 1. Thief
    * Speedy class that can use any weapons except minion
    * Base ability could be stealth, a burst of speed, etc
+
    1. Assassin
          * Attacks from stealth to deal bonus damage
          * Can use any weapons except minion
