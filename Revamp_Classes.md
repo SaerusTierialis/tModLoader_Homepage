@@ -65,7 +65,8 @@ Abilities should NOT:
      
      1. Sage/Seer/Mystic
          * Utility class
-         * No good ideas yet
+         * No good ideas yet...
+         * Maybe an orb that can be moved around with an ability. Might deal damage if it passes through an enemy. Abilities to trigger buff/debuff around orb. Thoughts?
 
 1. Thief
    * Speedy class that can use any weapons except minion
