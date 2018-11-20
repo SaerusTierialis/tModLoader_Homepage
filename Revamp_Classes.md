@@ -128,3 +128,8 @@ Abilities should NOT:
       * Note re minions:
          * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
          * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
+1. Explorer
+      * A tier 3 class that requires only level 10 novice
+      * Power attribute scaling fishing power
+      * Dexterity scales tool (pickaxe/axe/hammer/etc) use time
+      * Will eventually gain bonuses such as spelunker effect
