@@ -133,3 +133,4 @@ Abilities should NOT:
       * Power attribute scales fishing power
       * Dexterity attribute scales tool (pickaxe/axe/hammer/etc) use time
       * Will eventually gain bonuses such as spelunker effect
+      * There are currently no plans to grant this class XP from non-combat sources, but you can funnel your orbs into it
