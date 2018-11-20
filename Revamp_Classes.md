@@ -130,6 +130,6 @@ Abilities should NOT:
          * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
 1. Explorer
       * A tier 3 (for purposes of max level) class that requires only level 10 novice
-      * Power attribute scaling fishing power
-      * Dexterity scales tool (pickaxe/axe/hammer/etc) use time
+      * Power attribute scales fishing power
+      * Dexterity attribute scales tool (pickaxe/axe/hammer/etc) use time
       * Will eventually gain bonuses such as spelunker effect
