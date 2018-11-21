@@ -88,7 +88,9 @@ Abilities should NOT:
          * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This may be the most skill-based class.
 
 1. Minion
-      * Base ability can recall minions to your location. 
+      * An ability can recall minions to your location
+      * An ability to command minions to attack target nearest the cursor
+      * A toggle ability to convert minion slots into sentry slots at either a 2:1 or 3:1 ratio (use multiple times to select number of slots to convert)
 
       1. Soul Binder
          * Focuses on having a few very strong minions
