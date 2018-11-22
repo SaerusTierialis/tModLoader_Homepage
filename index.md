@@ -8,6 +8,7 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 * [Changelog](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/blob/master/description.txt)
 * [Source](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses)
 * [Report a bug or request a feature](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/issues/new/choose)
+* [Feedback Polls](./Polls.md)
 
 ## Revamp Links:
 * [Revamp Classes](./Revamp_Classes.md)
