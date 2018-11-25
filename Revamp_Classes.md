@@ -61,6 +61,7 @@ Abilities should NOT:
         * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
         * Selecting oppsite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
         * Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
+        * A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning.
         * Overall, this class offers primarily damage-focused buffs at the cost of mana and attention.
      
      1. Sage/Seer/Mystic
