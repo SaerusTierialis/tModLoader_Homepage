@@ -30,7 +30,7 @@ Abilities should NOT:
         * Tank class
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
         * blocking just before recieving an attack should have a bonus
-        * Might have an abilities that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
+        * Might have an ability that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
         
      1. No Yo-Yo Class
         * There is no yo-yo specific class, but several classes will be able to use yo-yos very effectively.
