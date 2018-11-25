@@ -88,8 +88,8 @@ Abilities should NOT:
    
    1. Name needed (previously the ranged-only gunslinger)
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
-         * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
-         * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This may be the most skill-based class.
+         * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
+         * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
 
 1. Minion
       * An ability can recall minions to your location
