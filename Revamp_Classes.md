@@ -67,11 +67,10 @@ Abilities should NOT:
         * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
      
      1. Sage/Seer/Mystic
-         * Utility class
-         * No good ideas yet...
-         * Maybe an orb that can be moved around with an ability. Might deal damage if it passes through an enemy. Abilities to trigger buff/debuff around orb. Thoughts?
-         * Maybe a debuff-focused class?
-         * Maybe an aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant?
+         * Utility and/or buff and/or debuff class?
+         * Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
+         * Other abilities would trigger on each fielded orb (e.g., auras around each orb)
+         * Maybe an player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant?
 
 1. Thief
    * Speedy class that can use any weapons except minion
