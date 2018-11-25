@@ -4,6 +4,8 @@
 
 1. [Should this mod be renamed to something better during the revamp?](https://strawpoll.com/9haw9fra)
 
+1. [Should this mod reduce the effects of equipment (defense, damage, etc.) by a fixed percentage to partially offset the bonuses granted?](https://strawpoll.com/29k6xdxw)
+
 # Past Polls
 
 1. [Which class(es) should receive abilities and rework first?](https://strawpoll.com/9fhabha9) (original roster)
