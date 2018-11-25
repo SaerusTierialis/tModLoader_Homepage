@@ -66,7 +66,7 @@ Abilities should NOT:
         * A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning. If the charge version of attunement is used then this could be the wind spell.
         * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
      
-     1. Sage/Seer/Mystic
+     1. Sage/Seer
          * Utility and/or buff and/or debuff class?
          * Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
          * Other abilities would trigger on each fielded orb (e.g., auras around each orb)
