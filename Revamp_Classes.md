@@ -63,7 +63,7 @@ Abilities should NOT:
         * Selecting oppsite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
         * Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
         * Alternatively, the element system could instead store charges rather than trigger buffs. A second ability could be used to release the charges. Releasing charges could trigger large spell effects (meteors, etc). Still, there would be a max of 4 charges and opposite element charges could not be added consecutively. A unique effect would be triggered if you have all 4 elements. Duplicates of the same element would empower that elements effect (e.g., 2 fire + 2 earth = empowered fire and earth effects).
-        * A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning.
+        * A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning. If the charge version of attunement is used then this could be the wind spell.
         * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
      
      1. Sage/Seer/Mystic
