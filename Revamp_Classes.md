@@ -111,8 +111,9 @@ Abilities should NOT:
          * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
          * If possible, these abiltiies will affect sentries
       
-      1. No Sentry Class
-         * The way that sentries are implemented is very messy and hard to work with. Most sentries don't even use sentry capacity and instead just have a hard limit of one per sentry type. No sentry-focused class is planned at this time, but I might revisit this once the other classes are complete. I personally enjoy sentries so I would eventually like to find a way to make it work.
+      1. Sentry Class (might not be made)
+         * Passive (or toggle) to allow sentries to be places in the air
+         * Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
       
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
