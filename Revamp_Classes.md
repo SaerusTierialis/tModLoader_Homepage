@@ -70,6 +70,7 @@ Abilities should NOT:
          * No good ideas yet...
          * Maybe an orb that can be moved around with an ability. Might deal damage if it passes through an enemy. Abilities to trigger buff/debuff around orb. Thoughts?
          * Maybe a debuff-focused class?
+         * Maybe an aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant?
 
 1. Thief
    * Speedy class that can use any weapons except minion
