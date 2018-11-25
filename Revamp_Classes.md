@@ -30,6 +30,7 @@ Abilities should NOT:
         * Tank class
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
         * blocking just before recieving an attack should have a bonus
+        * Might have an abilities that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
         
      1. No Yo-Yo Class
         * There is no yo-yo specific class, but several classes will be able to use yo-yos very effectively.
@@ -117,7 +118,10 @@ Abilities should NOT:
       
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
-      * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
+      * Might have a passive or toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability could not be used with the hybrid ability that makes equipment affect all damage types.
+      * Potential changes:
+         * Remove paragon abilities for something more interesting
+         * Rework heal
 
 1. Hybrid (tier 2) and Hybrid Prime (tier 3)
       * Scales all damage types equally
