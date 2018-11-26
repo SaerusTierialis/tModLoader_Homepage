@@ -8,7 +8,7 @@
 
 # Prior Polls
 
-1. [Which class(es) should receive abilities and rework first?](https://strawpoll.com/9fhabha9) (original roster)
+1. [Which class(es) should receive abilities and rework first?](https://strawpoll.com/9fhabha9) (recreated with new roster)
 
 1. [XP or EXP?](https://strawpoll.com/1xy5ps41) (XP)
 
