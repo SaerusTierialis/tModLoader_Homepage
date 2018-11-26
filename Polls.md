@@ -6,7 +6,7 @@
 
 1. [Should this mod reduce the effects of equipment (defense, damage, etc.) by a fixed percentage to partially offset the bonuses granted?](https://strawpoll.com/29k6xdxw)
 
-# Past Polls
+# Prior Polls
 
 1. [Which class(es) should receive abilities and rework first?](https://strawpoll.com/9fhabha9) (original roster)
 
