@@ -1,6 +1,6 @@
 # Active Polls
 
-1. [Which classes would you like to receive their abilities next?](https://strawpoll.com/hcrc3rcp) *(Saint already has its abilities)*
+1. [Which classes would you like to receive their abilities next?](https://strawpoll.com/hcrc3rcp) *(Saint already has abilities but there will be a few changes)*
 
 1. [Should this mod be renamed to something better during the revamp?](https://strawpoll.com/9haw9fra)
 
