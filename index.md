@@ -12,7 +12,7 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 
 ## Revamp Links:
 * [Revamp Classes](./Revamp_Classes.md)
-* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric abilities)
+* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes current cleric abilities)
 * [Progress and Plans (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
 * [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
