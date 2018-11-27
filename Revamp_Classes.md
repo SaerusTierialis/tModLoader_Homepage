@@ -132,7 +132,7 @@ Abilities should NOT:
       * Every time that you use a weapon, its resource will deplete for a few seconds (not based on attack speed or damage dealt)
       * When any 2 of the 4 resources are emptied, all 4 resources refill
       * The desired effect is that players are rewarded for using multiple damage types (any combination of melee/ranged/magic/thowing) and penalized for using just one
-      * Could trigger a buff on switching held item/weapon. The buff would affect all damage except for the prior weapon (to prevent switching right back to the same weapon immediately). This would offer a way to keep damage up in the short term while emptying the resources is more long term.
+      * Trigger a buff on switching held item/weapon. The buff would only affect the new weapon and it would have a weapon-specific cooldown that is longer than the duration. This would reward players for switching weapons frequently while also preventing players from switching right back to the same weapon immediately. Overall, this would offer a way to keep damage up in the short term while you work on emptying the resources in the longer term.
       * Some ideas for enhancing this through passives:
          * When 1 resource is emptied, the other damage types gain a larger bonus
          * Bonus defense while wielding a melee weapon when the melee resource is not empty
