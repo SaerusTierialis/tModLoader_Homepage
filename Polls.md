@@ -2,11 +2,11 @@
 
 1. [Which classes would you like to receive their abilities next?](https://strawpoll.com/hcrc3rcp) See [here](./Revamp_Classes.md) for class details.
 
-1. [Should this mod reduce the effects of equipment (defense, damage, etc.) by a fixed percentage to partially offset the bonuses granted?](https://strawpoll.com/29k6xdxw)
-
 1. [What type of heal should support have?](https://strawpoll.com/rpbga8hz)
 
 # Prior Polls
+
+1. [Should this mod reduce the effects of equipment (defense, damage, etc.) by a fixed percentage to partially offset the bonuses granted?](https://strawpoll.com/29k6xdxw) (the system will be implemented with a map-wide option to disable)
 
 1. [Which class(es) should receive abilities and rework first?](https://strawpoll.com/9fhabha9) (recreated with new roster)
 
