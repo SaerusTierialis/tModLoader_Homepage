@@ -75,7 +75,7 @@ Abilities should NOT:
 
 1. Thief
    * Speedy class that can use any weapons except minion
-   * Base ability could be stealth, a burst of speed, etc
+   * Has an active dodge ability that moves the player a short distance towards the cursor
 
    1. Assassin
          * Attacks from stealth to deal bonus damage
@@ -85,7 +85,7 @@ Abilities should NOT:
    
    1. Ninja
          * Throwing-focused class
-         * No good ideas yet
+         * Shadow Walk ability to move through enemies without being hurt. Toggles on/off and has a resource. Disabled upon attacking or running out of resource.
    
    1. Name needed (previously the ranged-only gunslinger)
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
