@@ -82,6 +82,7 @@ Abilities should NOT:
          * Can use any weapons except minion
          * Might gain bonus damage for hitting from behind
          * The stealth attack would deal more damage the closer you are to the target
+         * Has a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
    
    1. Ninja
          * Throwing-focused class
