@@ -37,6 +37,7 @@ Abilities should NOT:
 
 1. Ranged
     * Base ability might be a gravity trap that is enhanced by the subclasses
+    * A second base ability could be a spreadshot with a "rain of arrows" alternate skill 
     
     1. Sniper
         * High damage, crit-focused
