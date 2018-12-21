@@ -87,10 +87,11 @@ Abilities should NOT:
          * Throwing-focused class
          * Shadow Walk ability to move through enemies without being hurt. Toggles on/off and has a resource. Disabled upon attacking or running out of resource.
    
-   1. Name needed (previously the ranged-only gunslinger)
+   1. Chrono
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
          * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
          * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
+         * This class will also have an ability to travel a short ways back in time. The first use memorizes the current location and the second use jumps the player back to that point. The ability will have a resource bar that empties between the first and second use. This means that small jumps can be made frequently. The ability will also set the combo back to the earlier state.
 
 1. Minion
       * An ability can recall minions to your location
