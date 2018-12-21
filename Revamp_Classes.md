@@ -42,6 +42,7 @@ Abilities should NOT:
         * High damage, crit-focused
         * Snipe ability locks the player in place (even in the air) and prevents the normal use of weapons. The player can then shoot off a few very powerful attacks. Each shot will be more powerful than the last to reward being immobile for longer. The player will be able to end the ability early.
         * Snipe deals bonus damage to enemies caught in the trap
+        * Potentially an ability to add pierce to any projectiles
     
     1. Engineer
         * Utility class
