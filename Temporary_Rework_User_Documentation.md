@@ -75,7 +75,7 @@
 	* When leaving a world, sanctuary locations are saved. If the next world that the character enters is the same (based on name) then the sanctuaries will automatically be recreated
 	* This is meant to be used for utility and to heal out of combat
 	* You do not need to reuse the ability to update healing values or upgrades
-* **Update: Sanctuary - Holy Light (Cleric 18)**
+* **Upgrade: Sanctuary - Holy Light (Cleric 18)**
 	* Affected players also receive a light-generating buff that lasts 120 seconds
 * **Alternate: Heal - Barrier (Cleric 20)**
 	* Mana Cost: 70% of max mana
