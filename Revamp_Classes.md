@@ -87,7 +87,11 @@ Abilities should NOT:
          * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc.). This may be the most skill-based class.
 
 1. Minion
-      * Base ability can recall minions to your location.
+      * A level 1 ability will summon time-limited minions that do not consume minion cap. The goal of this ability is to give summoners something to use early on that isn't completely useless at high level. These minions will scale with attribute investment, but should fall off in late game.
+        * The ability should have a moderate mana cost and short cooldown.
+        * These minions should start off grounded and become flying at mid level.
+        * Might add an immobile cast time to keep it from being too good in later game.
+      * A second ability can recall minions to your location.
 
       1. Soul Binder
          * Focuses on having a few very strong minions
