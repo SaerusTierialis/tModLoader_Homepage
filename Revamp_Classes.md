@@ -18,10 +18,6 @@ Abilities should NOT:
 1. Melee
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
 
-    1. Knight (rename?)
-        * Basic damage class
-        * no good ideas yet
-
     1. Blood Knight
         * Has a blood resource that regens/degens life based on current level (low=degen, mid=no effect, high=regen)
         * Blood is acquired by using a skill that costs life and also by hitting nearby enemies with melee damage (offscreening with melee projectiles will not count)
