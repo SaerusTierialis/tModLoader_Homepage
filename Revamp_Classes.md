@@ -115,6 +115,7 @@ Abilities should NOT:
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
       * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
+      * Might split into two final classes: heal-focused and buff-focused
 
 1. Hybrid (tier 2) and Hybrid Prime (tier 3)
       * Scales all damage types equally
