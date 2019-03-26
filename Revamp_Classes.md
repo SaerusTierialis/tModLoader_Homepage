@@ -24,6 +24,7 @@ Abilities should NOT:
 
     1. Blood Knight
         * Has a blood resource that regens/degens life based on current level (low=degen, mid=no effect, high=regen)
+        * Blood is acquired by using a skill that costs life and also by hitting nearby enemies with melee damage (offscreening with melee projectiles will not count)
         * Powerful abilities consume the blood resource, which consequently incurs degen
 
     1. Berserker
