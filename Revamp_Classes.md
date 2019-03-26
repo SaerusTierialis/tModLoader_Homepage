@@ -22,6 +22,11 @@ Abilities should NOT:
         * Basic damage class
         * no good ideas yet
 
+    1. Blood Knight
+        * Has a blood resource that regens/degens life based on current level (low=degen, mid=no effect, high=regen)
+        * Blood is acquired by using a skill that costs life
+        * Powerful abilities consume the blood resource, which consequently incurs degen
+
     1. Berserker
         * Attack speed class with a rage mechanic of some kind
         * maybe shouts/warcrys?
