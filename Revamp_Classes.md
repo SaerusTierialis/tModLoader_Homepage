@@ -19,9 +19,17 @@ Abilities should NOT:
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
 
     1. Blood Knight
-        * Has a blood resource that regens/degens life based on current level (low=degen, mid=no effect, high=regen)
-        * Blood is acquired by using a skill that costs life and also by hitting nearby enemies with melee damage (offscreening with melee projectiles will not count)
-        * Powerful abilities consume the blood resource, which consequently incurs degen
+        * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
+        * Has a Bloodforce resource with a capacity of 100
+            * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
+            * When <40, life degens
+            * When >60, life regens
+        * The first ability consumes life to produce Bloodforce
+        * Other ablities consume Bloodforce for powerful effects:
+            * These effects should be powerful enough to be worth the risk of spending life and/or incurring degen
+            * Maybe a toggle that drains Bloodforce to increase Damage
+            * Maybe a skill to massively boost the damage of the next hit
+            * Maybe a wave that inflicts a strong bleed
 
     1. Berserker
         * Attack speed class with a rage mechanic of some kind
