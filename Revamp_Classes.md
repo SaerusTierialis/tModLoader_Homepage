@@ -76,7 +76,7 @@ Abilities should NOT:
          * Utility class
          * No good ideas yet
 
-1. Thief
+1. Rogue
    * These classes work well with throwing, but scale most damage types. The base class and Shadow scale minion, but the other classes do not.
    * Base ability could be stealth, a burst of speed, etc.
 
