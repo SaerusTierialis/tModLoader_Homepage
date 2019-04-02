@@ -77,7 +77,7 @@ Abilities should NOT:
          * No good ideas yet
 
 1. Thief
-   * Speedy class that can use any weapons except minion
+   * These classes work well with throwing, but scale all damage types except minion
    * Base ability could be stealth, a burst of speed, etc.
 
    1. Assassin
@@ -85,10 +85,16 @@ Abilities should NOT:
          * Can use any weapons except minion
          * Might gain bonus damage for hitting from behind
          * The stealth attack would deal more damage the closer you are to the target
+         * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
 
-   1. Ninja
-         * Throwing-focused class
-         * No good ideas yet
+   1. Shadow
+         * Throwing-focused class, but could be used by others for the mobility
+         * First ability: create a shadow at current locations
+              * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
+              * Draw an indicator with the direction of the shadow to make it more intuitive
+              * Cast again to switch places with the shadow
+         * First ability alternate key toggles a status that causes throwing attacks to _instead_ launch from the shadow's location if a shadow is active
+         * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
    1. Name needed (previously the ranged-only gunslinger)
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
