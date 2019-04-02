@@ -77,7 +77,7 @@ Abilities should NOT:
          * No good ideas yet
 
 1. Thief
-   * These classes work well with throwing, but scale all damage types except minion
+   * These classes work well with throwing, but generally scale all damage types
    * Base ability could be stealth, a burst of speed, etc.
 
    1. Assassin
@@ -88,7 +88,7 @@ Abilities should NOT:
          * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
 
    1. Shadow
-         * Throwing-focused class, but could be used by others for the mobility
+         * Scales all damage types, but throwing gains added utility. Specializes in escaping danger while trapping enemies.
          * First ability: create a shadow at current locations
               * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
               * Draw an indicator with the direction of the shadow to make it more intuitive
@@ -97,6 +97,7 @@ Abilities should NOT:
          * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
    1. Name needed (previously the ranged-only gunslinger)
+         * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
          * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
          * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc.). This may be the most skill-based class.
