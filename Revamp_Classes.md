@@ -15,12 +15,12 @@ Abilities should NOT:
 # Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
 
-# Melee
+# Melee (or just close-range?)
 * Scale melee damage only
 * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
 * Maybe rework these classes to work for other damage types so long as the hits occur within close-range?
 
-## Blood Knight
+### Blood Knight
 * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
 * Has a Bloodforce resource with a capacity of 100
    * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
@@ -33,11 +33,11 @@ Abilities should NOT:
    * Maybe a skill to massively boost the damage of the next hit
    * Maybe a wave that inflicts a strong bleed
 
-## Berserker
+### Berserker
 * Attack speed class with a rage mechanic of some kind
 * maybe shouts/warcrys?
 
-## Guardian
+### Guardian
 * Tank class
 * abilities focusing on blocking, generating threat, and perhaps reflecting damage
 * blocking just before recieving an attack should have a bonus
@@ -48,7 +48,7 @@ Abilities should NOT:
 * Base ability might be a gravity trap that is enhanced by the subclasses
 * A second base ability could be a spreadshot with a "rain of arrows" alternate skill
 
-## Sniper
+### Sniper
 * High damage, crit-focused
 * Snipe ability locks the player in place (even in the air) and prevents the normal use of weapons. The player can then shoot off a few very powerful attacks. Each shot will be more powerful than the last to reward being immobile for longer. The player will be able to end the ability early.
     * Maybe instead a channel skill that charged up a powerful shot (can move during, but not attack during)
@@ -56,7 +56,7 @@ Abilities should NOT:
 * Potentially an ability to add pierce to any projectiles
 * Needs more Rework
 
-## Engineer
+### Engineer
 * Scales ranged and throwing damage + minion damage too
 * Projectile minion class
 * Creates a _customizable_ floating Gizmo
@@ -88,7 +88,7 @@ Abilities should NOT:
 # Magic
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
 
-## Elementalist
+### Elementalist
 * Damage magic class
 * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
 * Selecting opposite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
@@ -98,19 +98,19 @@ Abilities should NOT:
 * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
 * Attunement could be something that you prepare before a difficult fight. During boss fights, it might be challenging to get the attunement that you want with everything else going on.
 
-## Sage/Seer
+### Sage/Seer
 * Utility and/or buff and/or debuff class?
 * Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
 * Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
 * Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
 
-## Maybe a debuff/degen class?
+### Maybe a debuff/degen class?
 
 # Rogue
 * These classes work well with throwing, but scale most damage types.
 * Base abilities could be stealth, a burst of speed, etc.
 
-## Assassin
+### Assassin
 * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
 * Specializes in stealth attacks and one-on-one
 * Attacks from stealth to deal bonus damage
@@ -120,7 +120,7 @@ Abilities should NOT:
 * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
 * maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
 
-## Shadow
+### Shadow
 * Scales ALL damage types (including minion), but throwing gains added utility. Specializes in escaping danger while trapping enemies.
 * First ability: create a shadow at current locations
      * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
@@ -130,7 +130,7 @@ Abilities should NOT:
 * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage (maybe more than 60% for non-projectile melee)
 * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
-## Chrono
+### Chrono
 * A class that triggers bonus attacks (or spells) by attacking at precise moments
 * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
 * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
@@ -145,7 +145,7 @@ Abilities should NOT:
 * An ability to command minions to attack target nearest the cursor
 * A toggle ability to convert minion slots into sentry slots at either a 2:1 or 3:1 ratio (use multiple times to select number of slots to convert)
 
-## Soul Binder
+### Soul Binder
 * Focuses on having a few very strong minions
 * Can sacrifice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacrificed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
 * Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
@@ -153,14 +153,14 @@ Abilities should NOT:
 * The two toggle abilities can only be used when no minions are currently summoned
 * If possible, soul binding will affect sentries
 
-## Minion Master
+### Minion Master
 * Gains more control over minions
 * An ability to teleport minions to the cursor
 * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
 * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
 * If possible, these abilities will affect sentries
 
-## Sentry Class?? (might not be made)
+### Sentry Class?? (might not be made)
 * Passive (or toggle) to allow sentries to be places in the air
 * Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
 
@@ -190,7 +190,7 @@ Abilities should NOT:
 * Note re minions:
    * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
    * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
-   
+
 # Explorer
 * A tier 2 class with a max level of 100 (same as tier 3s)
 * Power attribute scales fishing power
