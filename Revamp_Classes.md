@@ -33,7 +33,7 @@ Abilities should NOT:
    * Maybe a skill to massively boost the damage of the next hit
    * Maybe a wave that inflicts a strong bleed
 
-### Berserker
+### Berserker?
 * Attack speed class with a rage mechanic of some kind
 * maybe shouts/warcrys?
 
@@ -42,6 +42,9 @@ Abilities should NOT:
 * abilities focusing on blocking, generating threat, and perhaps reflecting damage
 * blocking just before recieving an attack should have a bonus
 * Might have an ability that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
+
+### Maybe a Rune Knight or Magic Knight?
+* something to add range or projectiles to pure melee weapons?
 
 # Ranged (non-magic projectile)
 * Scales ranged and throwing damage
