@@ -16,6 +16,7 @@ Abilities should NOT:
     * No abilities. Low, balanced stats. Power scales all damage types.
 
 1. Melee
+    * Scale melee damage only
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
 
     1. Blood Knight
@@ -40,27 +41,44 @@ Abilities should NOT:
         * abilities focusing on blocking, generating threat, and perhaps reflecting damage
         * blocking just before receiving an attack should have a bonus
 
-     1. No Yo-Yo Class
-        * There is no yo-yo specific class, but several classes will be able to use yo-yos very effectively.
-
-1. Ranged
+1. Ranged (non-magic projectile classes)
+    * Scales ranged and throwing damage
     * Base ability might be a gravity trap that is enhanced by the subclasses
 
     1. Sniper
         * High damage, crit-focused
         * Snipe ability locks the player in place (even in the air) and prevents the normal use of weapons. The player can then shoot off a few very powerful attacks. Each shot will be more powerful than the last to reward being immobile for longer. The player will be able to end the ability early.
         * Snipe deals bonus damage to enemies caught in the trap
+        * Needs more work...
 
     1. Engineer
-        * Hybrid-Summoner Class
-        * Can deploy a floating Gizmo that slowly follows the player. The Gizmo consumes a resource while it is out and the resource regenerates while stowed away. The player can scoop up the Gizmo when they are near it to avoid wasting resource.
-        * Decision: Gizmo will either aim towards the cursor or aim at the nearest npc
-        * Decision: Gizmo will either attack when the player attacks or on its own
-        * Decision: Gizmo projectiles might be fixed or might be based on the weapon equipped when Gizmo was deployed
-        * Gizmo has some interaction with enemies caught in the trap (fire a missile?)
-        * Gizmo might have a support aura and/or debuff aura for added utility
-        * Gizmo will scale with both ranged and minion
-        * While the Gizmo is out, player damage is decreased. The idea is that the Gizmo is not just "free damage", but instead allows you to attack from multiple locations/angles. However, the overall damage should be slightly increased if both the player weapon and Gizmo are aimed well.
+        * Scales ranged and throwing damage + minion damage too
+        * Projectile minion class
+        * Creates a _customizable_ floating Gizmo
+             * first, use an active ability to select a weapon that has a projectile, the Gizmo will then use that weapon to attack but the player will be unable to use the weapon (applies to all copies of that weapon)
+             * consumes a resource when Gizmo attacks (standardized resource consumption for attack speed of weapon)
+             * resource regenerates while out of combat and when the Gizmo is not deployed (i.e., because it broke)
+             * Gizmo breaks if resource is depleted
+             * Gizmo automatically redeploys once above some resource threshold
+             * Gizmo can be hit, which reduces the resource further
+             * enemies may target the Gizmo
+             * Gizmo damage is based on the weapon and then scaled by the damage type of the projectile AND by minion scaling, the Gizmo will be the player's primary damage
+             * To balance the high damage of the Gizmo, player's  damage is massively reduced when resource is low
+        * The Engineer should have good sustained damage while the Gizmo is deployed, and should deal massive bursts damage when resource level is high (because player damage will also be high)
+        * The rate of resource degen/regen will be fairly quick to keep up the pace, but slow enough that ensure that a low resource level is punishing. The Engineer must protect the Gizmo.
+        * Summary of penalties to offset massive Gizmo damage:
+             * Gizmo must be kept alive
+             * Gizmo cannot attack indefinitely
+             * Locks out selected weapon so you can't just make 2 of the best available weapon
+             * Player damage is massively reduced by low resource
+        * Decision that still need to be made:
+             * does Gizmo attack on its own or are its attacks triggered by player attacks? does it attack players most recent target? does it aim at the cursor?
+             * is Gizmo stationary? does it follow the player? does it chase down enemies? maybe it is commanded to move to targeted location with an ability?
+             * should melee projectiles and magic projectiles be allowed?
+             * should have some kind of interaction with the tier 2 trap skill
+             * maybe add some more utility? maybe defense mode where it stops attacking but taunts everything around and gains defense?
+             * maybe add a skill to recover resource?
+             * maybe add a crafted consumable to recover resource (with cooldown)
 
 1. Magic
    * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
@@ -99,7 +117,7 @@ Abilities should NOT:
               * might change this to launch throwing weapons from both the player and the shadow at 60% effectiveness each (a damage boost if both hit so long as target doesn't have extremely high defense)
          * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
-   1. Name needed (previously the ranged-only gunslinger)
+   1. Trigger
          * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
          * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
