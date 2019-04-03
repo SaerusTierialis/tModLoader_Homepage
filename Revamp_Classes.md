@@ -53,14 +53,14 @@ Abilities should NOT:
 
     1. Engineer
         * Utility class
-        * Can deploy a floating turret that slowly follows the player. The turret consumes a resource will it is out and the resource regenerates while stowed away. The player can scoop up the turret as needed.
-        * Decision: turret will either aim towards the cursor or aim at the nearest npc
-        * Decision: turret will either attack when the player attacks or on its own
-        * Decision: turret projectiles might be fixed or might be based on the weapon equipped when turret was deployed
-        * Turret has some interaction with enemies caught in the trap (fire a missile?)
-        * Turret might have a support aura and/or debuff aura for added utility
-        * Turret will scale with both ranged and minion
-        * While the turret is out, player damage is decreased. The idea is that the turret is not just "free damage", but instead allows you to attack from multiple locations/angles. However, the overall damage should be slightly increased if both the player weapon and turret are aimed well.
+        * Can deploy a floating Gizmo that slowly follows the player. The Gizmo consumes a resource will it is out and the resource regenerates while stowed away. The player can scoop up the Gizmo as needed.
+        * Decision: Gizmo will either aim towards the cursor or aim at the nearest npc
+        * Decision: Gizmo will either attack when the player attacks or on its own
+        * Decision: Gizmo projectiles might be fixed or might be based on the weapon equipped when Gizmo was deployed
+        * Gizmo has some interaction with enemies caught in the trap (fire a missile?)
+        * Gizmo might have a support aura and/or debuff aura for added utility
+        * Gizmo will scale with both ranged and minion
+        * While the Gizmo is out, player damage is decreased. The idea is that the Gizmo is not just "free damage", but instead allows you to attack from multiple locations/angles. However, the overall damage should be slightly increased if both the player weapon and Gizmo are aimed well.
 
 1. Magic
    * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
