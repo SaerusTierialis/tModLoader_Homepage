@@ -18,6 +18,7 @@ Abilities should NOT:
 1. Melee
     * Scale melee damage only
     * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
+    * Maybe rework these classes to work for other damage types so long as the hits occur within close-range?
 
     1. Blood Knight
         * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
@@ -94,9 +95,11 @@ Abilities should NOT:
          * Utility class
          * No good ideas yet
 
+     1. A debuff/degen class
+
 1. Rogue
-   * These classes work well with throwing, but scale most damage types. The base class and Shadow scale minion, but the other classes do not.
-   * Base ability could be stealth, a burst of speed, etc.
+   * These classes work well with throwing, but scale most damage types.
+   * Base abilities could be stealth, a burst of speed, etc.
 
    1. Assassin
          * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
@@ -113,6 +116,7 @@ Abilities should NOT:
               * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
               * Draw an indicator with the direction of the shadow to make it more intuitive
               * Cast again to switch places with the shadow
+              * Shadow can draw agro and be destroyed
          * First ability alternate key toggles a status that causes throwing attacks to _instead_ launch from the shadow's location if a shadow is active
               * might change this to launch throwing weapons from both the player and the shadow at 60% effectiveness each (a damage boost if both hit so long as target doesn't have extremely high defense)
          * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
@@ -145,13 +149,11 @@ Abilities should NOT:
          * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
          * If possible, these abilities will affect sentries
 
-      1. No Sentry Class
-         * The way that sentries are implemented is very messy and hard to work with. Most sentries don't even use sentry capacity and instead just have a hard limit of one per sentry type. No sentry-focused class is planned at this time, but I might revisit this once the other classes are complete. I personally enjoy sentries so I would eventually like to find a way to make it work.
-
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
       * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
       * Might split into two final classes: heal-focused and buff-focused
+      * Maybe add a debuff/degen class?
 
 1. Hybrid (tier 2) and Hybrid Prime (tier 3)
       * Scales all damage types equally
