@@ -8,24 +8,29 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 * [Changelog](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/blob/master/description.txt)
 * [Source](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses)
 * [Report a bug or request a feature](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/issues/new/choose)
+* [Feedback Polls](./Polls.md)
 
 ## Revamp Links:
 * [Revamp Classes](./Revamp_Classes.md)
-* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes cleric abilities)
+* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes current cleric abilities)
 * [Progress and Plans (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
 * [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
 ## Revamp Highlights:
+<<<<<<< HEAD
 ETA: Soon™
+=======
+ETA: Pushed back to January.
+>>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
 
 There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
 * Classes will no longer be accessories and will instead be toggled on/off in a new UI
 * Level/XP will be per class
-* Bonuses will be dramatically reduced. This will be most noticeable on damage-related stats.
+* Bonuses will be reduced. This will be most noticeable on damage-related stats.
 * Core bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
 * Multi-classing will be easier and more worthwhile, but you will be limited to one sub-class
-* All classes will receive active abilities that enable new, unique playstyles
-* Out-of-game documentation should no longer be needed
+* All classes will receive active abilities that enable new, unique playstyles (not all abilities will be ready for 2.0 release; remaining abilities will be added in later patches)
+* UI improvements should make out-of-game documentation unneccessary
 * Everything is being rebuilt from the ground up with a variety of improvements
 
 ## Acknowledgement for sprite use
