@@ -17,11 +17,7 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 * [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
 
 ## Revamp Highlights:
-<<<<<<< HEAD
 ETA: Soon™
-=======
-ETA: Pushed back to January.
->>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
 
 There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
 * Classes will no longer be accessories and will instead be toggled on/off in a new UI
