@@ -43,7 +43,7 @@ Abilities should NOT:
 * blocking just before recieving an attack should have a bonus
 * Might have an ability that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
 
-# Ranged (non-magic projectile classes)
+# Ranged (non-magic projectile)
 * Scales ranged and throwing damage
 * Base ability might be a gravity trap that is enhanced by the subclasses
 * A second base ability could be a spreadshot with a "rain of arrows" alternate skill
