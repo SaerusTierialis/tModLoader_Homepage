@@ -96,6 +96,7 @@ Abilities should NOT:
               * Draw an indicator with the direction of the shadow to make it more intuitive
               * Cast again to switch places with the shadow
          * First ability alternate key toggles a status that causes throwing attacks to _instead_ launch from the shadow's location if a shadow is active
+              * might change this to launch throwing weapons from both the player and the shadow at 60% effectiveness each (a damage boost if both hit so long as target doesn't have extremely high defense)
          * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
    1. Name needed (previously the ranged-only gunslinger)
