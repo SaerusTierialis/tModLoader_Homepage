@@ -52,8 +52,8 @@ Abilities should NOT:
         * Snipe deals bonus damage to enemies caught in the trap
 
     1. Engineer
-        * Utility class
-        * Can deploy a floating Gizmo that slowly follows the player. The Gizmo consumes a resource will it is out and the resource regenerates while stowed away. The player can scoop up the Gizmo as needed.
+        * Hybrid-Summoner Class
+        * Can deploy a floating Gizmo that slowly follows the player. The Gizmo consumes a resource while it is out and the resource regenerates while stowed away. The player can scoop up the Gizmo when they are near it to avoid wasting resource.
         * Decision: Gizmo will either aim towards the cursor or aim at the nearest npc
         * Decision: Gizmo will either attack when the player attacks or on its own
         * Decision: Gizmo projectiles might be fixed or might be based on the weapon equipped when Gizmo was deployed
