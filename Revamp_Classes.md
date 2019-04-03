@@ -104,6 +104,8 @@ Abilities should NOT:
          * Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
          * Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
 
+     1. Maybe a debuff/degen class?
+
 1. Rogue
     * These classes work well with throwing, but scale most damage types.
     * Base abilities could be stealth, a burst of speed, etc.
