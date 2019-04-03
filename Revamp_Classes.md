@@ -93,19 +93,6 @@ Abilities should NOT:
         * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
         * Selecting opposite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
         * Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
-<<<<<<< HEAD
-        * Overall, this class offers primarily damage-focused buffs at the cost of mana and attention.
-
-     1. Sage/Seer/Mystic
-         * Utility class
-         * No good ideas yet
-
-     1. A debuff/degen class
-
-1. Rogue
-   * These classes work well with throwing, but scale most damage types.
-   * Base abilities could be stealth, a burst of speed, etc.
-=======
         * Alternatively, the element system could instead store charges rather than trigger buffs. A second ability could be used to release the charges. Releasing charges could trigger large spell effects (meteors, etc). Still, there would be a max of 4 charges and opposite element charges could not be added consecutively. A unique effect would be triggered if you have all 4 elements. Duplicates of the same element would empower that elements effect (e.g., 2 fire + 2 earth = empowered fire and earth effects).
         * A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning. If the charge version of attunement is used then this could be the wind spell.
         * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
@@ -117,62 +104,44 @@ Abilities should NOT:
          * Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
          * Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
 
-1. Thief
-   * Speedy class that can use any weapons except minion
-   * Has an active dodge ability that moves the player a short distance towards the cursor
->>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
+1. Rogue
+    * These classes work well with throwing, but scale most damage types.
+    * Base abilities could be stealth, a burst of speed, etc.
 
-   1. Assassin
+     1. Assassin
          * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
          * Specializes in stealth attacks and one-on-one
          * Attacks from stealth to deal bonus damage
          * Can use any weapons except minion
          * Might gain bonus damage for hitting from behind
          * The stealth attack would deal more damage the closer you are to the target
-<<<<<<< HEAD
          * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
+         * maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
 
-   1. Shadow
+     1. Shadow
          * Scales ALL damage types (including minion), but throwing gains added utility. Specializes in escaping danger while trapping enemies.
          * First ability: create a shadow at current locations
               * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
               * Draw an indicator with the direction of the shadow to make it more intuitive
               * Cast again to switch places with the shadow
               * Shadow can draw agro and be destroyed
-         * First ability alternate key toggles a status that causes throwing attacks to _instead_ launch from the shadow's location if a shadow is active
-              * might change this to launch throwing weapons from both the player and the shadow at 60% effectiveness each (a damage boost if both hit so long as target doesn't have extremely high defense)
+         * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage (maybe more than 60% for non-projectile melee)
          * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
-   1. Trigger
-         * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
-         * A class that triggers bonus attacks (or spells) by attacking at precise moments
-         * Attacking that the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
-         * The idea is to deal damage through good timing and reacting instead of holding down the attack button as usual. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc.). This may be the most skill-based class.
-
-1. Minion
-      * A level 1 ability will summon time-limited minions that do not consume minion cap. The goal of this ability is to give summoners something to use early on that isn't completely useless at high level. These minions will scale with attribute investment, but should fall off in late game.
-        * The ability should have a moderate mana cost and short cooldown.
-        * These minions should start off grounded and become flying at mid level.
-        * Might add an immobile cast time to keep it from being too good in later game.
-      * A second ability can recall minions to your location.
-=======
-         * Has a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
-
-   1. Ninja
-         * Throwing-focused class
-         * Shadow Walk ability to move through enemies without being hurt. Toggles on/off and has a resource. Disabled upon attacking or running out of resource.
-
-   1. Chrono
+     1. Chrono
          * A class that triggers bonus attacks (or spells) by attacking at precise moments
          * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
          * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
          * This class will also have an ability to travel a short ways back in time. The first use memorizes the current location and the second use jumps the player back to that point. The ability will have a resource bar that empties between the first and second use. This means that small jumps can be made frequently. The ability will also set the combo back to the earlier state.
 
 1. Minion
+      * A level 1 ability will summon time-limited minions that do not consume minion cap. The goal of this ability is to give summoners something to use early on that isn't completely useless at high level. These minions will scale with attribute investment, but should fall off in late game.
+        * The ability should have a moderate mana cost and short cooldown.
+        * These minions should start off grounded and become flying at mid level.
+        * Might add an immobile cast time to keep it from being too good in later game.
       * An ability can recall minions to your location
       * An ability to command minions to attack target nearest the cursor
       * A toggle ability to convert minion slots into sentry slots at either a 2:1 or 3:1 ratio (use multiple times to select number of slots to convert)
->>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
 
       1. Soul Binder
          * Focuses on having a few very strong minions
@@ -186,18 +155,8 @@ Abilities should NOT:
          * Gains more control over minions
          * An ability to teleport minions to the cursor
          * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
-<<<<<<< HEAD
          * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
          * If possible, these abilities will affect sentries
-
-1. Support
-      * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
-      * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
-      * Might split into two final classes: heal-focused and buff-focused
-      * Maybe add a debuff/degen class?
-=======
-         * An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Peraps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
-         * If possible, these abiltiies will affect sentries
 
       1. Sentry Class (might not be made)
          * Passive (or toggle) to allow sentries to be places in the air
@@ -205,11 +164,12 @@ Abilities should NOT:
 
 1. Support
       * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
-      * Might have a passive or toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability could not be used with the hybrid ability that makes equipment affect all damage types.
+      * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
       * Potential changes:
          * Remove paragon abilities for something more interesting
          * Rework heal
->>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
+      * Might split into two final classes: heal-focused and buff-focused
+      * Maybe add a debuff/degen class?
 
 1. Hybrid (tier 2) and Hybrid Prime (tier 3)
       * Scales all damage types equally
@@ -219,12 +179,8 @@ Abilities should NOT:
       * Using a weapon while its resource is depleted incurs a large damage penalty
       * Every time that you use a weapon, its resource will deplete for a few seconds (not based on attack speed or damage dealt)
       * When any 2 of the 4 resources are emptied, all 4 resources refill
-<<<<<<< HEAD
-      * The desired effect is that players are rewarded for using multiple damage types (any combination of melee/ranged/magic/throwing) and penalized for using just one
-=======
       * The desired effect is that players are rewarded for using multiple damage types (any combination of melee/ranged/magic/thowing) and penalized for using just one
       * Trigger a buff on switching held item/weapon. The buff would only affect the new weapon and it would have a weapon-specific cooldown that is longer than the duration. This would reward players for switching weapons frequently while also preventing players from switching right back to the same weapon immediately. Overall, this would offer a way to keep damage up in the short term while you work on emptying the resources in the longer term.
->>>>>>> 1634144d3fd7602226eade1294b9dc5288f05a71
       * Some ideas for enhancing this through passives:
          * When 1 resource is emptied, the other damage types gain a larger bonus
          * Bonus defense while wielding a melee weapon when the melee resource is not empty
