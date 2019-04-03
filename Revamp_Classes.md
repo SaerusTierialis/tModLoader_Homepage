@@ -65,7 +65,7 @@ Abilities should NOT:
              * Gizmo damage is based on the weapon and then scaled by the damage type of the projectile AND by minion scaling, the Gizmo will be the player's primary damage
              * To balance the high damage of the Gizmo, player's  damage is massively reduced when resource is low
         * The Engineer should have good sustained damage while the Gizmo is deployed, and should deal massive bursts damage when resource level is high (because player damage will also be high)
-        * The rate of resource degen/regen will be fairly quick to keep up the pace, but slow enough that ensure that a low resource level is punishing. The Engineer must protect the Gizmo.
+        * The rate of resource degen/regen will be fairly quick to keep up the pace, but slow enough to ensure that a low resource level is punishing. The Engineer must protect the Gizmo.
         * Summary of penalties to offset massive Gizmo damage:
              * Gizmo must be kept alive
              * Gizmo cannot attack indefinitely
