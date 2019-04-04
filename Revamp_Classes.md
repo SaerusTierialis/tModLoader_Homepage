@@ -59,7 +59,7 @@ Abilities should NOT:
 * Potentially an ability to add pierce to any projectiles
 * Needs more Rework
 
-## Engineer
+### Engineer
 * Projectile minion class
 * Scales ranged and throwing damage + minion damage too
 * Creates _customizable_ floating Gizmos to attack their enemies
