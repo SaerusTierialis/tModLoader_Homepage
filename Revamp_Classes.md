@@ -65,6 +65,7 @@ Abilities should NOT:
 * Creates _customizable_ floating Gizmos to attack their enemies
   * Created by holding a weapon and using the ability. The Gizmo will copy the weapon (projectile, rate of attack, damage). Each Gizmo must use a different weapon. The weapons used by Gizmos cannot be used by the player. This includes all copies of that weapon.
     * Example: Only one Gizmo can be created from a Minishark and doing so will prevent the player from using any Minishark while that Gizmo is deployed.
+    * Any weapon with a projectile (that isn't a minion) will work
   * The alternate form of the create ability destroys all active Gizmos.
   * Gizmos consume ammo from the player's inventory
   * Up to 4 Gizmos can be deployed at once, but each requires a minion slot
