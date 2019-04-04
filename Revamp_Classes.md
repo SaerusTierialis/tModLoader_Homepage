@@ -59,35 +59,28 @@ Abilities should NOT:
 * Potentially an ability to add pierce to any projectiles
 * Needs more Rework
 
-### Engineer
-* Scales ranged and throwing damage + minion damage too
+## Engineer
 * Projectile minion class
-* Creates a _customizable_ floating Gizmo
-    * first, use an active ability to select a weapon that has a projectile, the Gizmo will then use that weapon to attack but the player will be unable to use the weapon (applies to all copies of that weapon)
-    * consumes a resource when Gizmo attacks (standardized resource consumption for attack speed of weapon)
-    * resource regenerates while out of combat and when the Gizmo is not deployed (i.e., because it broke)
-    * Gizmo breaks if resource is depleted
-    * Gizmo automatically redeploys once above some resource threshold
-    * Gizmo can be hit, which reduces the resource further
-    * enemies may target the Gizmo
-    * Gizmo damage is based on the weapon and then scaled by the damage type of the projectile AND by minion scaling, the Gizmo will be the player's primary damage
-    * To balance the high damage of the Gizmo, player's  damage is massively reduced when resource is low
-* The Engineer should have good sustained damage while the Gizmo is deployed, and should deal massive bursts damage when resource level is high (because player damage will also be high)
-* The rate of resource degen/regen will be fairly quick to keep up the pace, but slow enough to ensure that a low resource level is punishing. The Engineer must protect the Gizmo.
-* Summary of penalties to offset massive Gizmo damage:
-    * Gizmo must be kept alive
-    * Gizmo cannot attack indefinitely
-    * Locks out selected weapon so you can't just make 2 of the best available weapon
-    * Player damage is massively reduced by low resource
-* Decision that still need to be made:
-    * does Gizmo attack on its own or are its attacks triggered by player attacks? does it attack players most recent target? does it aim at the cursor?
-    * is Gizmo stationary? does it follow the player? does it chase down enemies? maybe it is commanded to move to targeted location with an ability?
-    * should melee projectiles and magic projectiles be allowed?
-    * should have some kind of interaction with the tier 2 trap skill
-    * maybe add some more utility? maybe defense mode where it stops attacking but taunts everything around and gains defense?
-    * maybe add a skill to recover resource?
-    * maybe add a crafted consumable to recover resource (with cooldown)
-* Alternatively, the Engineer could be allowed to create multiple Gizmos and each would reduce the Engineer's own damage. Each Gizmo would be assigned a unique weapon so they would use a variety of attacks.
+* Scales ranged and throwing damage + minion damage too
+* Creates _customizable_ floating Gizmos to attack their enemies
+  * Created by holding a weapon and using the ability. The Gizmo will copy the weapon (projectile, rate of attack, damage). Each Gizmo must use a different weapon. The weapons used by Gizmos cannot be used by the player. This includes all copies of that weapon.
+    * Example: Only one Gizmo can be created from a Minishark and doing so will prevent the player from using any Minishark while that Gizmo is deployed.
+  * The alternate form of the create ability destroys all active Gizmos.
+  * Gizmos consume ammo from the player's inventory
+  * Up to 4 Gizmos can be deployed at once, but each requires a minion slot
+  * Each deployed Gizmo decreases the player's final damage by 20% (80% reduction if the max number of Gizmos are deployed)
+  * Gizmos follow the player closely and attack the nearest target that they have line-of-sight to
+  * Gizmo damage is scaled by the type of the weapon in addition to minion bonuses
+* A second ability commands one Gizmo to fly to the targeted location (requires line-of-sight) and stay there.
+  * The Gizmo will stay there until the player is too far away
+  * Using the ability multiple times commands other Gizmos that is following the player
+  * If all Gizmos already have valid locations, then using the ability will command the least-recently-commanded Gizmo
+* The alternate form of the second ability recalls all Gizmos to the player at once
+* The penalties to offset the high damage are:
+  * Uses minion slots
+  * Greatly reduces player damage
+  * Requires several decent weapons
+  * Requires micro-managing of Gizmo placement when having them follow the player is not ideal
 
 # Magic
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
