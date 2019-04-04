@@ -87,7 +87,7 @@ Abilities should NOT:
     * maybe add some more utility? maybe defense mode where it stops attacking but taunts everything around and gains defense?
     * maybe add a skill to recover resource?
     * maybe add a crafted consumable to recover resource (with cooldown)
-* Alternatively, the Engineer could be allowed to create multiple Gizmos and each would reduce the Engeineer's own damage. Each Gizmo would be assigned a unique weapon so they would use a variety of attacks.
+* Alternatively, the Engineer could be allowed to create multiple Gizmos and each would reduce the Engineer's own damage. Each Gizmo would be assigned a unique weapon so they would use a variety of attacks.
 
 # Magic
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
