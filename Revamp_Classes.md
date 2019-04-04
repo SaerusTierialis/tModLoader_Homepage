@@ -150,7 +150,7 @@ Abilities should NOT:
   * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
 * Second Ability: Command
   * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
-* Second Ability Alternate: Recall:
+* Second Ability Alternate: Recall
   * teleports all minions back to the player
   * sentries are teleported to nearest valid location if there is one
 
