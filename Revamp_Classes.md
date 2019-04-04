@@ -147,7 +147,7 @@ Abilities should NOT:
   * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
     * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
 * First Ability Alternate (not related to first ability but each class has only 2 ability slots)
-  * A cycling toggle ability to convert minion slots into sentry slots at either a 2:1 ratio (use multiple times to select number of slots to convert)
+  * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
 * Second Ability: Command
   * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
 * Second Ability Alternate: Recall:
