@@ -178,6 +178,8 @@ Abilities should NOT:
 * Might split into two final classes: heal-focused and buff-focused
 * Maybe add a debuff/degen class?
 
+### Maybe a support/minion class that creates healing summons and attaches them to players?
+
 # Hybrid (tier 2) and Hybrid Prime (tier 3)
 * Scales all damage types equally
 * Toggle ability to allow damage bonuses from equipment to apply to all damage types (perhaps at 80% value?)
