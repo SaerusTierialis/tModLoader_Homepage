@@ -178,7 +178,8 @@ Abilities should NOT:
 * Might split into two final classes: heal-focused and buff-focused
 * Maybe add a debuff/degen class?
 
-### Maybe a support/minion class that creates healing summons and attaches them to players?
+### Maybe a support/minion class that creates healing minions?
+* Maybe have a skill to attach them to players/recall them back?
 
 # Hybrid (tier 2) and Hybrid Prime (tier 3)
 * Scales all damage types equally
