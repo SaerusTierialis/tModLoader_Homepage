@@ -131,7 +131,7 @@ Abilities should NOT:
 * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage (maybe more than 60% for non-projectile melee)
 * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
-### Chrono
+### Chrono (might be switched to mage)
 * A class that triggers bonus attacks (or spells) by attacking at precise moments
 * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
 * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
