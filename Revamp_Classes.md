@@ -84,6 +84,8 @@ Abilities should NOT:
 
 # Magic
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
+* Maybe a toggled mana-barrier? (half damage taken from mana first)
+* Maybe a teleport?
 
 ### Elementalist
 * Damage magic class
@@ -125,7 +127,7 @@ Abilities should NOT:
 * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage (maybe more than 60% for non-projectile melee)
 * Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
 
-### Chrono (might be switched to mage)
+### Chrono (might be switched to mage class, but would still be usable with several weapon types)
 * A class that triggers bonus attacks (or spells) by attacking at precise moments
 * Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
 * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
@@ -135,13 +137,22 @@ Abilities should NOT:
 * Portion of damage inflicted as damage-over-time instead?
 
 # Minion
-* A level 1 ability will summon time-limited minions that do not consume minion cap. The goal of this ability is to give summoners something to use early on that isn't completely useless at high level. These minions will scale with attribute investment, but should fall off in late game.
-  * The ability should have a moderate mana cost and short cooldown.
-  * These minions should start off grounded and become flying at mid level.
-  * Might add an immobile cast time to keep it from being too good in later game.
-* An ability can recall minions to your location
-* An ability to command minions to attack target nearest the cursor
-* A toggle ability to convert minion slots into sentry slots at either a 2:1 or 3:1 ratio (use multiple times to select number of slots to convert)
+* First Ability: temporary minions
+  * A minion attack that is available right at unlock to give players something to use early on
+  * Creates time-limited minions that scale with level/attributes
+  * Does not consume minion cap, but the max number of these is limited by cap (1/minion cap and 2/sentry cap)
+    * Example: If you have 3 minion slots and 1 sentry slot then you can have 5 of these
+  * Requires a short channel time (move slowly, but not attack or use items during this)
+  * Start off grounded and become flying at later level
+  * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
+    * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
+* First Ability Alternate (not related to first ability but each class has only 2 ability slots)
+  * A cycling toggle ability to convert minion slots into sentry slots at either a 2:1 ratio (use multiple times to select number of slots to convert)
+* Second Ability: Command
+  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
+* Second Ability Alternate: Recall:
+  * teleports all minions back to the player
+  * sentries are teleported to nearest valid location if there is one
 
 ### Soul Binder
 * Focuses on having a few very strong minions
