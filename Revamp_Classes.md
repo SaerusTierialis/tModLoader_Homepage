@@ -137,6 +137,9 @@ Abilities should NOT:
 * The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
 * This class will also have an ability to travel a short ways back in time. The first use memorizes the current location and the second use jumps the player back to that point. The ability will have a resource bar that empties between the first and second use. This means that small jumps can be made frequently. The ability will also set the combo back to the earlier state.
 
+### Maybe a poison/bleed class?
+* Portion of damage inflicted as damage-over-time instead?
+
 # Minion
 * A level 1 ability will summon time-limited minions that do not consume minion cap. The goal of this ability is to give summoners something to use early on that isn't completely useless at high level. These minions will scale with attribute investment, but should fall off in late game.
   * The ability should have a moderate mana cost and short cooldown.
