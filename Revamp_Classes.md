@@ -48,35 +48,51 @@ Abilities should NOT:
 
 # Ranged (non-magic projectile)
 * Scales ranged and throwing damage
-* Base ability might be a gravity trap that is enhanced by the subclasses
-* A second base ability could be a spreadshot with a "rain of arrows" alternate skill
+* Ability 1: Trap
+  * place a trap at the current location (floats)
+  * enemies that touch the trap are briefly held in placed
+    * bosses and enemies that are immune to knockback are slowed instead
+  * traps last a set duration
+* Ability 2: Rapid Fire
+  * gain a brief boost to ranged/throwing attack speed followed by a brief "Reload" debuff that prevents attacking
+* Resource: Ammo
+  * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
+  * slowly refills when you have not used the resource recently
 
 ### Sniper
 * High damage, crit-focused
-* Snipe ability locks the player in place (even in the air) and prevents the normal use of weapons. The player can then shoot off a few very powerful attacks. Each shot will be more powerful than the last to reward being immobile for longer. The player will be able to end the ability early.
-    * Maybe instead a channel skill that charged up a powerful shot (can move during, but not attack during)
-* Snipe deals bonus damage to enemies caught in the trap
-* Potentially an ability to add pierce to any projectiles
-* Needs more Rework
+* Tier 2 Changes:
+  * Trap inflicts a status that causes the next hit to deal triple damage
+* Ability 1: Snipe
+  * Press and hold the key, then release to actively
+    * Cannot attack or use items while channeling
+  * work in progress
 
 ### Engineer
 * Projectile minion class
 * Scales ranged and throwing damage + minion damage too
-* Creates _customizable_ floating Gizmos to attack their enemies
+* Tier 2 Abilities:
+  * Trap activation creates a gravity well that pulls enemies in (does not affect bosses or knockback-immune)
+  * Rapid Fire affects Gizmo as well
+  * Ammo resource is used for Gizmo resources
+* Ability 1: _customizable_ Gizmos
   * Created by holding a weapon and using the ability. The Gizmo will copy the weapon (projectile, rate of attack, damage). Each Gizmo must use a different weapon. The weapons used by Gizmos cannot be used by the player. This includes all copies of that weapon.
     * Example: Only one Gizmo can be created from a Minishark and doing so will prevent the player from using any Minishark while that Gizmo is deployed.
     * Any weapon with a projectile (that isn't a minion) will work
-  * The alternate form of the create ability destroys all active Gizmos.
   * Gizmos consume ammo from the player's inventory
   * Up to 4 Gizmos can be deployed at once, but each requires a minion slot
   * Each deployed Gizmo decreases the player's final damage by 20% (80% reduction if the max number of Gizmos are deployed)
   * Gizmos follow the player closely and attack the nearest target that they have line-of-sight to
   * Gizmo damage is scaled by the type of the weapon in addition to minion bonuses
-* A second ability commands one Gizmo to fly to the targeted location (requires line-of-sight) and stay there.
-  * The Gizmo will stay there until the player is too far away
-  * Using the ability multiple times moves other Gizmos that are still following the player
-  * If all Gizmos already have valid locations, then using the ability will command the least-recently-commanded Gizmo
-* The alternate form of the second ability recalls all Gizmos to the player at once
+* Ability 1 Alternate: Destroy Gizmos
+  * Destroy all active Gizmos
+* Ability 2 : Command
+  * commands one Gizmo to fly to the targeted location (requires line-of-sight) and attack from there
+  * The Gizmo will stay there until the player is too far away or until commanded again
+  * Using the ability multiple times commands other Gizmos that are still following the player
+  * If all Gizmos have valid locations, then using the ability will command the least-recently-commanded Gizmo
+* Ability 2 Alternate: Recall
+  * recalls all Gizmos to the player at once (they fly back to the player - not teleport)
 * The penalties to offset the high damage are:
   * Uses minion slots
   * Greatly reduces player damage
