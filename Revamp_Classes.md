@@ -74,7 +74,7 @@ Abilities should NOT:
   * Gizmo damage is scaled by the type of the weapon in addition to minion bonuses
 * A second ability commands one Gizmo to fly to the targeted location (requires line-of-sight) and stay there.
   * The Gizmo will stay there until the player is too far away
-  * Using the ability multiple times commands other Gizmos that is following the player
+  * Using the ability multiple times moves other Gizmos that are still following the player
   * If all Gizmos already have valid locations, then using the ability will command the least-recently-commanded Gizmo
 * The alternate form of the second ability recalls all Gizmos to the player at once
 * The penalties to offset the high damage are:
