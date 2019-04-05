@@ -193,7 +193,7 @@ Abilities should NOT:
 * Ability 1: Time Jump
   * Every 3 seconds, the player's location and combo count is recorded tracking up to 5 memories (15 seconds)
   * Using this ability jumps the player back to the most recent memory (and destroys that memory)
-    * The player is teleported to their prior locations
+    * The player is teleported to their memory location
     * The combo count is set to the value it had been at that time
   * The location of the most recent memory is marked
   * The number of memories held is shown in a resource bar
