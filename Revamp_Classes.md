@@ -238,7 +238,7 @@ Abilities should NOT:
 * If possible, these abilities will affect sentries
 
 ### Sentry Class?? (might not be made)
-* Passive (or toggle) to allow sentries to be places in the air
+* Passive (or toggle) to allow sentries to be placed in the air
 * Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
 
 # Support
