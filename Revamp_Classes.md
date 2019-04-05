@@ -191,11 +191,11 @@ Abilities should NOT:
   * Reaching a certain combo count triggers a burst of attacks and resets the combo
     * This is a significant burst of damage
 * Ability 1: Time Jump
-  * Every 3 seconds, the player's location and combo count is recorded tracking up to 5 memories (15 seconds)
+  * Every 3 seconds, the player's location and combo count is recorded tracking up to 5 memories (15 seconds). Gaining a memory while at capacity erases the oldest memory.
   * Using this ability jumps the player back to the most recent memory (and destroys that memory)
     * The player is teleported to their memory location
     * The combo count is set to the value it had been at that time
-  * The location of the most recent memory is marked
+  * The location of the most recent memory is indicated
   * The number of memories held is shown in a resource bar
   * Can be used multiple times in a row to jump back several times, but the memories are destroyed so this can't be done often
 * Ability 2: ???
