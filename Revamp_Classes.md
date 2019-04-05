@@ -30,7 +30,7 @@ Abilities should NOT:
 * Ability 1: Sacrifice
   * Consume life to create Bloodforce
 * Ability 1 Alternate: Blood Rage
-  * Toggles a status that drains Bloodforce to increase Damage
+  * Toggles a status that drains Bloodforce to increase Damage and attack speed, might decrease defense
 * Ability 2 and 2 Alternate: ???
   * consume Bloodforce for a powerful effect:
     * These effects should be powerful enough to be worth the risk of spending life and/or incurring degeneration
@@ -45,6 +45,9 @@ Abilities should NOT:
 
 ### Maybe a Rune Knight or Magic Knight?
 * something to add range or projectiles to pure melee weapons?
+
+### Maybe a shout/warcry class?
+* buff/debuff
 
 # Ranged (non-magic projectile) (concept complete)
 * Scales ranged and throwing damage
