@@ -197,7 +197,7 @@ Abilities should NOT:
     * The combo count is set to the value it had been at that time
   * The location of the most recent memory is indicated
   * The number of memories held is shown in a resource bar
-  * Can be used multiple times in a row to jump back several times, but the memories are destroyed so this can't be done often
+  * Can be used multiple times in a row to jump back in sequence, but the memories are destroyed so you can run out of memories to jump to
 * Ability 2: ???
   * I'm open to suggestions on discord
 
