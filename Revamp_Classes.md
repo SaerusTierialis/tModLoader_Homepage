@@ -1,5 +1,11 @@
 These idea are not final. If you have feedback or ideas, please share them on our [Discord](https://discord.gg/KXf9zen).
 
+Abilities:
+* Each class (except Novice) has 2 ability slots
+* Holding Shift (key can be changed) when pressing the ability key activates an alternative effect for some abilities. This effectively increase the number of slots available.
+* Tier 3 classes retain access to the tier 2 abilities for a total of 4 Abilities
+* With subclass, it is possible to have 8 abilities
+
 
 Abilities should do one or more of the following:
 * Have a risk/reward element
