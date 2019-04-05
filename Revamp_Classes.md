@@ -27,7 +27,6 @@ Abilities should NOT:
   * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
   * When <40, life degenerates
   * When >60, life regenerates
-  * Also need some passive way of slowly generating Bloodforce above 50, maybe on hit/kill
 * Ability 1: Sacrifice
   * Consume life to create Bloodforce
 * Ability 1 Alternate: Blood Rage
