@@ -133,6 +133,7 @@ Abilities should NOT:
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
 * Maybe a toggled mana-barrier? (half damage taken from mana first)
 * Maybe a teleport?
+* Maybe a toggle to increase mana costs to increase damage
 
 ### Elementalist
 * Damage magic class
