@@ -87,7 +87,7 @@ Abilities should NOT:
   * Missing with Charged Shot reduces Precision by half
   * Each Precision increases Charged Shot's base critical chance by 5% up to 10 stacks
 * Ability 2: ???
-  * Open to suggestions
+  * I'm open to suggestions on discord
 
 ### Engineer
 * Projectile minion class
@@ -143,33 +143,54 @@ Abilities should NOT:
 
 # Rogue
 * These classes work well with throwing, but scale most damage types.
-* Base abilities could be stealth, a burst of speed, etc.
+* Base abilities could be stealth, a burst of speed, dodge, etc.
 
-### Assassin
+### Assassin (work in progress)
 * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
 * Specializes in stealth attacks and one-on-one
 * Attacks from stealth to deal bonus damage
-* Can use any weapons except minion
 * Might gain bonus damage for hitting from behind
-* The stealth attack would deal more damage the closer you are to the target
+* The stealth attack would deal more damage the closer you are to the target (but does work with projectiles)
 * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
-* maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
+* Maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
 
 ### Shadow
-* Scales ALL damage types (including minion), but throwing gains added utility. Specializes in escaping danger while trapping enemies.
-* First ability: create a shadow at current locations
-     * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
-     * Draw an indicator with the direction of the shadow to make it more intuitive
-     * Cast again to switch places with the shadow
-     * Shadow can draw agro and be destroyed
-* While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage (maybe more than 60% for non-projectile melee)
-* Second ability: consume the shadow to inflict shadow trap status on nearby targets, holds targets in place, greatly reduced duration on bosses
+* Scales all damage types (including minion)
+* Specializes in escaping danger while trapping enemies
+* Ability 1: Shadow
+  * Creates a shadow at the current location
+  * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
+  * Draw an indicator with the direction of the shadow to make it more intuitive
+  * Cast again to switch places with the shadow
+  * Shadow can be destroyed by enemies
+  * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage
+* Ability 2: Shadow Trap
+  * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
+    * Might instead slow bosses and knockback-immune targets
+* Might need something more - maybe enhancements to the tier 2 abilities
 
-### Chrono (might be switched to mage class, but would still be usable with several weapon types)
+### Chrono (might be switched to ranged or mage class)
 * A class that triggers bonus attacks (or spells) by attacking at precise moments
-* Attacking at the right times increases combo and triggers a bonus attack. Attacking at the wrong time breaks combo. Reaching a certain combo count triggers a burst of attacks and resets the combo.
-* The idea is to deal damage through good timing (and possibly reacting) instead of holding down the attack button as per the norm. The desired effect is burst damage and minimal resource consumption (bullets/mana/etc). This would be one of the trickier classes to play.
-* This class will also have an ability to travel a short ways back in time. The first use memorizes the current location and the second use jumps the player back to that point. The ability will have a resource bar that empties between the first and second use. This means that small jumps can be made frequently. The ability will also set the combo back to the earlier state.
+* Scales all damage types except minion
+* The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
+* This class is meant to be challenging to play, but has very high potential. You would need to keep track of the combo bar, the location of your latest memory (so you don't jump into danger), how close you are to a combo burst, how soon the next memory will form, etc.
+* Combo Mechanic:
+  * A bar above the character cycles between filling and emptying
+    * higher attack speed and weapon use speed increases the rate of filling/emptying so that there is less waiting
+  * Attacking when the bar is above a marked point increases combo and triggers a bonus attack
+  * Attacking when the bar is too low breaks the combo (back to 0)
+  * Reaching a certain combo count triggers a burst of attacks and resets the combo
+    * This is a significant burst of damage
+* Ability 1: Time Jump
+  * Every 3 seconds, the player's location and combo count is recorded tracking up to 5 memories (15 seconds)
+  * Using this ability jumps the player back to the most recent memory (and destroys that memory)
+    * The player is teleported to their prior locations
+    * The combo count is set to the value it had been at that time
+  * The location of the most recent memory is marked
+  * The number of memories held is shown in a resource bar
+  * Can be used multiple times in a row to jump back several times, but the memories are destroyed so this can't be done often
+* Ability 2: ???
+  * I'm open to suggestions on discord
 
 ### Maybe a poison/bleed class?
 * Portion of damage inflicted as damage-over-time instead?
