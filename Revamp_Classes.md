@@ -46,7 +46,7 @@ Abilities should NOT:
 ### Maybe a Rune Knight or Magic Knight?
 * something to add range or projectiles to pure melee weapons?
 
-# Ranged (non-magic projectile)
+# Ranged (non-magic projectile) (concept complete)
 * Scales ranged and throwing damage
 * Ability 1: Trap
   * launches a floating trap towards the cursor
@@ -62,7 +62,7 @@ Abilities should NOT:
 
 ### Sniper (concept nearly complete)
 * High damage, critical-focused, burst damage class that rewards good timing and aim
-* Tier 2 Changes:
+* Tier 2 Abilities:
   * Trap inflicts a status that causes the next hit to deal triple damage
   * Rapid Fire increases charge-up rate of Charged Shot
 * Ability 1: Charged Shot
