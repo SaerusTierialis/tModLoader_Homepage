@@ -216,6 +216,7 @@ Abilities should NOT:
     * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
 * First Ability Alternate (not related to first ability but each class has only 2 ability slots)
   * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
+  * This will allow players to build around sentries while wearing the standard minion armor if they so choose
 * Second Ability: Command
   * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
 * Second Ability Alternate: Recall
@@ -230,7 +231,7 @@ Abilities should NOT:
 * The two toggle abilities can only be used when no minions are currently summoned
 * If possible, soul binding will affect sentries
 
-### Minion Master
+### Minion Master (weak idea - need something better for making minions interactive)
 * Gains more control over minions
 * An ability to teleport minions to the cursor
 * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
@@ -240,6 +241,8 @@ Abilities should NOT:
 ### Sentry Class?? (might not be made)
 * Passive (or toggle) to allow sentries to be placed in the air
 * Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
+
+### Maybe a spirit/necromancer class?
 
 # Support
 * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
