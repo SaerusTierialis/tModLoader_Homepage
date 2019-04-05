@@ -15,33 +15,33 @@ Abilities should NOT:
 # Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
 
-# Melee (or just close-range?)
+# Melee
 * Scale melee damage only
 * Base ability could be a toggle to increase damage at the cost of defense or vice versa.
 * Maybe rework these classes to work for other damage types so long as the hits occur within close-range?
 
-### Blood Knight
+### Blood Knight (concept nearly complete)
 * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
-* Has a Bloodforce resource with a capacity of 100
-   * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
-   * When <40, life degens
-   * When >60, life regens
-* The first ability consumes life to produce Bloodforce
-* Other ablities consume Bloodforce for powerful effects:
-   * These effects should be powerful enough to be worth the risk of spending life and/or incurring degen
-   * Maybe a toggle that drains Bloodforce to increase Damage
-   * Maybe a skill to massively boost the damage of the next hit
-   * Maybe a wave that inflicts a strong bleed
-
-### Berserker?
-* Attack speed class with a rage mechanic of some kind
-* maybe shouts/warcrys?
+* Resource: Bloodforce
+  * Capacity is 100
+  * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
+  * When <40, life degenerates
+  * When >60, life regenerates
+* Ability 1: Sacrifice
+  * Consume life to create Bloodforce
+* Ability 1 Alternate: Blood Rage
+  * Toggles a status that drains Bloodforce to increase Damage
+* Ability 2 and 2 Alternate: ???
+  * consume Bloodforce for a powerful effect:
+    * These effects should be powerful enough to be worth the risk of spending life and/or incurring degeneration
+    * Maybe a skill to massively boost the damage of the next hit
+    * Maybe a wave that inflicts a strong bleed
 
 ### Guardian
 * Tank class
-* abilities focusing on blocking, generating threat, and perhaps reflecting damage
-* blocking just before recieving an attack should have a bonus
-* Might have an ability that hooks on to a target and pulls them in. Could recieve less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incomming damage from the boss and help group up the adds.
+* Abilities could include blocking, generating threat, perhaps reflecting damage, etc.
+* blocking just before receiving an attack should have a bonus
+* Might have an ability that hooks on to a target and pulls them in. Could receive less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incoming damage from the boss and help group up the adds.
 
 ### Maybe a Rune Knight or Magic Knight?
 * something to add range or projectiles to pure melee weapons?
@@ -60,7 +60,7 @@ Abilities should NOT:
   * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
   * slowly refills when you have not used the resource recently
 
-### Sniper
+### Sniper (concept nearly complete)
 * High damage, critical-focused, burst damage class that rewards good timing and aim
 * Tier 2 Changes:
   * Trap inflicts a status that causes the next hit to deal triple damage
@@ -89,7 +89,7 @@ Abilities should NOT:
 * Ability 2: ???
   * I'm open to suggestions on discord
 
-### Engineer
+### Engineer (concept complete)
 * Projectile minion class
 * Scales ranged and throwing damage + minion damage too
 * Tier 2 Abilities:
@@ -154,7 +154,7 @@ Abilities should NOT:
 * Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
 * Maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
 
-### Shadow
+### Shadow (concept nearly complete)
 * Scales all damage types (including minion)
 * Specializes in escaping danger while trapping enemies
 * Ability 1: Shadow
@@ -169,7 +169,7 @@ Abilities should NOT:
     * Might instead slow bosses and knockback-immune targets
 * Might need something more - maybe enhancements to the tier 2 abilities
 
-### Chrono (might be switched to ranged or mage class)
+### Chrono (concept nearly complete) *might be switched to ranged or mage class*
 * A class that triggers bonus attacks (or spells) by attacking at precise moments
 * Scales all damage types except minion
 * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
@@ -195,7 +195,7 @@ Abilities should NOT:
 ### Maybe a poison/bleed class?
 * Portion of damage inflicted as damage-over-time instead?
 
-# Minion
+# Minion (concept complete)
 * First Ability: temporary minions
   * A minion attack that is available right at unlock to give players something to use early on
   * Creates time-limited minions that scale with level/attributes
