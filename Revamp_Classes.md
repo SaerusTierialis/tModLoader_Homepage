@@ -67,7 +67,7 @@ Abilities should NOT:
   * Rapid Fire increases charge-up rate of Charged Shot
 * Ability 1: Charged Shot
   * Press and hold the key to charge, release to shoot an empowered attack in the direction of the cursor
-    * Cannot attack, use items, or use abilities while channeling. Getting hit interrupts channeling.
+    * Cannot attack, use items, or use abilities while channelling. Getting hit interrupts channelling.
   * Damage and critical chance are increased based on the charge amount
     * At max charge, the critical rate bonus is equivalent to rolling the critical check twice and taking the better roll (i.e., 2 chances to crit). Rather than reroll on a failed crit, the crit chance is just multiplied as follows before rolling:
       * new_crit = 1 - (1-crit)^2
