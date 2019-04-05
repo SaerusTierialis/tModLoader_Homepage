@@ -49,7 +49,8 @@ Abilities should NOT:
 # Ranged (non-magic projectile)
 * Scales ranged and throwing damage
 * Ability 1: Trap
-  * place a trap at the current location (floats)
+  * launches a floating trap towards the cursor
+    * the maximum distance increases with level
   * enemies that touch the trap are briefly held in placed
     * bosses and enemies that are immune to knockback are slowed instead
   * traps last a set duration
@@ -60,13 +61,33 @@ Abilities should NOT:
   * slowly refills when you have not used the resource recently
 
 ### Sniper
-* High damage, crit-focused
+* High damage, critical-focused, burst damage class that rewards good timing and aim
 * Tier 2 Changes:
   * Trap inflicts a status that causes the next hit to deal triple damage
-* Ability 1: Snipe
-  * Press and hold the key, then release to actively
-    * Cannot attack or use items while channeling
-  * work in progress
+  * Rapid Fire increases charge-up rate of Charged Shot
+* Ability 1: Charged Shot
+  * Press and hold the key to charge, release to shoot an empowered attack in the direction of the cursor
+    * Cannot attack, use items, or use abilities while channeling. Getting hit interrupts channeling.
+  * Damage and critical chance are increased based on the charge amount
+    * At max charge, the critical rate bonus is equivalent to rolling the critical check twice and taking the better roll (i.e., 2 chances to crit). Rather than reroll on a failed crit, the crit chance is just multiplied as follows before rolling:
+      * new_crit = 1 - (1-crit)^2
+        * _this is the probability of not failing to crit twice_
+      * Examples:
+        * 5%  => 9.75%
+        * 20% => 36%
+        * 50% => 75%
+        * 75% => 93.75%
+  * Works with any projectile weapon
+  * Charge-up rate is based on attack speed and weapon's use speed
+  * An indicator is shown when charge reaches maximum
+  * No cooldown and low mana cost. This is the core ability of the Sniper so it can be used repeatedly as an alternative to holding down the fire button.
+  * Average speed of charging to max should take a few seconds, but the multiplier should feel rewarding (worth the time not attacking) even when released earlier
+* Resource: Precision
+  * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
+  * Missing with Charged Shot reduces Precision by half
+  * Each Precision increases Charged Shot's base critical chance by 5% up to 10 stacks
+* Ability 2: ???
+  * Open to suggestions
 
 ### Engineer
 * Projectile minion class
