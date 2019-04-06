@@ -114,6 +114,7 @@ Abilities should NOT:
   * Each deployed Gizmo decreases the player's final damage by 20% (80% reduction if the max number of Gizmos are deployed)
   * Gizmos follow the player closely and attack the nearest target that they have line-of-sight to
   * Gizmo damage is scaled by the type of the weapon in addition to minion bonuses
+  * Gizmos stop attacking while the player is dead, but are not destroyed. You'll need to recreate them every time you enter a world but not every time you die.
 * Ability 1 Alternate: Destroy Gizmos
   * Destroy all active Gizmos
 * Ability 2 : Command
