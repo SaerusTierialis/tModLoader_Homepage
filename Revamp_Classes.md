@@ -135,6 +135,10 @@ Abilities should NOT:
 * Maybe a toggled mana-barrier? (half damage taken from mana first)
 * Maybe a teleport?
 * Maybe a toggle to increase mana costs to increase damage
+* Maybe a charge-up ability that uses the attack of the magic weapon and deals massive damage, but cannot be used with that weapon again for a little while.
+  * The goal would be to create a playstyle where you switch between weapons and use each to cast one big spell
+  * Many weapons don't make sense as a single attack so maybe instead do 1 second of massively empowered attacks
+  * Would probably lock out use of that weapon's regular attacks during the cooldown to avoid being "free damage"
 
 ### Elementalist
 * Damage magic class
