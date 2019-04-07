@@ -139,6 +139,9 @@ Abilities should NOT:
   * The goal would be to create a playstyle where you switch between weapons and use each to cast one big spell
   * Many weapons don't make sense as a single attack so maybe instead do 1 second of massively empowered attacks
   * Would probably lock out use of that weapon's regular attacks during the cooldown to avoid being "free damage"
+* Maybe a passive that stacks up when you haven't attacked recently and is consumed to trigger bonus attacks
+  * Stack at a rate relative to held weapon use speed
+  * Could put this on rogue instead
 
 ### Elementalist
 * Damage magic class
