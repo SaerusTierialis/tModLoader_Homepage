@@ -305,6 +305,8 @@ Definition of Channelling:
   * while out of combat, any player can freely move between the teleporters by pressing an activation hotkey
 * Ability 2: Place Teleporter B
   * places the second teleporter
+* Passive: Return to the Scene of the Crime
+  * On respawn, the Traveler has the ability to return to their place of death by pressing the teleporter activation key while at the respawn point
 
 ### Tier 3: Gravity Controller
 * This class controls the battlefield with gravity magic
