@@ -33,7 +33,7 @@ Definition of Channelling:
 ### Tier 1: Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
 
-## Close Range (not just melee)
+# Close Range (not just melee)
 ### Tier 2: Warrior
 * Damage Scaling:
   * melee with a close-range bonus
@@ -85,7 +85,7 @@ Definition of Channelling:
 * Attack speed class?
 * Rage mechanic?
 
-## Projectile (not just ranged)
+# Projectile (not just ranged)
 ### Tier 2: Name?
 * Damage Scaling:
   * ranged, magic, and throwing
