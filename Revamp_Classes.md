@@ -303,6 +303,7 @@ Definition of Channelling:
 * Ability 2: Place Teleporter A
   * places a teleporter
   * while out of combat, any player can freely move between the teleporters by pressing an activation hotkey
+  * teleporters cannot be placed directly on the respawn point
 * Ability 2: Place Teleporter B
   * places the second teleporter
 * Passive: Return to the Scene of the Crime
