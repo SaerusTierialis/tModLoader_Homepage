@@ -3,7 +3,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 Ability Slots:
 * Tier 2 classes have 2 ability slots
 * Tier 3 classes retain their tier 2 abilities and have 2 additional slots for a total of 4
-* In some cases, a slot is used for 2 abilities by holding Shift (key can be changed) while pressing the hotkey to active the alternative ability instead.
+* Each class will have at least 2 abilities
+* In some cases, a slot may be used for 2 abilities by holding Shift (key can be changed) while pressing the hotkey to active the alternative ability instead.
   * Tier 2 classes can therefore have up to 4 abilities
   * Tier 3 classes can therefore have up to 8 abilities
 
@@ -82,29 +83,40 @@ Definition of Channelling:
 
 ### Tier 3: Berserker?
 * Attack speed class?
+* Rage mechanic?
 
-# Ranged (non-magic projectile) (concept complete)
-* Scales ranged and throwing damage
+## Projectile (not just ranged)
+### Tier 2: Name Needed
+* Damage Scaling:
+  * ranged, magic, and throwing
+  * Projectiles from melee weapons
+* Resource: Preparation
+    * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
+    * also consumed to reduce the mana cost of weapon attacks
+    * slowly refills when you have not used the resource recently
 * Ability 1: Trap
-  * launches a floating trap towards the cursor
+  * launch a floating trap towards the cursor
     * the maximum distance increases with level
-  * enemies that touch the trap are briefly held in placed
+  * enemies that touch the trap are damaged and briefly held in placed
     * bosses and enemies that are immune to knockback are slowed instead
   * traps last a set duration
 * Ability 2: Rapid Fire
-  * gain a brief boost to ranged/throwing attack speed followed by a brief "Reload" debuff that prevents attacking
-* Resource: Ammo
-  * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
-  * slowly refills when you have not used the resource recently
+  * gain a brief boost to ranged/throwing/magic attack speed followed by a brief "Reload" debuff that prevents attacking
 
-### Sniper (concept nearly complete)
-* High damage, critical-focused, burst damage class that rewards good timing and aim
+### Tier 3: Name Needed
+* High damage, critical-focused, burst damage class that rewards good aim
 * Tier 2 Abilities:
   * Trap inflicts a status that causes the next hit to deal triple damage
   * Rapid Fire increases charge-up rate of Charged Shot
+* Resource: Precision
+    * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
+    * Missing with Charged Shot reduces Precision by half
+    * Each Precision increases Charged Shot's base critical chance by 5% up to 10 stacks
+    * Stacking precision can virtually guarantee a critical hit
 * Ability 1: Charged Shot
-  * Press and hold the key to charge, release to shoot an empowered attack in the direction of the cursor
-    * Cannot attack, use items, or use abilities while channelling. Getting hit interrupts channelling.
+  * Channelling ability
+  * Works with any weapon that has a projectile (that isn't a minion)
+  * Press and hold the key to charge, release to shoot an empowered attack
   * Damage and critical chance are increased based on the charge amount
     * At max charge, the critical rate bonus is equivalent to rolling the critical check twice and taking the better roll (i.e., 2 chances to crit). Rather than reroll on a failed crit, the crit chance is just multiplied as follows before rolling:
       * new_crit = 1 - (1-crit)^2
@@ -114,23 +126,18 @@ Definition of Channelling:
         * 20% => 36%
         * 50% => 75%
         * 75% => 93.75%
-  * Works with any projectile weapon
-  * Charge-up rate is based on attack speed and weapon's use speed
+  * Charge-up rate is based on weapon's use speed
   * An indicator is shown when charge reaches maximum
   * No cooldown and low mana cost. This is the core ability of the Sniper so it can be used repeatedly as an alternative to holding down the fire button.
+    * weapon's mana cost is added to the ability cost
   * Average speed of charging to max should take a few seconds, but the multiplier should feel rewarding (worth the time not attacking) even when released earlier
-* Resource: Precision
-  * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
-  * Missing with Charged Shot reduces Precision by half
-  * Each Precision increases Charged Shot's base critical chance by 5% up to 10 stacks
 * Ability 2: ???
-  * I'm open to suggestions on discord
+  * ???
 
-### Engineer (concept complete)
-* Projectile minion class
-* Scales ranged and throwing damage + minion damage too
+### Tier 3: Tinkerer
+* Projectile/minion hybrid class
+* Partially scales minion damage in addition to projectiles
 * Tier 2 Abilities:
-  * Trap activation creates a gravity well that pulls enemies in (does not affect bosses or knockback-immune)
   * Rapid Fire affects Gizmo as well
   * Ammo resource is used for Gizmo resources
 * Ability 1: _customizable_ Gizmos
@@ -138,6 +145,7 @@ Definition of Channelling:
     * Example: Only one Gizmo can be created from a Minishark and doing so will prevent the player from using any Minishark while that Gizmo is deployed.
     * Any weapon with a projectile (that isn't a minion) will work
   * Gizmos consume ammo from the player's inventory
+    * If a mana-consuming weapon is used, then the player's mana is consumed but the cost is reduced
   * Up to 4 Gizmos can be deployed at once, but each requires a minion slot
   * Each deployed Gizmo decreases the player's final damage by 20% (80% reduction if the max number of Gizmos are deployed)
   * Gizmos follow the player closely and attack the nearest target that they have line-of-sight to
