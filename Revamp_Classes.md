@@ -86,7 +86,7 @@ Definition of Channelling:
 * Rage mechanic?
 
 ## Projectile (not just ranged)
-### Tier 2: Name Needed
+### Tier 2: Name?
 * Damage Scaling:
   * ranged, magic, and throwing
   * Projectiles from melee weapons
@@ -103,7 +103,7 @@ Definition of Channelling:
 * Ability 2: Rapid Fire
   * gain a brief boost to ranged/throwing/magic attack speed followed by a brief "Reload" debuff that prevents attacking
 
-### Tier 3: Name Needed
+### Tier 3: Name?
 * High damage, critical-focused, burst damage class that rewards good aim
 * Tier 2 Abilities:
   * Trap inflicts a status that causes the next hit to deal triple damage
@@ -166,6 +166,37 @@ Definition of Channelling:
   * Requires several decent weapons
   * Requires micro-managing of Gizmo placement when having them follow the player is not ideal
 
+### Tier 3: Chrono
+  * A time-based combo class that triggers bonus attacks by attacking at precise moments and can jump back in time
+  * Combo Mechanic:
+    * Shortly after each attack, you will be prompted to attack again. If you attack at the right time, your combo will increase by 1. If not, the combo breaks.
+    * At each multiple of 5 combo points, a flurry of bonus projectiles are unleashed
+      * Higher combo counts produce more projectiles
+    * Weapon use time (including the bonus from rapid fire) scales:
+      1. the time between attacking and being prompted to attack again (the delay should be fairly short and slightly random)
+      1. the time window during which attacking results in a combo
+  * Resource: Memories
+    * Every 3 seconds, the player's location and combo count is recorded in a memory
+    * Up to 5 memories can be stored (15 seconds)
+    * Gaining a memory while at capacity erases the oldest memory
+    * The location of the most recent memory is marked
+  * Ability 1: Time Jump
+    * Jumps back to the most recent memory (consumes that memory)
+      * The player is teleported to the location
+      * The combo count is set to the value it had been at that time
+    * Can be used multiple times in a row to jump back in sequence, but the memories are consumes so you can run out of memories to jump to
+  * Ability 2: Redo
+    * Similar as Time Jump except half of the life lost is restored
+      * Also, it jumps back to the memory with the highest life and consumes the more-recent memories along the way
+      * Makes it worthwhile to keep an old memory in the queue, but doing so requires frequent jumps - makes it difficult to build combo
+    * 5 minute cooldown
+    * Example:
+      * The memory has 200 life and the player current has 20 life
+      * They have lost 180 life so they will gain 90
+      * The player's new life amount will be 110
+  * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
+    * This class is meant to be challenging to play, but will have a very high potential.
+
 # Magic
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
 * Maybe a toggled mana-barrier? (half damage taken from mana first)
@@ -222,29 +253,6 @@ Definition of Channelling:
   * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
     * Might instead slow bosses and knockback-immune targets
 * Might need something more - maybe enhancements to the tier 2 abilities
-
-### Chrono (concept nearly complete) *might be switched to ranged or mage class*
-* A class that triggers bonus attacks (or spells) by attacking at precise moments
-* Scales all damage types except minion
-* The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
-* This class is meant to be challenging to play, but has very high potential. You would need to keep track of the combo bar, the location of your latest memory (so you don't jump into danger), how close you are to a combo burst, how soon the next memory will form, etc.
-* Combo Mechanic:
-  * A bar above the character cycles between filling and emptying
-    * higher attack speed and weapon use speed increases the rate of filling/emptying so that there is less waiting
-  * Attacking when the bar is above a marked point increases combo and triggers a bonus attack
-  * Attacking when the bar is too low breaks the combo (back to 0)
-  * Reaching a certain combo count triggers a burst of attacks and resets the combo
-    * This is a significant burst of damage
-* Ability 1: Time Jump
-  * Every 3 seconds, the player's location and combo count is recorded tracking up to 5 memories (15 seconds). Gaining a memory while at capacity erases the oldest memory.
-  * Using this ability jumps the player back to the most recent memory (and destroys that memory)
-    * The player is teleported to their memory location
-    * The combo count is set to the value it had been at that time
-  * The location of the most recent memory is indicated
-  * The number of memories held is shown in a resource bar
-  * Can be used multiple times in a row to jump back in sequence, but the memories are destroyed so you can run out of memories to jump to
-* Ability 2: ???
-  * I'm open to suggestions on discord
 
 ### Maybe a poison/bleed class?
 * Portion of damage inflicted as damage-over-time instead?
