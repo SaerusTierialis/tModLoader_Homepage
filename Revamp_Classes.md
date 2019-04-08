@@ -103,7 +103,7 @@ Definition of Channelling:
 * Ability 2: Rapid Fire
   * gain a brief boost to ranged/throwing/magic attack speed followed by a brief "Reload" debuff that prevents attacking
 
-### Tier 3: Name?
+### Tier 3: Artillery
 * High damage, critical-focused, burst damage class that rewards good aim
 * Tier 2 Abilities:
   * Trap inflicts a status that causes the next hit to deal triple damage
@@ -131,8 +131,13 @@ Definition of Channelling:
   * No cooldown and low mana cost. This is the core ability of the Sniper so it can be used repeatedly as an alternative to holding down the fire button.
     * weapon's mana cost is added to the ability cost
   * Average speed of charging to max should take a few seconds, but the multiplier should feel rewarding (worth the time not attacking) even when released earlier
-* Ability 2: ???
-  * ???
+* Ability 1 Alternate: Toggle Charged Shot
+  * Toggles switching regular attacks with the mouse to be Charged Shots (press and hold mouse, then release)
+* Ability 2: Mega Shot
+  * Shoots a single massively empowered projectile from the held weapon
+    * Scale with base use time so that faster weapons aren't that much worse
+  * Prevents the use of any weapon (including abilities) for 3 seconds
+    * 30 seconds for the weapon type used (i.e., affects all weapons of the same type - e.g., all Minishark)
 
 ### Tier 3: Tinkerer
 * Projectile/minion hybrid class
@@ -197,7 +202,8 @@ Definition of Channelling:
   * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
     * This class is meant to be challenging to play, but will have a very high potential.
 
-# Magic
+# Utility
+### Tier 2: Traveler
 * Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
 * Maybe a toggled mana-barrier? (half damage taken from mana first)
 * Maybe a teleport?
