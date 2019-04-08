@@ -111,7 +111,7 @@ Definition of Channelling:
 * Resource: Precision
     * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
     * Missing with Charged Shot reduces Precision by half
-    * Each Precision increases Charged Shot's base critical chance by 5% up to 10 stacks
+    * Each Precision increases the base critical chance of Charged Shot and Mega Shot by 5% up to 10 stacks (50% base crit)
     * Stacking precision can virtually guarantee a critical hit
 * Ability 1: Charged Shot
   * Channelling ability
