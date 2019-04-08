@@ -1,16 +1,18 @@
 These idea are not final. If you have feedback or ideas, please share them on our [Discord](https://discord.gg/KXf9zen).
 
-Abilities:
-* Each class (except Novice) has 2 ability slots
-* Holding Shift (key can be changed) when pressing the ability key activates an alternative effect for some abilities. This effectively increase the number of slots available.
-* Tier 3 classes retain access to the tier 2 abilities for a total of 4 Abilities
-* With subclass, it is possible to have 8 abilities
+Ability Slots:
+* Tier 2 classes have 2 ability slots
+* Tier 3 classes retain their tier 2 abilities and have 2 additional slots for a total of 4
+* In some cases, a slot is used for 2 abilities by holding Shift (key can be changed) while pressing the hotkey to active the alternative ability instead.
+  * Tier 2 classes can therefore have up to 4 abilities
+  * Tier 3 classes can therefore have up to 8 abilities
 
 
 Abilities should do one or more of the following:
 * Have a risk/reward element
 * Require skill or timing to use
 * Create a new playstyle
+* Provide utility or convenience
 
 
 Abilities should NOT:
@@ -18,42 +20,68 @@ Abilities should NOT:
 * Grant free damage with no downside
 
 
-# Novice
+Definition of Channelling:
+* Dramatically reduces movement speed
+* Cannot attack or use items
+* Cannot use most abilities
+* Interrupted by taking damage or dying
+* Interrupted by frozen, stoned, and silenced
+* May require an upkeep cost (mana or resource)
+
+
+### Tier 1: Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
 
-# Melee
-* Scale melee damage only
-* Base ability could be a toggle to increase damage at the cost of defense or vice versa.
-* Maybe rework these classes to work for other damage types so long as the hits occur within close-range?
+## Close Range (not just melee)
+### Tier 2: Warrior
+* Damage Scaling:
+  * melee with a close-range bonus
+  * any close-range non-melee damage (i.e., other damage types when the hit occurs at close range)
+* Resource: Poise
+  * Regenerates slowly (faster out of combat)
+  * Consumed when Guard prevents damage and gradually while holding Guard
+  * Scales with Vitality and level
+* Ability 1: Guard
+  * Channelling ability
+  * Reduces 50% of incoming damage from hits (if you have enough Poise)
+  * Reduction is increased to 100% for the first 0.5 seconds to reward good timing
+  * Maximum damage prevented is equal to defense
+* Ability 2: Battle Cry
+  * Medium duration buff
+  * Affects self and nearby allies
+  * Reduces knockback
+  * Increases defense
 
-### Blood Knight (concept nearly complete)
+### Tier 3: Blood Knight
 * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
 * Resource: Bloodforce
   * Capacity is 100
   * 50 is the base level. Every second, it increases/decreases by 1 towards 50.
   * When <40, life degenerates
   * When >60, life regenerates
+  * Generated when hitting an enemy at close range
 * Ability 1: Sacrifice
-  * Consume life to create Bloodforce
+  * Consume life to generate Bloodforce
 * Ability 1 Alternate: Blood Rage
-  * Toggles a status that drains Bloodforce to increase Damage and attack speed, might decrease defense
+  * Toggles a status that drains Bloodforce to increase Damage and attack speed, but decreases defense
 * Ability 2 and 2 Alternate: ???
-  * consume Bloodforce for a powerful effect:
+  * consume Bloodforce for powerful effects:
     * These effects should be powerful enough to be worth the risk of spending life and/or incurring degeneration
     * Maybe a skill to massively boost the damage of the next hit
     * Maybe a wave that inflicts a strong bleed
 
-### Guardian
+### Tier 3: Guardian
 * Tank class
-* Abilities could include blocking, generating threat, perhaps reflecting damage, etc.
-* blocking just before receiving an attack should have a bonus
-* Might have an ability that hooks on to a target and pulls them in. Could receive less damage from hooked enemies. At high level, could hook all nearby targets that you have sight of. This skill would not pull targets that are immune to knockback. In boss fights it could reduce incoming damage from the boss and help group up the adds.
+* Passive to reduce/remove the slow from channelling (for Guard)
+* Ability Ideas:
+  * Hook on to one or more enemies. Pulls them in until they're within a certain distance. Reduce damage from hooked enemies.
+    * Does not pull bosses or knockback-immune enemies, but still reduces damage from them
+  * Link to allies to take half of their damage for them
+  * Reflect incoming damage
+  * Deflect incoming projectiles
 
-### Maybe a Rune Knight or Magic Knight?
-* something to add range or projectiles to pure melee weapons?
-
-### Maybe a shout/warcry class?
-* buff/debuff
+### Tier 3: Berserker?
+* Attack speed class?
 
 # Ranged (non-magic projectile) (concept complete)
 * Scales ranged and throwing damage
