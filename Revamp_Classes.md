@@ -71,19 +71,23 @@ Definition of Channelling:
     * Maybe a skill to massively boost the damage of the next hit
     * Maybe a wave that inflicts a strong bleed
 
-### Tier 3: Guardian
+### Tier 3: Guardian (WIP)
 * Tank class
 * Passive to reduce/remove the slow from channelling (for Guard)
 * Ability Ideas:
+  * Barrier in front of player (moves with player) that pushes enemies and stops projectiles
   * Hook on to one or more enemies. Pulls them in until they're within a certain distance. Reduce damage from hooked enemies.
     * Does not pull bosses or knockback-immune enemies, but still reduces damage from them
   * Link to allies to take half of their damage for them
   * Reflect incoming damage
-  * Deflect incoming projectiles
+  * Force all nearby enemies to switch to target you
 
-### Tier 3: Berserker?
+### Tier 3: Berserker? (WIP)
 * Attack speed class?
 * Rage mechanic?
+  * Gain Rage with each close-range hit
+  * Increases melee attack speed proportional to Range
+  * Ability to consume rage and grant super rage buff
 
 # Projectile (not just ranged)
 ### Tier 2: Name?
@@ -202,39 +206,61 @@ Definition of Channelling:
   * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
     * This class is meant to be challenging to play, but will have a very high potential.
 
-# Utility
+# Utility (all damage types)
 ### Tier 2: Traveler
-* Base ability might be a resource that fills by spending mana and can be expended for a buff that increases damage, but stops mana regen.
-* Maybe a toggled mana-barrier? (half damage taken from mana first)
-* Maybe a teleport?
-* Maybe a toggle to increase mana costs to increase damage
-* Maybe a charge-up ability that uses the attack of the magic weapon and deals massive damage, but cannot be used with that weapon again for a little while.
-  * The goal would be to create a playstyle where you switch between weapons and use each to cast one big spell
-  * Many weapons don't make sense as a single attack so maybe instead do 1 second of massively empowered attacks
-  * Would probably lock out use of that weapon's regular attacks during the cooldown to avoid being "free damage"
-* Maybe a passive that stacks up when you haven't attacked recently and is consumed to trigger bonus attacks
-  * Stack at a rate relative to held weapon use speed
-  * Could put this on rogue instead
+* Damage Scaling:
+  * all
+* Ability 1: Teleport
+  * teleport towards the cursor
+  * at higher level, does not require line-of-sight
+  * longer cooldown in combat
+* Ability 1 Alternate: Long-Range Teleport
+  * teleports to a position in the direction of the cursor that is 10x the distance from the player to the cursor
+    * if that location is invalid, teleport to a nearby location
+  * longer cooldown than basic teleport
+  * longer cooldown in combat
+* Ability 2: Place Teleporter A
+  * places a teleporter
+  * while out of combat, any player can freely move between the teleporters by pressing an activation hotkey
+* Ability 2: Place Teleporter B
+  * places the second teleporter
 
-### Elementalist
-* Damage magic class
-* Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
-* Selecting opposite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
-* Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
-* Alternatively, the element system could instead store charges rather than trigger buffs. A second ability could be used to release the charges. Releasing charges could trigger large spell effects (meteors, etc). Still, there would be a max of 4 charges and opposite element charges could not be added consecutively. A unique effect would be triggered if you have all 4 elements. Duplicates of the same element would empower that elements effect (e.g., 2 fire + 2 earth = empowered fire and earth effects).
-* A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning. If the charge version of attunement is used then this could be the wind spell.
-* Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
-* Attunement could be something that you prepare before a difficult fight. During boss fights, it might be challenging to get the attunement that you want with everything else going on.
+### Tier 3: Gravity Controller
+* This class controls the battlefield with gravity magic
+* Ability 1: Black Hole - Projectiles
+  * Creates a black hole which pulls nearby projectiles towards it
+  * Affects both friendly and hostile projectiles
+  * The pull is stronger towards the center
+  * Not strong enough to trap projectiles unless they are very slow or pass near the center
+  * The number is limited only by cooldown
+* Ability 1 Alternate: Force Field - Projectiles
+  * Creates a force field which pushes away nearby projectiles
+  * Affects both friendly and hostile projectiles
+  * The push is stronger towards the center
+  * May completely deflect slow projectiles and those that pass near the center
+  * The number is limited only by cooldown
+* Ability 2: Black Hole - Enemies
+  * Same as "Black Hole - Projectiles" but affects enemies instead
+    * Weaker pull
+    * Limited to 1 at a time
+* Ability 2: Force Field - Enemies
+  * Same as "Force Field - Projectiles" but affects enemies instead
+    * Weaker push
+    * Limited to 1 at a time
+* These abilities do no push/pull minions, but can push/pull their projectile attacks
 
-### Sage/Seer
-* Utility and/or buff and/or debuff class?
-* Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
-* Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
-* Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
+# Trickery
+### Tier 2: Rogue
+* Damage Scaling:
+  * all damage types with a bonus for close-range hits
+* Ability 1: Stealth
+  * Toggle ability
+  * Drains mana while active
+  * Reduces movement speed (no reduction at later levels - might even gain a movement speed bonus)
+  * You cannot enter stealth if an enemy is nearby
+  * Reduces aggro, making enemies unlikely to target you
+  * Removed by taking or dealing damage
 
-# Rogue
-* These classes work well with throwing, but scale most damage types.
-* Base abilities could be stealth, a burst of speed, dodge, etc.
 
 ### Assassin (work in progress)
 * Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
@@ -344,3 +370,20 @@ Definition of Channelling:
   * When minerals are nearby, it'll dig its way through the terrain to get to the mineral and then mine it
   * Use chopping/mining power equal to best in inventory
   * Collect resources for the player (maybe even have a capacity and fly back to owner when full to deposit)
+
+# Other/Old ideas
+### Elementalist
+* Damage magic class
+* Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
+* Selecting opposite elements consecutively (fire+water or earth+air) causes the buff to fail, the history to reset, and might consume life/mana.
+* Once you have used all 4 elements at lease once without failing, you will trigger all 4 buffs together for an extended duration.
+* Alternatively, the element system could instead store charges rather than trigger buffs. A second ability could be used to release the charges. Releasing charges could trigger large spell effects (meteors, etc). Still, there would be a max of 4 charges and opposite element charges could not be added consecutively. A unique effect would be triggered if you have all 4 elements. Duplicates of the same element would empower that elements effect (e.g., 2 fire + 2 earth = empowered fire and earth effects).
+* A tornado ability that pulls monsters in (more suction the closer they are) and deals damage. An upgrade could add lightning. If the charge version of attunement is used then this could be the wind spell.
+* Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
+* Attunement could be something that you prepare before a difficult fight. During boss fights, it might be challenging to get the attunement that you want with everything else going on.
+
+### Sage/Seer
+* Utility and/or buff and/or debuff class?
+* Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
+* Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
+* Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
