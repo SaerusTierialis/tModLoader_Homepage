@@ -176,35 +176,116 @@ Definition of Channelling:
   * Requires micro-managing of Gizmo placement when having them follow the player is not ideal
 
 ### Tier 3: Chrono
-  * A time-based combo class that triggers bonus attacks by attacking at precise moments and can jump back in time
-  * Combo Mechanic:
-    * Shortly after each attack, you will be prompted to attack again. If you attack at the right time, your combo will increase by 1. If not, the combo breaks.
-    * At each multiple of 5 combo points, a flurry of bonus projectiles are unleashed
-      * Higher combo counts produce more projectiles
-    * Weapon use time (including the bonus from rapid fire) scales:
-      1. the time between attacking and being prompted to attack again (the delay should be fairly short and slightly random)
-      1. the time window during which attacking results in a combo
-  * Resource: Memories
-    * Every 3 seconds, the player's location and combo count is recorded in a memory
-    * Up to 5 memories can be stored (15 seconds)
-    * Gaining a memory while at capacity erases the oldest memory
-    * The location of the most recent memory is marked
-  * Ability 1: Time Jump
-    * Jumps back to the most recent memory (consumes that memory)
-      * The player is teleported to the location
-      * The combo count is set to the value it had been at that time
-    * Can be used multiple times in a row to jump back in sequence, but the memories are consumes so you can run out of memories to jump to
-  * Ability 2: Redo
-    * Similar as Time Jump except half of the life lost is restored
-      * Also, it jumps back to the memory with the highest life and consumes the more-recent memories along the way
-      * Makes it worthwhile to keep an old memory in the queue, but doing so requires frequent jumps - makes it difficult to build combo
-    * 5 minute cooldown
-    * Example:
-      * The memory has 200 life and the player current has 20 life
-      * They have lost 180 life so they will gain 90
-      * The player's new life amount will be 110
-  * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
-    * This class is meant to be challenging to play, but will have a very high potential.
+* A time-based combo class that triggers bonus attacks by attacking at precise moments and can jump back in time
+* Combo Mechanic:
+  * Shortly after each attack, you will be prompted to attack again. If you attack at the right time, your combo will increase by 1. If not, the combo breaks.
+  * At each multiple of 5 combo points, a flurry of bonus projectiles are unleashed
+    * Higher combo counts produce more projectiles
+  * Weapon use time (including the bonus from rapid fire) scales:
+    1. the time between attacking and being prompted to attack again (the delay should be fairly short and slightly random)
+    1. the time window during which attacking results in a combo
+* Resource: Memories
+  * Every 3 seconds, the player's location and combo count is recorded in a memory
+  * Up to 5 memories can be stored (15 seconds)
+  * Gaining a memory while at capacity erases the oldest memory
+  * The location of the most recent memory is marked
+* Ability 1: Time Jump
+  * Jumps back to the most recent memory (consumes that memory)
+    * The player is teleported to the location
+    * The combo count is set to the value it had been at that time
+  * Can be used multiple times in a row to jump back in sequence, but the memories are consumes so you can run out of memories to jump to
+* Ability 2: Redo
+  * Similar as Time Jump except half of the life lost is restored
+    * Also, it jumps back to the memory with the highest life and consumes the more-recent memories along the way
+    * Makes it worthwhile to keep an old memory in the queue, but doing so requires frequent jumps - makes it difficult to build combo
+  * 5 minute cooldown
+  * Example:
+    * The memory has 200 life and the player current has 20 life
+    * They have lost 180 life so they will gain 90
+    * The player's new life amount will be 110
+* The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
+  * This class is meant to be challenging to play, but will have a very high potential.
+
+# Minion (pure minion stuff)
+### Tier 1: Summoner
+* First Ability: temporary minions
+  * A minion attack that is available right at unlock to give players something to use early on
+  * Creates time-limited minions that scale with level/attributes
+  * Does not consume minion cap, but the max number of these is limited by cap (1/minion cap and 2/sentry cap)
+    * Example: If you have 3 minion slots and 1 sentry slot then you can have 5 of these
+  * Requires a short channel time (move slowly, but not attack or use items during this)
+  * Start off grounded and become flying at later level
+  * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
+  * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
+* First Ability Alternate (not related to first ability but each class has only 2 ability slots)
+  * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
+  * This will allow players to build around sentries while wearing the standard minion armor if they so choose
+* Second Ability: Command
+  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
+* Second Ability Alternate: Recall
+  * teleports all minions back to the player
+  * sentries are teleported to nearest valid location if there is one
+
+### Tier 3: Soul Binder
+* Focuses on having a few very strong minions
+* Can sacrifice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacrificed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
+* Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
+* Will have an ability to heal minions using the player's own life.
+* The two toggle abilities can only be used when no minions are currently summoned
+* If possible, soul binding will affect sentries
+
+### Tier 3: Minion Master (weak idea - need something better for making minions interactive)
+* Gains more control over minions
+* An ability to teleport minions to the cursor
+* An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
+* An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
+* If possible, these abilities will affect sentries
+
+### Tier 3: Sentry Class?? (might not be made)
+* Passive (or toggle) to allow sentries to be placed in the air
+* Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
+
+### Tier 3: Maybe a spirit/necromancer class?
+
+# Trickery
+### Tier 2: Rogue
+* Damage Scaling:
+  * all damage types with a bonus for close-range hits
+* Ability 1: Stealth
+  * Toggle ability
+  * Drains mana while active
+  * Reduces movement speed (no reduction at later levels - might even gain a movement speed bonus)
+  * You cannot enter stealth if an enemy is nearby
+  * Reduces aggro, making enemies unlikely to target you
+  * Removed by taking or dealing damage
+
+
+### Tier 3: Assassin (work in progress)
+* Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
+* Specializes in stealth attacks and one-on-one
+* Attacks from stealth to deal bonus damage
+* Might gain bonus damage for hitting from behind
+* The stealth attack would deal more damage the closer you are to the target (but does work with projectiles)
+* Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
+* Maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
+
+### Tier 3: Shadow (concept nearly complete)
+* Scales all damage types (including minion)
+* Specializes in escaping danger while trapping enemies
+* Ability 1: Shadow
+  * Creates a shadow at the current location
+  * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
+  * Draw an indicator with the direction of the shadow to make it more intuitive
+  * Cast again to switch places with the shadow
+  * Shadow can be destroyed by enemies
+  * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage
+* Ability 2: Shadow Trap
+  * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
+    * Might instead slow bosses and knockback-immune targets
+* Might need something more - maybe enhancements to the tier 2 abilities
+
+### Tier 3: Maybe a poison/bleed class?
+* Portion of damage inflicted as damage-over-time instead?
 
 # Utility (all damage types)
 ### Tier 2: Traveler
@@ -248,86 +329,6 @@ Definition of Channelling:
     * Weaker push
     * Limited to 1 at a time
 * These abilities do no push/pull minions, but can push/pull their projectile attacks
-
-# Trickery
-### Tier 2: Rogue
-* Damage Scaling:
-  * all damage types with a bonus for close-range hits
-* Ability 1: Stealth
-  * Toggle ability
-  * Drains mana while active
-  * Reduces movement speed (no reduction at later levels - might even gain a movement speed bonus)
-  * You cannot enter stealth if an enemy is nearby
-  * Reduces aggro, making enemies unlikely to target you
-  * Removed by taking or dealing damage
-
-
-### Assassin (work in progress)
-* Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
-* Specializes in stealth attacks and one-on-one
-* Attacks from stealth to deal bonus damage
-* Might gain bonus damage for hitting from behind
-* The stealth attack would deal more damage the closer you are to the target (but does work with projectiles)
-* Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
-* Maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
-
-### Shadow (concept nearly complete)
-* Scales all damage types (including minion)
-* Specializes in escaping danger while trapping enemies
-* Ability 1: Shadow
-  * Creates a shadow at the current location
-  * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
-  * Draw an indicator with the direction of the shadow to make it more intuitive
-  * Cast again to switch places with the shadow
-  * Shadow can be destroyed by enemies
-  * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage
-* Ability 2: Shadow Trap
-  * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
-    * Might instead slow bosses and knockback-immune targets
-* Might need something more - maybe enhancements to the tier 2 abilities
-
-### Maybe a poison/bleed class?
-* Portion of damage inflicted as damage-over-time instead?
-
-# Minion (concept complete)
-* First Ability: temporary minions
-  * A minion attack that is available right at unlock to give players something to use early on
-  * Creates time-limited minions that scale with level/attributes
-  * Does not consume minion cap, but the max number of these is limited by cap (1/minion cap and 2/sentry cap)
-    * Example: If you have 3 minion slots and 1 sentry slot then you can have 5 of these
-  * Requires a short channel time (move slowly, but not attack or use items during this)
-  * Start off grounded and become flying at later level
-  * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
-    * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
-* First Ability Alternate (not related to first ability but each class has only 2 ability slots)
-  * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
-  * This will allow players to build around sentries while wearing the standard minion armor if they so choose
-* Second Ability: Command
-  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
-* Second Ability Alternate: Recall
-  * teleports all minions back to the player
-  * sentries are teleported to nearest valid location if there is one
-
-### Soul Binder
-* Focuses on having a few very strong minions
-* Can sacrifice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacrificed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
-* Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
-* Will have an ability to heal minions using the player's own life.
-* The two toggle abilities can only be used when no minions are currently summoned
-* If possible, soul binding will affect sentries
-
-### Minion Master (weak idea - need something better for making minions interactive)
-* Gains more control over minions
-* An ability to teleport minions to the cursor
-* An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
-* An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
-* If possible, these abilities will affect sentries
-
-### Sentry Class?? (might not be made)
-* Passive (or toggle) to allow sentries to be placed in the air
-* Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
-
-### Maybe a spirit/necromancer class?
 
 # Support
 * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
