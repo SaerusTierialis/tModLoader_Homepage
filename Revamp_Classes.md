@@ -206,6 +206,68 @@ Definition of Channelling:
 * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
   * This class is meant to be challenging to play, but will have a very high potential.
 
+  # Trickery
+  ### Tier 2: Rogue
+  * Damage Scaling:
+    * all damage types with a bonus for close-range hits
+  * Mechanic: Attacks of Opportunity
+    * Additional damage when hitting an enemy from behind
+    * Additional damage when hitting an enemy that is not targeting you
+  * Mechanic: Sneak Attack
+    * Hitting a target while in stealth deals massive damage (removes stealth)
+    * The damage is increased relative to how close the target is to the player (closer = more damage)
+  * Ability 1: Stealth
+    * Toggle ability
+    * Drains mana while active
+    * Reduces movement speed (no reduction at later levels - might even gain a movement speed bonus)
+    * You cannot enter stealth if an enemy is nearby
+    * Reduces aggro, making enemies unlikely to target you
+    * Removed by taking or dealing damage
+  * Ability 2: Dodge
+    * Gain a burst of speed in the direction of the cursor
+    * Cannot be hit during the dodge
+
+  ### Tier 3: Shadow
+  * The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
+  * Tier 2 Notes:
+    * Stealth no longer has a mana cost
+  * Ability 1: Shadow
+    * Creates a shadow at the current location
+    * Cast again to switch places with the shadow and gain Stealth
+      * also restores the Shadow's life
+    * The Shadow can be targeted and destroyed by enemies
+    * You must be in Stealth to create a shadow
+    * Shadow vanishes if you move too far away
+      * Show a projectile return to the player to make it obvious that this has happened
+    * Draw an indicator with the direction of the shadow to make it more intuitive
+  * Ability 1 Alternate: Shadow Attack
+    * Toggles a status that causes your Shadow to duplicate your attacks
+    * Reduces damage to 60% each
+  * Ability 2: Shadow Trap
+    * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
+      * Bosses and knockback-immune targets are slowed instead of held
+
+  ### Tier 3: Assassin
+  * *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage.*
+  * Tier 2 Notes:
+    * Sneak Attacks are now deal double damage and are always a critical hit
+  * Passive: Poison
+    * Critical hits inflict a damage-over-time poison based on the damage dealt
+    * A target can have several poisons at once
+      * The actual limit is 255
+  * Ability 1: Covert Attack
+    * An close-range attack that can only be used while in Stealth
+    * Does not break Stealth
+    * When hitting from behind, damage is doubled and critical is guaranteed
+    * Several seconds cooldown
+  * Ability 1 Alternate: Ambush
+    * Instantly move to the enemy nearest the cursor
+  * Ability 2: Poison Shroud
+    * Create a cloud of poison that inflicts poison on enemies at set intervals
+    * While in the shroud, you can enter Stealth even if enemies are nearby and Stealth has no mana cost
+  * Ability 2 Alternate: Instant Poison
+    * End all poisons on nearby enemies to deal half of the remaining damage-over-time instantly
+
 # Minion (pure minion stuff)
 ### Tier 2: Summoner
 * *Summoner provides an early-game source of minion damage and a bunch of minion utility.*
@@ -255,68 +317,6 @@ Definition of Channelling:
   * Long cooldown
   * This ability will help the Soul Binder to sustain minions in difficult boss fights
 
-# Trickery
-### Tier 2: Rogue
-* Damage Scaling:
-  * all damage types with a bonus for close-range hits
-* Mechanic: Attacks of Opportunity
-  * Additional damage when hitting an enemy from behind
-  * Additional damage when hitting an enemy that is not targeting you
-* Mechanic: Sneak Attack
-  * Hitting a target while in stealth deals massive damage (removes stealth)
-  * The damage is increased relative to how close the target is to the player (closer = more damage)
-* Ability 1: Stealth
-  * Toggle ability
-  * Drains mana while active
-  * Reduces movement speed (no reduction at later levels - might even gain a movement speed bonus)
-  * You cannot enter stealth if an enemy is nearby
-  * Reduces aggro, making enemies unlikely to target you
-  * Removed by taking or dealing damage
-* Ability 2: Dodge
-  * Gain a burst of speed in the direction of the cursor
-  * Cannot be hit during the dodge
-
-### Tier 3: Shadow
-* The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
-* Tier 2 Notes:
-  * Stealth no longer has a mana cost
-* Ability 1: Shadow
-  * Creates a shadow at the current location
-  * Cast again to switch places with the shadow and gain Stealth
-    * also restores the Shadow's life
-  * The Shadow can be targeted and destroyed by enemies
-  * You must be in Stealth to create a shadow
-  * Shadow vanishes if you move too far away
-    * Show a projectile return to the player to make it obvious that this has happened
-  * Draw an indicator with the direction of the shadow to make it more intuitive
-* Ability 1 Alternate: Shadow Attack
-  * Toggles a status that causes your Shadow to duplicate your attacks
-  * Reduces damage to 60% each
-* Ability 2: Shadow Trap
-  * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
-    * Bosses and knockback-immune targets are slowed instead of held
-
-### Tier 3: Assassin
-* *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage.*
-* Tier 2 Notes:
-  * Sneak Attacks are now deal double damage and are always a critical hit
-* Passive: Poison
-  * Critical hits inflict a damage-over-time poison based on the damage dealt
-  * A target can have several poisons at once
-    * The actual limit is 255
-* Ability 1: Covert Attack
-  * An close-range attack that can only be used while in Stealth
-  * Does not break Stealth
-  * When hitting from behind, damage is doubled and critical is guaranteed
-  * Several seconds cooldown
-* Ability 1 Alternate: Ambush
-  * Instantly move to the enemy nearest the cursor
-* Ability 2: Poison Shroud
-  * Create a cloud of poison that inflicts poison on enemies at set intervals
-  * While in the shroud, you can enter Stealth even if enemies are nearby and Stealth has no mana cost
-* Ability 2 Alternate: Instant Poison
-  * End all poisons on nearby enemies to deal half of the remaining damage-over-time instantly
-
 # Utility (all damage types)
 ### Tier 2: Traveler
 * Damage Scaling:
@@ -363,7 +363,7 @@ Definition of Channelling:
 * These abilities do no push/pull minions, but can push/pull their projectile attacks
 
 # Support (WIP)
-* Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
+* Mostly unchanged from pre-revamp cleric. See [here](./Temporary_Rework_User_Documentation.md)
 * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
 * Remove Sanctuary teleport (moved to anther class)
 * Potential changes:
