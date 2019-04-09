@@ -416,6 +416,9 @@ Definition of Channelling:
 * Overall, this class offers primarily damage-focused effects at the cost of mana and attention.
 * Attunement could be something that you prepare before a difficult fight. During boss fights, it might be challenging to get the attunement that you want with everything else going on.
 
+### Elementalist 2 (from Discord suggestion)
+Elementalist could have 4 abilities (fire,wind,water,earth) the more he use one element, the more attune he is to that element, giving specific buff and debuff depending on the element: Fire attunement could increase damage by a lot but will cut health regen and reduce defence, Earth would bolster your defense and your health regen but slow you down, Water could increase all the mana variables at the cost of spell power , wind would greatly increase your movements but reduce your defence and, at once point, remove knockback immunity is any and increase knockback when hit
+
 ### Sage/Seer
 * Utility and/or buff and/or debuff class?
 * Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
