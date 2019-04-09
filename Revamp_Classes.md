@@ -317,6 +317,10 @@ Definition of Channelling:
   * Long cooldown
   * This ability will help the Soul Binder to sustain minions in difficult boss fights
 
+### Tier 3: Placeholder Class
+* This will be replaced with an actual class later
+* In the meantime, this is a tier 3 class with access to the Summoner skills that does not make your minions destructible
+
 # Utility (all damage types)
 ### Tier 2: Traveler
 * Damage Scaling:
