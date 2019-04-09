@@ -109,8 +109,8 @@ Definition of Channelling:
 
 ### Tier 3: Artillery
 * High damage, critical-focused, burst damage class that rewards good aim
-* Tier 2 Abilities:
-  * Trap inflicts a status that causes the next hit to deal triple damage
+* Tier 2 Ability Notes:
+  * Trap now causes the enemy to take triple damage from the next hit by this player
   * Rapid Fire increases charge-up rate of Charged Shot
 * Resource: Precision
     * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
@@ -146,7 +146,7 @@ Definition of Channelling:
 ### Tier 3: Tinkerer
 * Projectile/minion hybrid class
 * Partially scales minion damage in addition to projectiles
-* Tier 2 Abilities:
+* Tier 2 Ability Notes:
   * Rapid Fire affects Gizmo as well
   * Ammo resource is used for Gizmo resources
 * Ability 1: _customizable_ Gizmos
@@ -177,7 +177,7 @@ Definition of Channelling:
 
 ### Tier 3: Chrono
 * A time-based combo class that triggers bonus attacks by attacking at precise moments and can jump back in time
-* Combo Mechanic:
+* Mechanic: Combo Mechanic
   * Shortly after each attack, you will be prompted to attack again. If you attack at the right time, your combo will increase by 1. If not, the combo breaks.
   * At each multiple of 5 combo points, a flurry of bonus projectiles are unleashed
     * Higher combo counts produce more projectiles
@@ -268,33 +268,41 @@ Definition of Channelling:
   * Gain a burst of speed in the direction of the cursor
   * Cannot be hit during the dodge
 
-
-### Tier 3: Assassin (work in progress)
-* Scales all damage types EXCEPT minion (because the core mechanic does not work with minions)
-* Specializes in stealth attacks and one-on-one
-* Attacks from stealth to deal bonus damage
-* Might gain bonus damage for hitting from behind
-* The stealth attack would deal more damage the closer you are to the target (but does work with projectiles)
-* Maybe an ability to mark a target (more damage to this target but less to others), use again to remove mark
-* Maybe a shadow step ability to warp beside the enemy nearest the cursor (require line of sight)
-
-### Tier 3: Shadow (concept nearly complete)
-* Scales all damage types (including minion)
-* Specializes in escaping danger while trapping enemies
+### Tier 3: Shadow
+* The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
+* Tier 2 Notes:
+  * Stealth no longer has a mana cost
 * Ability 1: Shadow
   * Creates a shadow at the current location
-  * Shadow vanishes if you get too far away - show a projectile return to the player to make it obvious that this has happened
+  * Cast again to switch places with the shadow and gain Stealth
+    * also restores the Shadow's life
+  * The Shadow can be targeted and destroyed by enemies
+  * You must be in Stealth to create a shadow
+  * Shadow vanishes if you move too far away
+    * Show a projectile return to the player to make it obvious that this has happened
   * Draw an indicator with the direction of the shadow to make it more intuitive
-  * Cast again to switch places with the shadow
-  * Shadow can be destroyed by enemies
-  * While you have a Shadow, it duplicates any attacks but you and the Shadow deal only 60% damage
+* Ability 1 Alternate: Shadow Attack
+  * Toggles a status that causes your Shadow to duplicate your attacks
+  * Reduces damage to 60% each
 * Ability 2: Shadow Trap
   * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
-    * Might instead slow bosses and knockback-immune targets
-* Might need something more - maybe enhancements to the tier 2 abilities
+    * Bosses and knockback-immune targets are slowed instead of held
 
-### Tier 3: Maybe a poison/bleed class?
-* Portion of damage inflicted as damage-over-time instead?
+### Tier 3: Assassin
+* *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage, but they do not have any tools for escape.*
+* Tier 2 Notes:
+  * Sneak Attacks are now deal double damage and are always a critical hit
+* Passive: Poison
+  * Critical hits inflict a damage-over-time poison based on the damage dealt
+  * A target can have several poisons at once
+    * The actual limit is 255
+* Ability 1: Covert Attack
+  * An close-range attack that can only be used while in Stealth
+  * Does not break Stealth
+  * When hitting from behind, damage is doubled and critical is guaranteed
+  * Several seconds cooldown
+* Ability 2: Ambush
+  * Instantly move to the enemy nearest the cursor
 
 # Utility (all damage types)
 ### Tier 2: Traveler
@@ -349,6 +357,7 @@ Definition of Channelling:
    * Rework heal
 * Might split into two final classes: heal-focused and buff-focused
 * Maybe add a debuff/degen class?
+* Maybe a support/minion class that has a healing minion
 
 ### Maybe a support/minion class that creates healing minions?
 * Maybe have a skill to attach them to players/recall them back?
