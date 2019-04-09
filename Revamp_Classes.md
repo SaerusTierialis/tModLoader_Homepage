@@ -301,8 +301,13 @@ Definition of Channelling:
   * Does not break Stealth
   * When hitting from behind, damage is doubled and critical is guaranteed
   * Several seconds cooldown
-* Ability 2: Ambush
+* Ability 1 Alternate: Ambush
   * Instantly move to the enemy nearest the cursor
+* Ability 2: Poison Shroud
+  * Create a cloud of poison that inflicts poison on enemies at set intervals
+  * While in the shroud, you can enter Stealth even if enemies are nearby and Stealth has no mana cost
+* Ability 2 Alternate: Instant Poison
+  * End all poisons on nearby enemies to deal half of the remaining damage-over-time instantly
 
 # Utility (all damage types)
 ### Tier 2: Traveler
