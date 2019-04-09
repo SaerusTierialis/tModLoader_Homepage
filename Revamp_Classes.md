@@ -176,7 +176,7 @@ Definition of Channelling:
   * Requires micro-managing of Gizmo placement when having them follow the player is not ideal
 
 ### Tier 3: Chrono
-* *A time-based combo class that triggers bonus attacks by attacking at precise moments and can even jump back in time. This call is meant to be somewhat challenging to play, but has high potential.*
+* *A time-based combo class that triggers bonus attacks by attacking at precise moments and can even jump back in time. This class is meant to be somewhat challenging to play, but has high potential.*
 * Mechanic: Combo Mechanic
   * Shortly after each attack, you will be prompted to attack again. If you attack at the right time, your combo will increase by 1. If not, the combo breaks.
   * At each multiple of 5 combo points, a flurry of bonus projectiles are unleashed
