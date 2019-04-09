@@ -251,6 +251,12 @@ Definition of Channelling:
 ### Tier 2: Rogue
 * Damage Scaling:
   * all damage types with a bonus for close-range hits
+* Mechanic: Attacks of Opportunity
+  * Additional damage when hitting an enemy from behind
+  * Additional damage when hitting an enemy that is not targeting you
+* Mechanic: Sneak Attack
+  * Hitting a target while in stealth deals massive damage (removes stealth)
+  * The damage is increased relative to how close the target is to the player (closer = more damage)
 * Ability 1: Stealth
   * Toggle ability
   * Drains mana while active
@@ -258,6 +264,9 @@ Definition of Channelling:
   * You cannot enter stealth if an enemy is nearby
   * Reduces aggro, making enemies unlikely to target you
   * Removed by taking or dealing damage
+* Ability 2: Dodge
+  * Gain a burst of speed in the direction of the cursor
+  * Cannot be hit during the dodge
 
 
 ### Tier 3: Assassin (work in progress)
