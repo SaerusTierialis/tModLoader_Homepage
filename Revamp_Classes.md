@@ -206,8 +206,8 @@ Definition of Channelling:
 * The goal would be to consistently combo, trigger the combo burst, and then use Time Jump to restore the combo count and keep going.
   * This class is meant to be challenging to play, but will have a very high potential.
 
-  # Trickery
-  ### Tier 2: Rogue
+# Trickery
+### Tier 2: Rogue
   * Damage Scaling:
     * all damage types with a bonus for close-range hits
   * Mechanic: Attacks of Opportunity
@@ -227,7 +227,7 @@ Definition of Channelling:
     * Gain a burst of speed in the direction of the cursor
     * Cannot be hit during the dodge
 
-  ### Tier 3: Shadow
+### Tier 3: Shadow
   * The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
   * Tier 2 Notes:
     * Stealth no longer has a mana cost
@@ -247,7 +247,7 @@ Definition of Channelling:
     * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
       * Bosses and knockback-immune targets are slowed instead of held
 
-  ### Tier 3: Assassin
+### Tier 3: Assassin
   * *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage.*
   * Tier 2 Notes:
     * Sneak Attacks are now deal double damage and are always a critical hit
