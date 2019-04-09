@@ -313,6 +313,8 @@ Definition of Channelling:
 ### Tier 2: Traveler
 * Damage Scaling:
   * all
+* Passive: Return to the Scene of the Crime
+  * On respawn, the Traveler has the ability to return to their place of death by pressing the teleporter activation key while at the respawn point
 * Ability 1: Teleport
   * teleport towards the cursor
   * at higher level, does not require line-of-sight
@@ -328,8 +330,6 @@ Definition of Channelling:
   * teleporters cannot be placed directly on the respawn point
 * Ability 2: Place Teleporter B
   * places the second teleporter
-* Passive: Return to the Scene of the Crime
-  * On respawn, the Traveler has the ability to return to their place of death by pressing the teleporter activation key while at the respawn point
 
 ### Tier 3: Controller
 * Ability 1: Black Hole - Projectiles
