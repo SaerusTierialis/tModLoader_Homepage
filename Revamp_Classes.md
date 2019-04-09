@@ -209,6 +209,8 @@ Definition of Channelling:
 # Minion (pure minion stuff)
 ### Tier 2: Summoner
 * *Summoner provides an early-game source of minion damage and a bunch of minion utility.*
+* Passive: Floating Sentry
+  * Allow all sentries to be placed in the air
 * Ability 1: Name?
   * Creates time-limited minions that scale with level/attributes
   * Does not consume minion cap, but the max number of these is limited by cap (1/minion cap and 2/sentry cap)
@@ -252,19 +254,6 @@ Definition of Channelling:
   * Minion hits against the target heal the most injured minion
   * Long cooldown
   * This ability will help the Soul Binder to sustain minions in difficult boss fights
-
-### Tier 3: Minion Master (weak idea - need something better for making minions interactive) (WIP)
-* Gains more control over minions
-* An ability to teleport minions to the cursor
-* An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
-* An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
-* If possible, these abilities will affect sentries
-
-### Tier 3: Sentry Class?? (might not be made)
-* Passive (or toggle) to allow sentries to be placed in the air
-* Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
-
-### Tier 3: Maybe a spirit/necromancer class?
 
 # Trickery
 ### Tier 2: Rogue
@@ -432,3 +421,16 @@ Definition of Channelling:
 * Has a certain number of orbs. An ability is used to fire an orb to the targeted location. Using the ability when all orbs are already out launches the farthest away orb to the cursor location. An alternate ability recalls all orbs. When orbs are moving, they deal damage to anything they pass through.
 * Other abilities would trigger on each fielded orb (e.g., create a debuff aura around each orb)
 * Maybe a player-cented aura that boosts attributes of nearby allies? The abillity itself could be recast to cycle between the attributes so you could pick what kind of effect to grant? (this could be given to another class if not this one)
+
+### Minion Master (weak idea - need something better for making minions interactive) (WIP)
+* Gains more control over minions
+* An ability to teleport minions to the cursor
+* An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
+* An ability that actively commands minions... possibly by throwing them at your enemies. This ability would have a per-minion cooldown. Perhaps the ability would select the minion nearest the cursor and then throw them in the direction that you move the mouse? The goal of the ability would be to have more control over which enemies are being dealt damage and to offer a new way of dealing minion damage. While a minion is being thrown, it would not be attacking normally. Minions with collision damage would lose this while being thrown to prevent dealing both hits. Distance travelled could increase the damage.
+* If possible, these abilities will affect sentries
+
+### Sentry Class
+* Passive (or toggle) to allow sentries to be placed in the air
+* Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
+
+### Maybe a spirit/necromancer class?
