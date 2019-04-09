@@ -354,9 +354,10 @@ Definition of Channelling:
     * Limited to 1 at a time
 * These abilities do no push/pull minions, but can push/pull their projectile attacks
 
-# Support
+# Support (WIP)
 * Mostly unchanged. See [here](./Temporary_Rework_User_Documentation.md)
 * Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
+* Remove Sanctuary teleport (moved to anther class)
 * Potential changes:
    * Remove paragon abilities for something more interesting
    * Rework heal
@@ -364,10 +365,8 @@ Definition of Channelling:
 * Maybe add a debuff/degen class?
 * Maybe a support/minion class that has a healing minion
 
-### Maybe a support/minion class that creates healing minions?
-* Maybe have a skill to attach them to players/recall them back?
-
-# Hybrid (tier 2) and Hybrid Prime (tier 3)
+# Hybrid (use multiple damage types together) (WIP)
+### Hybrid (tier 2) and Hybrid Prime (tier 3)
 * Scales all damage types equally
 * Toggle ability to allow damage bonuses from equipment to apply to all damage types (perhaps at 80% value?)
 * Has a resource bar for each damage type except minion
@@ -385,7 +384,8 @@ Definition of Channelling:
    * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
    * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
 
-# Explorer
+# Non-Combat Class
+### Tier 2: Explorer
 * A tier 2 class with a max level of 100 (same as tier 3s)
 * Power attribute scales fishing power
 * Dexterity attribute scales tool use time (pickaxe/axe/hammer/etc)
