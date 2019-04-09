@@ -207,9 +207,9 @@ Definition of Channelling:
   * This class is meant to be challenging to play, but will have a very high potential.
 
 # Minion (pure minion stuff)
-### Tier 1: Summoner
-* First Ability: temporary minions
-  * A minion attack that is available right at unlock to give players something to use early on
+### Tier 2: Summoner
+* *Summoner provides an early-game source of minion damage and a bunch of minion utility.*
+* Ability 1: Name?
   * Creates time-limited minions that scale with level/attributes
   * Does not consume minion cap, but the max number of these is limited by cap (1/minion cap and 2/sentry cap)
     * Example: If you have 3 minion slots and 1 sentry slot then you can have 5 of these
@@ -217,24 +217,43 @@ Definition of Channelling:
   * Start off grounded and become flying at later level
   * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
   * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
-* First Ability Alternate (not related to first ability but each class has only 2 ability slots)
+* Ability 1 Alternate: Sentry Mode
   * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
   * This will allow players to build around sentries while wearing the standard minion armor if they so choose
-* Second Ability: Command
-  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not obey this)
-* Second Ability Alternate: Recall
-  * teleports all minions back to the player
-  * sentries are teleported to nearest valid location if there is one
+* Ability 2: Command
+  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not work with this)
+* Ability 2 Alternate: Recall
+  * teleports all minions (including sentries) to the player
 
 ### Tier 3: Soul Binder
-* Focuses on having a few very strong minions
-* Can sacrifice minion capacity for minion damage. Use the skill repeatedly to cycle through the amount of slots to sacrificed. The overall damage is increased. For example, giving up 1 of 3 minion slots would increase minion damage by >50%.
-* Can toggle on soul binding. This further increases minion damage, but gives each minion a life bar. Minions take damage from projectiles. When the player is hit, the nearest minion also takes damage. When a minion dies, the player takes a decent chunk of damage. Reducing minion cap with the above ability increases minion life. Minion life will regenerate slowly.
-* Will have an ability to heal minions using the player's own life.
-* The two toggle abilities can only be used when no minions are currently summoned
-* If possible, soul binding will affect sentries
+* *Soul Binders have relatively few minions, but they are much stronger than normal. Their minions are also targetable/destroyable and the player takes damage if a minion dies. Soul Binders transfer life between themselves and their minions, and they can even consume a minion for a damage boost.*
+* Mechanic: Condense
+  * Reduce minion cap to increase minion damage
+  * Overall, damage is increased and less spread out
+* Mechanic: Minion Souls
+  * Minions become targetable and can be destroyed, but deal 25% more damaged
+  * When a slot-requiring minion dies, the Soul Binder takes damage based on how much health the minion had
+  * Minion health is based on:
+    * Level
+    * Spirit attribute
+    * Number of slots that the minion uses
+    * Condense
+  * Minions must be summoned again if they die
+  * Sentries are included
+  * Minion life regenerates slowly while out of combat
+* Ability 1: Share Life
+  * Consume some player life to heal the most injured minion
+* Ability 1 Alternate: Siphon life
+  * Consume some life from the least injured minion to heal the player
+* Ability 2: Consume Soul
+  * Consume your most injured minion (hurts player) to boost damage for a short time
+* Ability 2 Alternate: Vampiric Soul
+  * Marks the enemy for a short times
+  * Minion hits against the target heal the most injured minion
+  * Long cooldown
+  * This ability will help the Soul Binder to sustain minions in difficult boss fights
 
-### Tier 3: Minion Master (weak idea - need something better for making minions interactive)
+### Tier 3: Minion Master (weak idea - need something better for making minions interactive) (WIP)
 * Gains more control over minions
 * An ability to teleport minions to the cursor
 * An toggle ability that keeps minions near the player. This can be used to allow grounded ranged minions to be used in the air (e.g., tiki) or to keep minions together when moving.
