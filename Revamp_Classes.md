@@ -289,7 +289,7 @@ Definition of Channelling:
     * Bosses and knockback-immune targets are slowed instead of held
 
 ### Tier 3: Assassin
-* *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage, but they do not have any tools for escape.*
+* *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage.*
 * Tier 2 Notes:
   * Sneak Attacks are now deal double damage and are always a critical hit
 * Passive: Poison
