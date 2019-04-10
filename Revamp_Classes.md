@@ -47,11 +47,10 @@ Definition of Channelling:
   * Reduces 50% of incoming damage from hits (if you have enough Poise)
   * Reduction is increased to 100% for the first 0.5 seconds to reward good timing
   * Maximum damage prevented is equal to defense
-* Ability 2: Battle Cry
-  * Medium duration buff
-  * Affects self and nearby allies
-  * Reduces knockback
-  * Increases defense
+* Ability 2: Endure
+  * very short duration buff
+  * grants immunity to knockback
+  * later grants a medium duration defense boost to self and nearby allies
 
 ### Tier 3: Blood Knight
 * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
