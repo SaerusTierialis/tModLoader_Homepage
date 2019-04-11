@@ -16,11 +16,6 @@ Abilities should do one or more of the following:
 * Provide utility or convenience
 
 
-Abilities should NOT:
-* Be "press and forget"
-* Grant free damage with no downside
-
-
 Definition of Channelling:
 * Dramatically reduces movement speed
 * Cannot attack or use items
