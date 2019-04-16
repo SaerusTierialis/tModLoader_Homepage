@@ -88,21 +88,26 @@ Definition of Channelling:
   * Ability to consume rage and grant super rage buff
 
 # Projectile (not just ranged)
-### Tier 2: Ranger (might rename?)
+### Tier 2: Ranger
 * Damage Scaling:
   * any non-minion projectile
 * Resource: Preparation
     * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
     * also consumed to reduce the mana cost of weapon attacks
     * slowly refills when you have not used the resource recently
-* Ability 1: Trap
+* Ability 1: Rapid Fire
+  * gain a brief boost to attack speed followed by a brief "Reload" debuff that prevents attacking, interrupts channelling, and prevents ability use
+* Ability 1 Alternate: Trap
   * launch a floating trap towards the cursor
     * the maximum distance increases with level
   * enemies that touch the trap are damaged and briefly held in placed
     * bosses and enemies that are immune to knockback are slowed instead
-  * traps last a set duration
-* Ability 2: Rapid Fire
-  * gain a brief boost to ranged/throwing/magic attack speed followed by a brief "Reload" debuff that prevents attacking
+  * traps last a fixed duration
+* Ability 2: Projectile Shower
+  * Channel ability with ongoing mana cost
+  * Creates weapon projectiles at the cursor aimed downward
+  * Projectile damage is reduced while rate of fire is increased
+    * both scale with weapon
 
 ### Tier 3: Artillery
 * High damage, critical-focused, burst damage class that rewards good aim
