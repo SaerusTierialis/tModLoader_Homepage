@@ -31,8 +31,7 @@ Definition of Channelling:
 # Close Range (not just melee)
 ### Tier 2: Warrior
 * Damage Scaling:
-  * melee with a close-range bonus
-  * any close-range non-melee damage (i.e., other damage types when the hit occurs at close range)
+  * any damage against nearby targets
 * Resource: Poise
   * Regenerates slowly (faster out of combat)
   * Consumed when Guard prevents damage and gradually while holding Guard
@@ -46,6 +45,11 @@ Definition of Channelling:
   * very short duration buff
   * grants immunity to knockback
   * later grants a medium duration defense boost to self and nearby allies
+* Ability 2 Alternate: Challenge
+  * Force an enemy to switch target to you
+  * You have 50% increased close-range damage against the target
+    * this is not 50% more damage, it an additive bonus
+  * The target deals 50% more damage to you
 
 ### Tier 3: Blood Knight
 * _Has a Bloodforce mechanic that regenerates life when high, degenerates life when low, and gradually returns to a midpoint. Abilities drain the resource for powerful effects while simultaneously pushing towards degeneration. Bloodforce can be quickly filled at the cost of life. At any moment, the Blood Knight can focus on building up Bloodforce to sustain (and offset the life cost) or risk death to deal massive damage._
@@ -84,10 +88,9 @@ Definition of Channelling:
   * Ability to consume rage and grant super rage buff
 
 # Projectile (not just ranged)
-### Tier 2: Name?
+### Tier 2: Ranger (might rename?)
 * Damage Scaling:
-  * ranged, magic, and throwing
-  * Projectiles from melee weapons
+  * any non-minion projectile
 * Resource: Preparation
     * this resource is consumed instead of ammo items (1:1) and throwing items (1:5)
     * also consumed to reduce the mana cost of weapon attacks
@@ -139,7 +142,7 @@ Definition of Channelling:
 
 ### Tier 3: Tinkerer
 * Projectile/minion hybrid class
-* Partially scales minion damage in addition to projectiles
+* Partially scales minion damage in addition to non-minion projectile
 * Tier 2 Ability Notes:
   * Rapid Fire affects Gizmo as well
   * Ammo resource is used for Gizmo resources
