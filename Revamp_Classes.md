@@ -376,6 +376,7 @@ Definition of Channelling:
 * Might split into two final classes: heal-focused and buff-focused
 * Maybe add a debuff/degen class?
 * Maybe a support/minion class that has a healing minion
+* An aura class? Might be utility instead of support depending on effect
 
 # Hybrid (use multiple damage types together) (WIP)
 ### Hybrid (tier 2) and Hybrid Prime (tier 3)
