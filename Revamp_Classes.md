@@ -88,7 +88,7 @@ Definition of Channelling:
   * Ability to consume rage and grant super rage buff
 
 # Projectile (not just ranged)
-### Tier 2: Ranger
+### Tier 2: Artillery
 * Damage Scaling:
   * any non-minion projectile
 * Resource: Preparation
@@ -97,27 +97,37 @@ Definition of Channelling:
     * slowly refills when you have not used the resource recently
 * Ability 1: Rapid Fire
   * gain a brief boost to attack speed followed by a brief "Reload" debuff that prevents attacking, interrupts channelling, and prevents ability use
-* Ability 1 Alternate: Trap
-  * launch a floating trap towards the cursor
-    * the maximum distance increases with level
-  * enemies that touch the trap are damaged and briefly held in placed
-    * bosses and enemies that are immune to knockback are slowed instead
-  * traps last a fixed duration
+* Ability 1 Alternate: Pierce
+  * Toggle Ability
+  * Projectiles deal 20% less damage
+  * Projectiles pierce once
+    * A passive later adds up to 1 additional pierce per X many level
+    * Increases pierce count only up to the bonus value
+      * For example, if a projectile normally has 3 pierces and the bonus is 2 then it will not be affected. If a projectile normally has 1 pierce and the bonus is 2 then it will have 2 pierces (not 3).
+  * *The purpose of this ability is to make non-piercing projectiles more viable (piercing weapons are generally better for invasions and multi-part bosses)*
 * Ability 2: Projectile Shower
   * Channel ability with ongoing mana cost
   * Creates weapon projectiles at the cursor aimed downward
   * Projectile damage is reduced while rate of fire is increased
     * both scale with weapon
+* Ability 2 Alternate: Trap
+  * launch a floating trap towards the cursor
+    * the maximum distance increases with level
+  * enemies that touch the trap are damaged and briefly held in placed
+    * bosses and enemies that are immune to knockback are slowed instead
+  * traps last a fixed duration
 
-### Tier 3: Artillery
+### Tier 3: Sniper
 * High damage, critical-focused, burst damage class that rewards good aim
 * Tier 2 Ability Notes:
   * Trap now causes the enemy to take triple damage from the next hit by this player
   * Rapid Fire increases charge-up rate of Charged Shot
+* Passive: Critical Force
+  * Critical hits with projectiles always pierce
 * Resource: Precision
     * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
     * Missing with Charged Shot reduces Precision by half
-    * Each Precision increases the base critical chance of Charged Shot and Mega Shot by 5% up to 10 stacks (50% base crit)
+    * Each Precision increases the base critical chance of Charged Shot and Final Shot by 5% up to 10 stacks (50% base crit)
     * Stacking precision can virtually guarantee a critical hit
 * Ability 1: Charged Shot
   * Channelling ability
@@ -139,7 +149,7 @@ Definition of Channelling:
   * Average speed of charging to max should take a few seconds, but the multiplier should feel rewarding (worth the time not attacking) even when released earlier
 * Ability 1 Alternate: Toggle Charged Shot
   * Toggles switching regular attacks with the mouse to be Charged Shots (press and hold mouse, then release)
-* Ability 2: Mega Shot
+* Ability 2: Final Shot
   * Shoots a single massively empowered projectile from the held weapon
     * Scale with base use time so that faster weapons aren't that much worse
   * Prevents the use of any weapon (including abilities) for 3 seconds
