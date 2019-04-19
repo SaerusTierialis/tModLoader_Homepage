@@ -1,6 +1,6 @@
 These idea are not final. If you have feedback or ideas, please share them on our [Discord](https://discord.gg/KXf9zen).
 
-Ability Slots:
+**Ability Slots:**
 * Tier 2 classes have 2 ability slots
 * Tier 3 classes retain their tier 2 abilities and have 2 additional slots for a total of 4
 * Each class will have at least 2 abilities
@@ -9,14 +9,14 @@ Ability Slots:
   * Tier 3 classes can therefore have up to 8 abilities
 
 
-Abilities should do one or more of the following:
+**Abilities should do one or more of the following:**
 * Have a risk/reward element
 * Require skill or timing to use
 * Create a new playstyle
 * Provide utility or convenience
 
 
-Definition of Channelling:
+**Definition of Channelling:**
 * Dramatically reduces movement speed
 * Cannot attack or use items
 * Cannot use most abilities
@@ -24,6 +24,30 @@ Definition of Channelling:
 * Interrupted by frozen, stoned, and silenced
 * May require an upkeep cost (mana or resource)
 
+
+**2 Types of Damage Bonuses**
+* Increase/Decrease
+  * Same as equipment
+  * Additive multipliers
+  * All damage bonuses are inc/dec unless specified
+* More/Less
+  * True multiplier that further scales inc/dec
+  * Additive with other more/less
+* Example:
+  * 40% increase + 20% increase + 30% decrease + 50% more + 10% less
+    * effectively 30% increase and 40% more
+  * __*tldr; the effective 40% more multiplier added 52% of base damage because it had an increase to scale off of*__
+  * first, the increases/decreases
+    * (base 100%) + (40% + 20% - 30%)
+    * =(base 100%) + 30%
+    * =130%
+  * second, the more/less
+    * (base 100%) + (50% - 10%)
+    * =(base 100%) + (40%)
+    * =140%
+  * final damaged
+    * 130% x 140%
+    * =182% of base
 
 ### Tier 1: Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
