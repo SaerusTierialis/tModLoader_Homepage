@@ -358,6 +358,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Minions can have 1 command at a time
   * If the target of the command dies or is too far from the player, then the command ends
   * When issuing a command, the least-recently commanded minion is selected prioritizing minions with no current command
+  * If possible a line will be drawn between the minion and the target
 * Ability 1: Command (Location)
   * Command one minion to the target location
   * The minion is first teleported to the location and then constantly pulled back to the location (stronger pull the further they are)
