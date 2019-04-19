@@ -318,8 +318,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Ability 1 Alternate: Sentry Mode
   * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
   * This will allow players to build around sentries while wearing the standard minion armor if they so choose
-* Ability 2: Command
-  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not work with this)
+* Ability 2: Target
+  * commands all minions to switch to the target nearest the cursor (some mod minion's AIs might not work with this or might switch to another target instantly)
 * Ability 2 Alternate: Recall
   * teleports all minions (including sentries) to the player
 
@@ -351,9 +351,25 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Long cooldown
   * This ability will help the Soul Binder to sustain minions in difficult boss fights
 
-### Tier 3: Placeholder Class
-* This will be replaced with an actual class later
-* In the meantime, this is a tier 3 class with access to the Summoner skills that does not make your minions destructible
+### Tier 3: Tactician
+* *A minion utility class with the ability to control their minions.*
+* Mechanic: Command Minions
+  * Commands can be issues to any minion that occupies minion slots or is a Sentry
+  * Minions can have 1 command at a time
+  * If the target of the command dies or is too far from the player, then the command ends
+  * When issuing a command, the least-recently commanded minion is selected prioritizing minions with no current command
+* Ability 1: Command (Location)
+  * Command one minion to the target location
+  * The minion is first teleported to the location and then constantly pulled back to the location (stronger pull the further they are)
+  * The AI continues to run normally, but the minion is confined to a location which generally forces it to target nearby enemies
+* Ability 1 Alternate: Command (Enemy)
+  * Command one minion to the enemy nearest the location
+  * The minion's target is constantly set to the targeted enemy (might not work for some AIs)
+  * This forces a minion to focus on the target and not switch targets unless the enemy is defeated or moves too far away
+* Ability 2: Tactical Advantage
+  * Create a large zone that accelerates the movements of allies including minions
+* Ability 2 Alternate: Unfavorable Terrain
+  * Create a small zone that increases damage taken by enemies
 
 # Utility (all damage types)
 ### Tier 2: Traveler
