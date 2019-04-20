@@ -321,7 +321,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * Example: If you have 3 minion slots and 1 sentry slot then you can have 5 of these
   * Requires a short channel time (move slowly, but not attack or use items during this)
   * Start off grounded and become flying at later level
-  * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channeling, which puts the player in danger
+  * Maintaining several of these will consume a considerable amount of mana and require you to spend a lot of time channelling, which puts the player in danger
   * The goal is for this to be a core ability early on, and act as filler for when you have a safe moment in later game
 * Ability 1 Alternate: Sentry Mode
   * A cycling toggle ability to convert minion slots into sentry slots at a 2:1 ratio (use multiple times to select number of slots to convert)
