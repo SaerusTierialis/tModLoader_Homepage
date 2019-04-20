@@ -95,7 +95,9 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Guardian (WIP)
 * Tank class
-* Passive to reduce/remove the slow from channelling (for Guard)
+* Passive to reduce/remove the slow from channelling (for Guard, but would synergize with any channelling ability)
+* Passive to increase aggro from equipment
+* Passive to grant additional aggro
 * Ability Ideas:
   * Barrier in front of player (moves with player) that pushes enemies and stops projectiles
   * Hook on to one or more enemies. Pulls them in until they're within a certain distance. Reduce damage from hooked enemies.
