@@ -106,12 +106,27 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Reflect incoming damage
   * Force all nearby enemies to switch to target you
 
-### Tier 3: Berserker? (WIP)
-* Attack speed class?
-* Rage mechanic?
-  * Gain Rage with each close-range hit
-  * Increases melee attack speed proportional to Range
-  * Ability to consume rage and grant super rage buff
+### Tier 3: Berserker
+* Front line speed class
+* Tier 2:
+  * damage bonus from Challenge is increased
+* Passive: Unstoppable
+  * Movement speed cannot be reduced below the base value (from slows, etc.) except by channelling
+* Resource: Rage
+  * increases when hitting a nearby enemy (any hit) up to once per second
+  * slowly decays while there are no nearby enemies
+* Ability 1: Enter Rage
+  * Can only be used when rage is at least half full
+  * Grants a buff that:
+    * rapidly depletes rage resource and ends when depleted
+    * *doubles* Agility and Dexterity from both allocation and class bonus
+      * a massive movement and attack speed boost
+    * downside: player takes 50% more damage
+* Ability 2: Unrelenting
+  * Life cannot be reduced below 1 for 5 seconds (cannot die)
+  * 2 minute cooldown
+* *Needs at least one more ability*
+  * *something that can have a short to medium cooldown to make the class a little more interactive*
 
 # Projectile (not just ranged)
 ### Tier 2: Artillery
