@@ -486,7 +486,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Use chopping/mining power equal to best in inventory
   * Collect resources for the player (maybe even have a capacity and fly back to owner when full to deposit)
 
-# Other/Old ideas
+# Other/Old ideas (may or may not ever be implemented)
 ### Elementalist
 * Damage magic class
 * Elemental attunement mini-game. Use the ability to start rotating through 4 elements (fire/water/earth/air). Use the ability again to select the current element. Each element grants a different buff for a duration.
