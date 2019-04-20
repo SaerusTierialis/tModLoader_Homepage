@@ -270,6 +270,9 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
   * Tier 2 Notes:
     * Stealth no longer has a mana cost
+  * Passive: Cheat Death
+    * If you would die while you have a shadow then your life is instead reduced to 1, you are teleported to the shadow's location, and the shadow is consumed
+    * 10 minute cooldown
   * Ability 1: Shadow
     * Creates a shadow at the current location
     * Cast again to switch places with the shadow and gain Stealth
