@@ -108,7 +108,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Berserker
 * Front line speed class
-* Tier 2:
+* Tier 2 Ability Notes/Upgrades:
   * damage bonus from Challenge is increased
 * Passive: Unstoppable
   * Movement speed cannot be reduced below the base value (from slows, etc.) except by channelling
@@ -160,7 +160,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Sniper
 * High damage, critical-focused, burst damage class that rewards good aim
-* Tier 2 Ability Notes:
+* Tier 2 Ability Notes/Updates:
   * Trap now causes the enemy to take triple damage from the next hit by this player
   * Rapid Fire increases charge-up rate of Charged Shot
 * Passive: Critical Force
@@ -204,7 +204,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 ### Tier 3: Tinkerer
 * Projectile/minion hybrid class
 * Partially scales minion damage in addition to non-minion projectile
-* Tier 2 Ability Notes:
+* Tier 2 Ability Notes/Updates:
   * Rapid Fire affects Gizmo as well
   * Ammo resource is used for Gizmo resources
 * Ability 1: _customizable_ Gizmos
@@ -285,7 +285,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Shadow
   * The Shadow can weave in an out of melee-range to easily re-stealth and trigger a sneak attack. They also have the utility of attacking from two locations at once.
-  * Tier 2 Notes:
+  * Tier 2 Ability Notes/Updates:
     * Stealth no longer has a mana cost
   * Passive: Cheat Death
     * If you would die while you have a shadow then your life is instead reduced to 1, you are teleported to the shadow's location, and the shadow is consumed
@@ -308,7 +308,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Assassin
   * *The Assassin tries to get as much out of one Stealth as possible. They can whittle down their opponents with Covert Attacks from stealth and then finally break the Stealth with a massive Sneak Attack that inflicts a powerful poison. Assassins have both burst damage and damage-over-time. They specialize in getting into close-range and doing massive damage.*
-  * Tier 2 Notes:
+  * Tier 2 Ability Notes/Upgrades:
     * Sneak Attacks are now deal double damage and are always a critical hit
   * Passive: Poison
     * Critical hits inflict a damage-over-time poison based on the damage dealt
