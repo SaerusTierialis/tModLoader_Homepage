@@ -148,6 +148,11 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Rapid Fire increases charge-up rate of Charged Shot
 * Passive: Critical Force
   * Critical hits with projectiles always pierce
+* Passive: Longshot
+  * Projectiles gain damage the further they travel
+* Passive: Overcrit
+  * Any critical chance beyond 100% increases damage instead
+  * Typically, this will only occur with Charged Shot and Final Shot when Precision is stacked high
 * Resource: Precision
     * Hits with Charged Shot generate 1 Precision (once per shot, not per target hit)
     * Missing with Charged Shot reduces Precision by half
