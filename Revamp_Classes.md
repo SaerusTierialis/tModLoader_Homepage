@@ -107,7 +107,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Force all nearby enemies to switch to target you
 
 ### Tier 3: Berserker
-* Front line speed class
+* Front line speed class.
+* *Berserker has a Rage mechanic that increases movement/attack speed and decreases ability cooldowns. However, the Rage status also increases all incoming damage. Rage can be built-up and maintained through positioning, hitting nearby enemies, and the Warcry skill. To save themselves from all the extra damage that they take, the Berserker has an ability that makes them unkillable for a few seconds.*
 * Tier 2 Ability Notes/Upgrades:
   * damage bonus from Challenge is increased
 * Passive: Unstoppable
@@ -118,12 +119,13 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Ability 1: Warcry
   * Generates a bit of Rage
   * Apply a minor defense debuff to nearby enemies
+  * Has a chance to Challenge each affected enemy
 * Ability 1 Alternate: Enter Rage
   * Can only be used when rage is at least half full
   * Grants a buff that:
     * rapidly depletes rage resource and ends when depleted
     * *doubles* Agility and Dexterity from both allocation and class bonus
-      * a massive movement and attack speed boost
+      * a massive movement and attack speed boost + decreases ability cooldowns
     * downside: player takes 50% more damage
 * Ability 2: Unrelenting
   * Life cannot be reduced below 1 for 5 seconds (cannot die)
