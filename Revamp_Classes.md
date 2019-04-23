@@ -483,6 +483,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Dexterity attribute scales tool use time (pickaxe/axe/hammer/etc)
 * Will eventually gain bonuses such as spelunker effect
 * Eventually, you'll be able to gain non-combat xp, but in the meantime you can funnel your orbs into this class (it has fairly low xp requirements)
+* Passives to boost build range and speed
 * Maybe a resource-harvesting drone???
   * When it has line-of-sight to a tree, it'll fly over and whittle away at it
   * When minerals are nearby, it'll dig its way through the terrain to get to the mineral and then mine it
