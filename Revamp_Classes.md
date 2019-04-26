@@ -302,10 +302,15 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * Shadow vanishes if you move too far away
       * Show a projectile return to the player to make it obvious that this has happened
     * Draw an indicator with the direction of the shadow to make it more intuitive
-  * Ability 1 Alternate: Shadow Attack
+  * Ability 1 Alternate: Shadow Mirror
     * Toggles a status that causes your Shadow to duplicate your attacks
     * Reduces damage to 60% each
-  * Ability 2: Shadow Trap
+  * Ability 2: Shadow Attack
+    * Attack all enemies near the Shadow once
+    * Requires line of sight between Shadow and enemy
+    * Melee attacks automatically hit
+    * Projectiles are launched towards the enemies from the Shadow
+  * Ability 2 Alternate: Shadow Trap
     * Consume the shadow to inflict a status on nearby targets that holds them in place and reduces their defense
       * Bosses and knockback-immune targets are slowed instead of held
 
