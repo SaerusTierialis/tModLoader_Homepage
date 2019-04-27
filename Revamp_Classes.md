@@ -111,6 +111,11 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * *Berserker has a Rage mechanic that increases movement/attack speed and decreases ability cooldowns. However, the Rage status also increases all incoming damage. Rage can be built-up and maintained through positioning, hitting nearby enemies, and the Warcry skill. To save themselves from all the extra damage that they take, the Berserker has an ability that makes them unkillable for a few seconds.*
 * Tier 2 Ability Notes/Upgrades:
   * damage bonus from Challenge is increased
+  * Guard Dash
+    * Activating Guard pushes the player in the direction of the cursor (on activation, not while channelling)
+    * magnitude based on character movement speed stat (affected by agi)
+    * movement is added to current velocity
+    * can move upwards but gravity acts against
 * Passive: Unstoppable
   * Movement speed cannot be reduced below the base value (from slows, etc.) except by channelling
 * Resource: Rage
