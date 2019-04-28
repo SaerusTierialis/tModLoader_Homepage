@@ -471,19 +471,45 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 ----------
 
 # Support (WIP)
-### Tier 2: Cleric
+### Tier 2: ??? (name needed)
 * **Togglable Passive: Generosity**
-  * When enabled, reduces final damage by 50% but doubles healing
+  * When enabled, reduces final damage by 50% but triples final healing
+  * Healing skills will be balanced under the assumption that this is enabled
+* **Togglable Passive: Smite**
+  * Reduces final healing by 30%, but causes healing abilities to also damage enemies
+* **Togglable Passive: Holy Light**
+  * Sanctuary grants a buff that creates light
+* **Passive: Protection**
+  * Sanctuary grants a buff that reduces the damage of the next hit taken
+  * Scales with healing
 * **Ability 1: Heal**
   * Channelling charge-up ability
   * Creates an expanding zone at the cursor location (location does not change while channelling)
   * When released, heal any targets that were in the zone during charge-up (they do not have to stay in the zone)
     * Targets who are still in the zone at release are healed for 20% more
   * Heal magnitude scales with charge-up
+* **Ability 1 Alternate: Sanctuary**
+  * Creates a long-duration zone that heals allies who are out-of-combat
+  * Also increases mana regeneration
+*
 
-### Tier 3: Saint
+### Tier 3: ??? (name needed)
+* Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
+  * If Smite *is not* enabled
+    * Heal leaves behind a field of the same size that periodically heals, lasts 30 seconds
+  * If Smite *is* enabled
+    * Heal leaves behind a field that increases damage taken by enemies
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
+
+### Tier 3: ??? (name needed)
+* Buff class
+* **Tier 2 Ability Notes/Upgrades:**
+  * If Smite *is not* enabled
+    * Heal leaves behind a field that increases the defense of allies
+  * If Smite *is* enabled
+    * Heal leaves behind a field that increases the damage of allies
+  * Protection reduces the damage of one additional hit per 20 levels
 
 ----------
 
