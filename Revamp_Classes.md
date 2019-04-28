@@ -497,7 +497,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
   * If Smite *is not* enabled
-    * Heal leaves behind a field of the same size that periodically heals, lasts 30 seconds
+    * Heal leaves behind a field of the same size that periodically heals
   * If Smite *is* enabled
     * Heal leaves behind a field that increases damage taken by enemies
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
