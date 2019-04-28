@@ -49,8 +49,13 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * 130% x 140%
     * =182% of base
 
+----------
+
+# Starting Class
 ### Tier 1: Novice
 * No abilities. Low, balanced stats. Power scales all damage types.
+
+----------
 
 # Close Range (not just melee)
 ### Tier 2: Warrior
@@ -135,6 +140,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Ability 2: Unrelenting
   * Life cannot be reduced below 1 for 5 seconds (cannot die)
   * 2 minute cooldown (cooldowns are reduced by Dexterity so Rage will decrease this)
+
+----------
 
 # Projectile (not just ranged)
 ### Tier 2: Artillery
@@ -270,6 +277,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * They have lost 180 life so they will gain 90
     * The player's new life amount will be 110
 
+----------
+
 # Trickery
 ### Tier 2: Rogue
   * Damage Scaling:
@@ -339,6 +348,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * While in the shroud, you can enter Stealth even if enemies are nearby and Stealth has no mana cost
   * Ability 2 Alternate: Instant Poison
     * End all poisons on nearby enemies to deal half of the remaining damage-over-time instantly
+
+----------
 
 # Minion (pure minion stuff)
 ### Tier 2: Summoner
@@ -410,6 +421,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * Ability 2 Alternate: Unfavorable Terrain
   * Create a small zone that increases damage taken by enemies
 
+----------
+
 # Utility (all damage types)
 ### Tier 2: Traveler
 * Damage Scaling:
@@ -455,17 +468,24 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * Limited to 1 at a time
 * These abilities do no push/pull minions, but can push/pull their projectile attacks
 
+----------
+
 # Support (WIP)
-* Mostly unchanged from pre-revamp cleric. See [here](./Temporary_Rework_User_Documentation.md)
-* Will have a toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
-* Remove Sanctuary teleport (moved to anther class)
-* Potential changes:
-   * Remove paragon abilities for something more interesting
-   * Rework heal
-* Might split into two final classes: heal-focused and buff-focused
-* Maybe add a debuff/degen class?
-* Maybe a support/minion class that has a healing minion
-* An aura class? Might be utility instead of support depending on effect
+### Tier 2: Cleric
+* **Togglable Passive: Generosity**
+  * When enabled, damage dealt is reduced by 50% but healing is doubled
+* **Ability 1: Heal**
+  * Channelling charge-up ability
+  * Creates an expanding zone at the cursor location (location does not change while channelling)
+  * When released, heal any targets that were in the zone during charge-up (they do not have to stay in the zone)
+    * Targets who are still in the zone at release are healed for 20% more
+  * Heal magnitude scales with charge-up
+
+### Tier 3: Saint
+* **Tier 2 Ability Notes/Upgrades:**
+  * Mini-heals are periodically triggered on targets in the expanding zone while channelling
+
+----------
 
 # Hybrid (use multiple damage types together) (WIP)
 ### Hybrid (tier 2) and Hybrid Prime (tier 3)
@@ -486,6 +506,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
    * Most minion weapons use a snapshot of the minion damage so including it here would be very overpowered (minions would keep the bonus after the resource is emptied)
    * The class will still scale minion damage so you can use minions fairly well alongside the other damage types
 
+----------
+
 # Non-Combat Class
 ### Tier 2: Explorer
 * A tier 2 class with a max level of 100 (same as tier 3s)
@@ -499,6 +521,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * When minerals are nearby, it'll dig its way through the terrain to get to the mineral and then mine it
   * Use chopping/mining power equal to best in inventory
   * Collect resources for the player (maybe even have a capacity and fly back to owner when full to deposit)
+
+----------
 
 # Other/Old ideas (may or may not ever be implemented)
 ### Elementalist
@@ -532,3 +556,15 @@ Elementalist could have 4 abilities (fire,wind,water,earth) the more he use one 
 * Ability that spawns several sentries in a vertical line that attack for a few seconds before disappearing. The sentry placed could be from whichever sentry weapon you held most recently.
 
 ### Maybe a spirit/necromancer class?
+
+### Support
+* pre-revamp cleric [here](./Temporary_Rework_User_Documentation.md)
+* toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
+* Remove Sanctuary teleport (moved to anther class)
+* Potential changes:
+   * Remove paragon abilities for something more interesting
+   * Rework heal
+* Might split into two final classes: heal-focused and buff-focused
+* Maybe add a debuff/degen class?
+* Maybe a support/minion class that has a healing minion
+* An aura class? Might be utility instead of support depending on effect
