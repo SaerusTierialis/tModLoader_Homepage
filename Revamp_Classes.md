@@ -473,7 +473,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 # Support (WIP)
 ### Tier 2: Cleric
 * **Togglable Passive: Generosity**
-  * When enabled, damage dealt is reduced by 50% but healing is doubled
+  * When enabled, reduces final damage by 50% but doubles healing
 * **Ability 1: Heal**
   * Channelling charge-up ability
   * Creates an expanding zone at the cursor location (location does not change while channelling)
