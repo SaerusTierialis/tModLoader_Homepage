@@ -471,7 +471,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 ----------
 
 # Support (WIP)
-### Tier 2: ??? (name needed)
+### Tier 2: Cleric
 * **Togglable Passive: Generosity**
   * When enabled, reduces final damage by 50% but triples final healing
   * Healing skills will be balanced under the assumption that this is enabled
@@ -493,7 +493,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Also increases mana regeneration
 *
 
-### Tier 3: ??? (name needed)
+### Tier 3: Saint
 * Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
   * If Smite *is not* enabled
@@ -502,7 +502,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * Heal leaves behind a field that increases damage taken by enemies
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
 
-### Tier 3: ??? (name needed)
+### Tier 3: Oracle
 * Buff class
 * **Tier 2 Ability Notes/Upgrades:**
   * If Smite *is not* enabled
