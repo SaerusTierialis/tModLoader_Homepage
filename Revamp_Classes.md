@@ -473,15 +473,16 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 # Support (WIP)
 ### Tier 2: Cleric
 * **Scaling:**
-  * Healing scales with the Spirit attribute and with equipment that grants status immunities
-  * Holy damage scales with the Power attribute and with equipment that grants any kind of damage bonus
+  * **Healing** scales with the Spirit attribute and with equipment that grants status immunities
+  * **Holy damage** scales with the Power attribute and with equipment that grants any kind of damage bonus
 * **Togglable Passive: Generosity**
-  * When enabled, reduces final damage by 50% but triples final healing
+  * When enabled, reduces final damage by 50% but triples healing
   * Healing skills will be balanced under the assumption that this is enabled
 * **Togglable Passive: Smite**
-  * Reduces final healing by 30%, but causes healing abilities to also damage enemies
+  * Reduces healing by 50%, but causes several healing abilities to also damage enemies
 * **Togglable Passive: Holy Light**
   * Sanctuary grants a buff that creates light
+  * This togglable in case anyone doesn't like the visual effect of the light
 * **Passive: Protection**
   * Sanctuary grants a buff that reduces the damage of the next hit taken
   * Scales with healing
@@ -493,28 +494,52 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * When released, heal any targets that were in the zone during charge-up (they do not have to stay in the zone)
     * Targets who are still in the zone at release are healed for 20% more
   * Heal magnitude scales with charge-up
+  * Can deal damage to enemies when Smite is enabled
 * **Ability 1 Alternate: Sanctuary**
   * Creates a long-duration zone that heals allies who are out-of-combat
   * Also increases mana regeneration
-*
+  * Applies several buffs from passives
+  * Can deal damage to enemies when Smite is enabled
+* **Ability 2: Holy Barrage**
+  * Rapid fire projectiles that deal minor holy damage
+  * Damage is increased when smite is enabled
+* **Ability 2 Alternate: Barrier**
+  * Create a barrier that deals holy damage and knocks back enemies
 
 ### Tier 3: Saint
 * Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
-  * If Smite *is not* enabled
-    * Heal leaves behind a field of the same size that periodically heals
-  * If Smite *is* enabled
-    * Heal leaves behind a field that increases damage taken by enemies
+  * Heal leaves behind a field of the same size that periodically heals
+    * Can deal damage to enemies when Smite is enabled
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
+    * Can deal damage to enemies when Smite is enabled
+* **Ability 1: Holy Beam**
+  * Channelling ability
+  * Fires a beam in the direction of the cursor that heals the first friendly player in its path
+  * Allows for faster healing than the Cleric Heal ability, but requires good aim and can hit only one target
+  * Can deal damage to enemies when Smite is enabled
+* Needs at least 2 more abilities
 
 ### Tier 3: Oracle
 * Buff/Debuff class
 * **Tier 2 Ability Notes/Upgrades:**
-  * If Smite *is not* enabled
-    * Heal leaves behind a field that increases the defense of allies
-  * If Smite *is* enabled
-    * Heal leaves behind a field that increases the damage of allies
+  * Heal leaves behind a field that increases the defense of allies
   * Protection reduces the damage of one additional hit per 20 levels
+* **Passive: Battle Sight**
+  * Dealing holy damage applies a stack of Vulnerability to the target
+  * Stacks are consumed when the target takes non-holy damage to increase the damage
+  * Each stack increases damage taken by at least 5% (increased by healing)
+  * Holy Barrage is simple way to apply several stacks, but Smite allows for several other methods of building stacks
+    * Holy Beam with Smite enabled is the fastest way to build stacks, but this requires the player to select both Saint and Oracle
+* **Active 1: Bolster**
+  * Applies a powerful attribute increasing buff to friendly players near the cursor
+  * Boosts one attribute (selected with another ability) by an amount equal to 25% of the Oracle's Spirit not counting bonuses (counts only allocated and class points)
+  * 10 minute duration, 5 minute cooldown
+  * Multiple attributes can be bolstered, but the effects on a single attribute do not stack (i.e., cannot bolster one attribute twice for double effect)
+* **Active 1 Alternate: Select Attribute**
+  * Cycles between attributes for bolster
+  * no cost, no cooldown
+* Needs at least 1 more ability
 
 ----------
 
