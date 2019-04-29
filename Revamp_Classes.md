@@ -504,7 +504,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Rapid fire projectiles that deal minor holy damage
   * Damage is increased when smite is enabled
 * **Ability 2 Alternate: Barrier**
-  * Create a barrier that deals holy damage and knocks back enemies
+  * Create a vertical barrier at the cursor location that deals holy damage and knocks back enemies
 
 ### Tier 3: Saint
 * Healing/Smite class
