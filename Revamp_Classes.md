@@ -472,6 +472,9 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 # Support (WIP)
 ### Tier 2: Cleric
+* **Scaling:**
+  * Healing scales with the Spirit attribute and with equipment that grants status immunities
+  * Holy damage scales with the Power attribute and with equipment that grants any kind of damage bonus
 * **Togglable Passive: Generosity**
   * When enabled, reduces final damage by 50% but triples final healing
   * Healing skills will be balanced under the assumption that this is enabled
@@ -503,7 +506,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
 
 ### Tier 3: Oracle
-* Buff class
+* Buff/Debuff class
 * **Tier 2 Ability Notes/Upgrades:**
   * If Smite *is not* enabled
     * Heal leaves behind a field that increases the defense of allies
