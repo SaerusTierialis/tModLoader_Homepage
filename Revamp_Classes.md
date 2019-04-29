@@ -507,6 +507,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Ability 2 Alternate: Barrier**
   * Create a barrier at the cursor location that deals holy damage and knocks back enemies
   * The barrier is made up of segments with separate hit counts
+  * Can block projectiles
 
 ### Tier 3: Saint (WIP)
 * Healing/Smite class
