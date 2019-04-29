@@ -529,7 +529,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Dealing holy damage applies a stack of Vulnerability to the target
   * Stacks are consumed when the target takes non-holy damage to increase the damage
   * Each stack increases damage taken by at least 5% (increased by healing)
-  * Holy Barrage is simple way to apply several stacks, but Smite allows for several other methods of building stacks
+  * Holy Barrage is a simple way to apply several stacks, but Smite allows for several other methods of building stacks
     * Holy Beam with Smite enabled is the fastest way to build stacks, but this requires the player to select both Saint and Oracle
 * **Active 1: Bolster**
   * Applies a powerful attribute increasing buff to friendly players near the cursor
