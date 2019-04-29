@@ -533,10 +533,13 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Each stack increases damage taken by at least 5% (increased by healing)
   * Holy Barrage is a simple way to apply several stacks, but Smite allows for several other methods of building stacks
     * Holy Beam with Smite enabled is the fastest way to build stacks, but this requires the player to select both Saint and Oracle
+* **Resource: Bolster Charges**
+  * Bolster can store up to 3 uses (charges)
+  * Recover one charge every 5 minutes (reduced by Dexterity)
 * **Active 1: Bolster**
   * Applies a powerful attribute increasing buff to friendly players near the cursor
   * Boosts one attribute (selected with another ability) by an amount equal to 25% of the Oracle's Spirit not counting bonuses (counts only allocated and class points)
-  * 10 minute duration, 5 minute cooldown
+  * 10 minute duration
   * Multiple attributes can be bolstered, but the effects on a single attribute do not stack (i.e., cannot bolster one attribute twice for double effect)
 * **Active 1 Alternate: Select Attribute**
   * Cycles between attributes for bolster
