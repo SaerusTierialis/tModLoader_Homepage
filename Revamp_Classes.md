@@ -485,6 +485,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Passive: Protection**
   * Sanctuary grants a buff that reduces the damage of the next hit taken
   * Scales with healing
+* **Passive: Cleanse**
+  * Heal cures any statuses that you are immune to
 * **Ability 1: Heal**
   * Channelling charge-up ability
   * Creates an expanding zone at the cursor location (location does not change while channelling)
