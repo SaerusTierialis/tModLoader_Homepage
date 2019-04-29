@@ -501,6 +501,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Applies several buffs from passives
   * Can deal damage to enemies when Smite is enabled
 * **Ability 2: Holy Barrage**
+  * Channelling ability
   * Rapid fire projectiles that deal minor holy damage
   * Damage is increased when smite is enabled
 * **Ability 2 Alternate: Barrier**
