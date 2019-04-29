@@ -518,7 +518,9 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Fires a beam in the direction of the cursor that heals the first friendly player in its path
   * Allows for faster healing than the Cleric Heal ability, but requires good aim and can hit only one target
   * Can deal damage to enemies when Smite is enabled
-* Needs at least 2 more abilities
+* **Ability 2: Divine Intervention**
+  * Nearby allies cannot die during the next 3 seconds. If they would die, they are instead healed (scales with healing)
+* Needs at least 1 more ability
 
 ### Tier 3: Oracle
 * Buff/Debuff class
