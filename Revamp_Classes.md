@@ -547,6 +547,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Active 1 Alternate: Select Attribute**
   * Cycles between attributes for bolster
   * no cost, no cooldown
+  * A crystal ball hovers beside the Oracle glowing with a colour that indicate the selected attribute
 * Needs at least 1 more ability
 
 ----------
