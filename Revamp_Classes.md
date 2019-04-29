@@ -506,7 +506,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Ability 2 Alternate: Barrier**
   * Create a vertical barrier at the cursor location that deals holy damage and knocks back enemies
 
-### Tier 3: Saint
+### Tier 3: Saint (WIP)
 * Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field of the same size that periodically heals
@@ -522,7 +522,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Nearby allies cannot die during the next 3 seconds. If they would die, they are instead healed (scales with healing)
 * Needs at least 1 more ability
 
-### Tier 3: Oracle
+### Tier 3: Oracle (WIP)
 * Buff/Debuff class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field that increases the attributes of allies by 10% of allocated+class points
