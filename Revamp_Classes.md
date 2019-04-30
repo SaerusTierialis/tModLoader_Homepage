@@ -562,7 +562,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Recover one charge every 5 minutes (reduced by Dexterity same as a cooldown)
 * **Active 1: Bolster**
   * Applies a powerful attribute increasing buff to friendly players near the cursor
-  * Boosts one attribute (selected with another ability) by an amount equal to 25% of the Oracle's Spirit not counting bonuses (counts only allocated and class points)
+  * Boosts one attribute (selected with another ability) by a large amount
+    * Scales with level and the Oracles own attributes (not counting bonuses)
   * 10 minute duration
   * Multiple attributes can be bolstered, but the effects on a single attribute do not stack (i.e., cannot bolster one attribute twice for double effect)
 * **Active 1 Alternate: Select Attribute**
