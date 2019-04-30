@@ -515,7 +515,6 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Ability 2 Alternate: Barrier**
   * Create a barrier at the cursor location that deals holy damage and knocks back enemies
   * The barrier is made up of segments with separate hit counts
-  * Can block projectiles
 
 ### Tier 3: Saint
 * Healing/Offensive class
@@ -549,6 +548,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field that increases the attributes of allies by 10% of allocated+class points
   * Protection reduces the damage of one additional hit per 20 levels
+  * Barrier can block projectiles
 * **Passive: Clear Mind**
   * Healing life also restores a small amount of mana to the target
   * Does not apply to self-healing
