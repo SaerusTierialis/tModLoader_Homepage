@@ -540,6 +540,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * The player takes 90% less damage
   * The player gains a small aura that applies a powerful heal (does not target the Saint) and strong holy damage
   * If Judgement is active, the rate of beams spawning is doubled
+  * Healing and holy damage are doubled
   * Short duration, long cooldown
 * *Might add another ability*
 
