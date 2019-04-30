@@ -488,7 +488,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Allows holy damage to hit any type of monster (Demons and Undead take additional damage)
 * **Togglable Passive: Holy Light**
   * Sanctuary grants a buff that creates light
-  * This togglable in case anyone doesn't like the visual effect of the light
+  * This is togglable just in case anyone doesn't like the visual effect of the light
 * **Passive: Protection**
   * Sanctuary grants a buff that reduces the damage of the next hit taken
   * Scales with healing
