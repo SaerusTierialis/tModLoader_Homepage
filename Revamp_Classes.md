@@ -573,7 +573,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * All enemies in a large radius are illuminated
   * If a boss is revealed, then all players have an indicator drawn pointing towards the boss
   * Revealed enemies deal less damage for a few seconds
-  * Orbs are more likely to drop from enemies that have been revealed (do not have to be revealed when they are defeated)
+  * Enemies that have been revealed have a 10% chance to drop loot twice (do not need to be revealed when defeated)
 * **Ability 2 Alternate: Destiny**
   * Nearby players are granted the Destiny status for 5 seconds
   * If a player with the Destiny status would die, the status is consumed to prevent the death and heal the player (scales with healing)
