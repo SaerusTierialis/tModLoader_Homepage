@@ -470,16 +470,22 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ----------
 
-# Support (WIP)
+# Support
 ### Tier 2: Cleric
-* **Scaling:**
-  * **Healing** scales with the Spirit attribute and with equipment that grants status immunities
-  * **Holy damage** scales with the Power attribute and with equipment that grants any kind of damage bonus
+* **Healing**
+  * Scales with the Spirit attribute and with equipment that grants status immunities
+  * Increases heal amounts as well as most buff/debuff effects
+* **Holy damage**
+  * Scales with the Power attribute and with equipment that grants any kind of damage bonus
+  * When Smite is disabled, holy damage can only hit Demons and Undead
+  * Holy damage has low base values, but deals 50% more to Demons and 100% more to Undead
 * **Togglable Passive: Generosity**
   * When enabled, reduces final damage by 50% but triples healing
   * Healing skills will be balanced under the assumption that this is enabled
 * **Togglable Passive: Smite**
-  * Reduces healing by 50%, but causes several healing abilities to also damage enemies
+  * Reduces healing by 50%
+  * Doubles holy damage
+  * Allows holy damage to hit any type of monster (Demons and Undead take additional damage)
 * **Togglable Passive: Holy Light**
   * Sanctuary grants a buff that creates light
   * This togglable in case anyone doesn't like the visual effect of the light
@@ -488,57 +494,72 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Scales with healing
 * **Passive: Cleanse**
   * Heal cures any statuses that you are immune to
+* **Passive: Turn Undead**
+  * Holy damage has a chance to instantly kill non-boss Undead
+  * The chance is increased based on the amount of damage and the target's remaining life
 * **Ability 1: Heal**
   * Channelling charge-up ability
   * Creates an expanding zone at the cursor location (location does not change while channelling)
   * When released, heal any targets that were in the zone during charge-up (they do not have to stay in the zone)
     * Targets who are still in the zone at release are healed for 20% more
   * Heal magnitude scales with charge-up
-  * Can deal damage to enemies when Smite is enabled
+  * Also deals holy damage
 * **Ability 1 Alternate: Sanctuary**
   * Creates a long-duration zone that heals allies who are out-of-combat
   * Also increases mana regeneration
   * Applies several buffs from passives
-  * Can deal damage to enemies when Smite is enabled
+  * Also deals holy damage
 * **Ability 2: Holy Barrage**
   * Channelling ability
   * Rapid fire projectiles that deal minor holy damage
-  * Damage is increased when smite is enabled
 * **Ability 2 Alternate: Barrier**
   * Create a barrier at the cursor location that deals holy damage and knocks back enemies
   * The barrier is made up of segments with separate hit counts
   * Can block projectiles
 
-### Tier 3: Saint (WIP)
+### Tier 3: Saint
 * Healing/Smite class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field of the same size that periodically heals
-    * Can deal damage to enemies when Smite is enabled
+    * Also deals holy damage
   * Mini-heals are periodically triggered on targets in the expanding zone while channelling
-    * Can deal damage to enemies when Smite is enabled
-* **Ability 1: Holy Beam**
+    * Also deals holy damage
+* **Passive: Turn Demons**
+  * Similar to Turn Undead but for Demons
+  * The chance is less than Turn Undead
+* **Ability 1: Divine Ray**
   * Channelling ability
-  * Fires a beam in the direction of the cursor that heals the first friendly player in its path
-  * Allows for faster healing than the Cleric Heal ability, but requires good aim and can hit only one target
-  * Can deal damage to enemies when Smite is enabled
-* **Ability 2: Divine Intervention**
-  * Nearby allies cannot die during the next 3 seconds. If they would die, they are instead healed (scales with healing)
-* Needs at least 1 more ability
+  * Fires a beam in the direction of the cursor that heals the first friendly player in its path and deals holy damage to the first enemy in its path
+  * Allows for faster healing/more damage than the Cleric Heal ability, but requires good aim and can hit only one target
+* **Ability 1 Alternate: Judgement**
+  * Toggle ability, quickly drains mana while active
+  * Causes beams of light to shoot down from above
+  * Beams heal allies and deal holy damage to enemies
+* **Ability 2: Ascension**
+  * The player flies, controlled by cursor position (unless they are already on a flying mount)
+  * The player takes 90% less damage
+  * The player gains a small aura that applies a powerful heal (does not target the Saint) and strong holy damage
+  * If Judgement is active, the rate of beams spawning is doubled
+  * Short duration, long cooldown
+* *Might add another ability*
 
-### Tier 3: Oracle (WIP)
+### Tier 3: Oracle
 * Buff/Debuff class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field that increases the attributes of allies by 10% of allocated+class points
   * Protection reduces the damage of one additional hit per 20 levels
+* **Passive: Clear Mind**
+  * Healing life also restores a small amount of mana to the target
+  * Does not apply to self-healing
 * **Passive: Battle Sight**
-  * Dealing holy damage applies a stack of Vulnerability to the target
-  * Stacks are consumed when the target takes non-holy damage to increase the damage
+  * Holy damage applies a stack of Vulnerability to the target
+    * Applies to all monster types even when Smite is disabled
+  * Stacks are consumed when the target takes non-holy damage to increase the damage taken
   * Each stack increases damage taken by at least 5% (increased by healing)
-  * Holy Barrage is a simple way to apply several stacks, but Smite allows for several other methods of building stacks
-    * Holy Beam with Smite enabled is the fastest way to build stacks, but this requires the player to select both Saint and Oracle
+  * Holy Barrage is a simple way to apply several stacks. Holy Beam is the fastest way to build stacks, but  requires the player to select both Saint and Oracle.
 * **Resource: Bolster Charges**
-  * Bolster can store up to 3 uses (charges)
-  * Recover one charge every 5 minutes (reduced by Dexterity)
+  * Bolster can store up to 3 uses (charges), displayed as a resource
+  * Recover one charge every 5 minutes (reduced by Dexterity same as a cooldown)
 * **Active 1: Bolster**
   * Applies a powerful attribute increasing buff to friendly players near the cursor
   * Boosts one attribute (selected with another ability) by an amount equal to 25% of the Oracle's Spirit not counting bonuses (counts only allocated and class points)
@@ -548,7 +569,14 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Cycles between attributes for bolster
   * no cost, no cooldown
   * A crystal ball hovers beside the Oracle glowing with a colour that indicate the selected attribute
-* Needs at least 1 more ability
+* **Ability 2: Reveal**
+  * All enemies in a large radius are illuminated
+  * If a boss is revealed, then all players have an indicator drawn pointing towards the boss
+  * Revealed enemies deal less damage for a few seconds
+* **Ability 2 Alternate: Destiny**
+  * Nearby players are granted the Destiny status for 5 seconds
+  * If a player with the Destiny status would die, the status is consumed to prevent the death and heal the player (scales with healing)
+  * Long cooldown
 
 ----------
 
