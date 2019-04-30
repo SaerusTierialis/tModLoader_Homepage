@@ -518,7 +518,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Can block projectiles
 
 ### Tier 3: Saint
-* Healing/Smite class
+* Healing/Offensive class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field of the same size that periodically heals
     * Also deals holy damage
@@ -544,7 +544,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * *Might add another ability*
 
 ### Tier 3: Oracle
-* Buff/Debuff class
+* Buff/Debuff/Utility class
 * **Tier 2 Ability Notes/Upgrades:**
   * Heal leaves behind a field that increases the attributes of allies by 10% of allocated+class points
   * Protection reduces the damage of one additional hit per 20 levels
