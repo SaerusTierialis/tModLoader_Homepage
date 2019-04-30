@@ -506,6 +506,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Also deals holy damage
 * **Ability 1 Alternate: Sanctuary**
   * Creates a long-duration zone that heals allies who are out-of-combat
+  * Allies in the sanctuary cannot be hit while out-of-combat
   * Also increases mana regeneration
   * Applies several buffs from passives
   * Also deals holy damage
