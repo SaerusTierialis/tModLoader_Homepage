@@ -473,7 +473,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 # Support
 ### Tier 2: Cleric
 * **Healing**
-  * Scales with the Spirit attribute and with equipment that grants status immunities
+  * Scales with the Spirit attribute and with equipment that grants status immunities or any kind of damage bonus
   * Increases heal amounts as well as most buff/debuff effects
 * **Holy damage**
   * Scales with the Power attribute and with equipment that grants any kind of damage bonus
