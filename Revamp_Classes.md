@@ -427,19 +427,19 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 ### Tier 2: Traveler
 * **Damage Scaling:**
   * all
-* **Resource: Telepoint**
-  * Every 5 seconds, a Telepoint spawns near the player
+* **Resource: Rift**
+  * Every 5 seconds, a Rift spawns near the player
     * starts at 15 seconds and decreases with level
-  * Up to 10 Telepoints can be active and if another would spawn then it replaces the oldest
+  * Up to 10 Rift can be active and if another would spawn then it replaces the oldest
      * starts at 3 and decreases with level
-  * Teleporting to a Telepoint is free and has no cooldown, but consumes the Telepoint
-  * Teleporting has a 50% chance of creating a Telepoint at the initial position
+  * Teleporting to a Rift is free and has no cooldown, but consumes the Rift
+  * Teleporting has a 50% chance of creating a Rift at the initial position
 * **Passive: Return**
   * For 1 minute after respawn, the Traveler can return to their place of death
   * Press the alternate skill key and Up to trigger the effect (timer is shown as a status)
 * **Passive: Disruption**
   * Teleporting deals damage to enemies at both the initial and final positions
-  * If a Telepoint is consumed, then the damage is increased
+  * If a Rift is consumed, then the damage is increased
 * **Ability 1: Teleport**
   * Teleport towards the cursor
   * At higher level, does not require line-of-sight
@@ -451,8 +451,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Longer cooldown in combat
 * **Ability 2: Instability**
   * Deal moderate area damage around the player
-  * Detonates nearby Telepoints to deal additional area damage
-  * Telepoints within range of a detonation are also detonated (chain reaction)
+  * Detonates nearby Rifts to deal additional area damage
+  * Rifts within range of a detonation are also detonated (chain reaction)
 * **Ability 2 Alternate: Place Teleporter**
   * Places up to 2 Teleporters
   * Hold Up to place the secondary Teleporter
@@ -460,8 +460,11 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ### Tier 3: Controller
 * **Tier 2 Ability Notes/Upgrades:**
-  * Instability will interact with Controller abilities (TODO)
-  * Controller abilities will have added effects when used on Telepoints (TODO)
+  * Controller abilities have half cost and cooldown when placed on a Rift (consumes the rift)
+  * Instability (and detonations) trigger Controller abilities:
+    * Black Holes deal damage in a large area and knock enemies towards the center
+    * Force Fields deal damage in a large area and knock enemies away from the center
+    * Projectile variants destroy projectiles in the area
 * **Ability 1: Black Hole - Projectiles**
   * Creates a black hole which pulls nearby projectiles towards it
   * Affects both friendly and hostile projectiles
