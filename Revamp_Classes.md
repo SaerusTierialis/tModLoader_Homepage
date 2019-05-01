@@ -578,17 +578,17 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Stacks are consumed when the target takes non-holy damage to increase the damage taken
   * Each stack increases damage taken by at least 5% (increased by healing)
   * Holy Barrage is a simple way to apply several stacks. Holy Beam is the fastest way to build stacks, but  requires the player to select both Saint and Oracle.
-* **Resource: Bolster Charges (better name?)**
-  * Bolster can store up to 3 uses (charges), displayed as a resource
+* **Resource: Prophecy Charges**
+  * Prophecy can store up to 3 uses (charges), displayed as a resource
   * Recover one charge every 5 minutes (reduced by Dexterity same as a cooldown)
-* **Active 1: Bolster (better name?)**
+* **Active 1: Prophecy**
   * Applies a powerful attribute-increasing buff to friendly players near the cursor
   * Boosts one attribute (selected with another ability) by a large amount
     * Scales with level and the Oracles own attributes (not counting bonuses)
   * 10 minute duration
-  * Multiple attributes can be bolstered, but the effects on a single attribute do not stack (i.e., cannot bolster one attribute twice for double effect)
+  * Multiple attributes can be boosted, but the effects on a single attribute do not stack (i.e., cannot boost one attribute twice for double effect)
 * **Active 1 Alternate: Select Attribute**
-  * Cycles between attributes for bolster
+  * Cycles between attributes for Prophecy
   * no cost, no cooldown
   * A crystal ball hovers beside the Oracle glowing with a colour that indicate the selected attribute
 * **Ability 2: Reveal**
@@ -599,6 +599,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Ability 2 Alternate: Destiny**
   * Nearby players are granted the Destiny status for 5 seconds
   * If a player with the Destiny status would die, the status is consumed to prevent the death and heal the player (scales with healing)
+  * While active, Prophecy bonuses are doubled
   * Long cooldown
 
 ----------
