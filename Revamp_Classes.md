@@ -481,7 +481,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * Same as "Black Hole - Projectiles" but affects enemies instead
     * Weaker pull
     * Limited to 1 at a time
-* **Ability 2: Force Field - Enemies**
+* **Ability 2 Alternate: Force Field - Enemies**
   * Same as "Force Field - Projectiles" but affects enemies instead
     * Weaker push
     * Limited to 1 at a time
