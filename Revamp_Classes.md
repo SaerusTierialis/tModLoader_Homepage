@@ -425,44 +425,57 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 # Utility (all damage types)
 ### Tier 2: Traveler
-* Damage Scaling:
+* **Damage Scaling:**
   * all
-* Passive: Return to the Scene of the Crime
-  * On respawn, the Traveler has the ability to return to their place of death by pressing the teleporter activation key while at the respawn point
-* Ability 1: Teleport
-  * teleport towards the cursor
-  * at higher level, does not require line-of-sight
-  * longer cooldown in combat
-* Ability 1 Alternate: Long-Range Teleport
-  * teleports to a position in the direction of the cursor that is 10x the distance from the player to the cursor
-    * if that location is invalid, teleport to a nearby location
-  * longer cooldown than basic teleport
-  * longer cooldown in combat
-* Ability 2: Place Teleporter A
-  * places a teleporter
-  * while out of combat, any player can freely move between the teleporters by pressing an activation hotkey
-  * teleporters cannot be placed directly on the respawn point
-* Ability 2: Place Teleporter B
-  * places the second teleporter
+* **Resource: Telepoint**
+  * Every 5 seconds, a Telepoint spawns near the player
+    * starts at 15 seconds and decreases with level
+  * Up to 10 Telepoints can be active and if another would spawn then it replaces the oldest
+     * starts at 3 and decreases with level
+  * Teleporting to a Telepoint is free and has no cooldown, but consumes the Telepoint
+  * Teleporting has a 50% chance of creating a Telepoint at the initial position
+* **Passive: Return**
+  * For 1 minute after respawn, the Traveler can return to their place of death
+  * Press the alternate skill key and Up to trigger the effect (timer is shown as a status)
+* **Passive: Disruption**
+  * Teleporting deals damage to enemies at both the initial and final positions
+  * If a Telepoint is consumed, then the damage is increased
+* **Ability 1: Teleport**
+  * Teleport towards the cursor
+  * At higher level, does not require line-of-sight
+  * Longer cooldown in combat
+* **Ability 1 Alternate: Long-Range Teleport**
+  * Teleports to a position in the direction of the cursor that is 10x the distance from the player to the cursor
+    * If that location is invalid, teleport to a nearby location
+  * Longer cooldown than basic teleport
+  * Longer cooldown in combat
+* **Ability 2: Instability**
+  * Deal moderate area damage around the player
+  * Detonates nearby Telepoints to deal additional area damage
+  * Telepoints within range of a detonation are also detonated (chain reaction)
+* **Ability 2 Alternate: Place Teleporter**
+  * Places up to 2 Teleporters
+  * Hold Up to place the secondary Teleporter
+  * While out of combat, any player can freely move between the Teleporters by pressing Up
 
 ### Tier 3: Controller
-* Ability 1: Black Hole - Projectiles
+* **Ability 1: Black Hole - Projectiles**
   * Creates a black hole which pulls nearby projectiles towards it
   * Affects both friendly and hostile projectiles
   * The pull is stronger towards the center
   * Not strong enough to trap projectiles unless they are very slow or pass near the center
   * The number is limited only by cooldown
-* Ability 1 Alternate: Force Field - Projectiles
+* **Ability 1 Alternate: Force Field - Projectiles**
   * Creates a force field which pushes away nearby projectiles
   * Affects both friendly and hostile projectiles
   * The push is stronger towards the center
   * May completely deflect slow projectiles and those that pass near the center
   * The number is limited only by cooldown
-* Ability 2: Black Hole - Enemies
+* **Ability 2: Black Hole - Enemies**
   * Same as "Black Hole - Projectiles" but affects enemies instead
     * Weaker pull
     * Limited to 1 at a time
-* Ability 2: Force Field - Enemies
+* **Ability 2: Force Field - Enemies**
   * Same as "Force Field - Projectiles" but affects enemies instead
     * Weaker push
     * Limited to 1 at a time
