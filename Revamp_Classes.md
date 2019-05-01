@@ -462,8 +462,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Tier 2 Ability Notes/Upgrades:**
   * Controller abilities have half cost and cooldown when placed on a Rift (consumes the rift)
   * Instability (and detonations) trigger Controller abilities:
-    * Black Holes deal damage in a large area and knock enemies towards the center
-    * Force Fields deal damage in a large area and knock enemies away from the center
+    * Black Holes deal damage in a large area and knock enemies inward
+    * Force Fields deal damage in a large area and knock enemies outward
     * Projectile variants destroy projectiles in the area
 * **Ability 1: Black Hole - Projectiles**
   * Creates a black hole which pulls nearby projectiles towards it
