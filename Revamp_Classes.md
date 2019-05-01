@@ -459,6 +459,9 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * While out of combat, any player can freely move between the Teleporters by pressing Up
 
 ### Tier 3: Controller
+* **Tier 2 Ability Notes/Upgrades:**
+  * Instability will interact with Controller abilities (TODO)
+  * Controller abilities will have added effects when used on Telepoints (TODO)
 * **Ability 1: Black Hole - Projectiles**
   * Creates a black hole which pulls nearby projectiles towards it
   * Affects both friendly and hostile projectiles
