@@ -97,6 +97,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
     * These effects should be powerful enough to be worth the risk of spending life and/or incurring degeneration
     * Maybe a skill to massively boost the damage of the next hit
     * Maybe a wave that inflicts a strong bleed
+    * maybe a skill that takes both life and bloodforce to grant a stackable damage buff
 
 ### Tier 3: Guardian (WIP)
 * Tank class
@@ -675,13 +676,8 @@ Elementalist could have 4 abilities (fire,wind,water,earth) the more he use one 
 ### Maybe a spirit/necromancer class?
 
 ### Support
-* pre-revamp cleric [here](./Temporary_Rework_User_Documentation.md)
 * toggle ability that converts damage bonuses of any weapon type into healing power to allow flexible itemization. This ability cannot be used with the hybrid ability that makes equipment affect all damage types.
-* Remove Sanctuary teleport (moved to anther class)
-* Potential changes:
-   * Remove paragon abilities for something more interesting
-   * Rework heal
-* Might split into two final classes: heal-focused and buff-focused
 * Maybe add a debuff/degen class?
 * Maybe a support/minion class that has a healing minion
 * An aura class? Might be utility instead of support depending on effect
+* an ability that makes barriers around target, break all barriers in time to deal bonus damage (party of objective meant for difficult fights)
