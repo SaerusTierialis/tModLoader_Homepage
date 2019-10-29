@@ -606,10 +606,41 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 # Musical
 
 ### Tier 2: Bard
-* abilities will be some sort of song, one for damage and one for healing
+* **Resource: Harmonic Power**
+  * Used to maintain Songs
+* **Songs**
+  * toggle, songs drain Harmonic Power while active
+  * applies an effect around the player at fixed intervals (aura)
+* **Ability 1: Strum**
+  * channel to generate Harmonic Power at the cost of mana
+  * cannot attack while channeling
+* **Ability 1 Alternate: Performer**
+  * toggle, must be out of combat
+  * dramatically reduces all (non-song) damage dealt, but increases the radius and potency of all songs
+* **Ability 2: Song 1 (name TBD)**
+  * damage
+* **Ability 2 Alternate: Song 2 (name TBD)**
+  * healing
+* **Passive: Resonance**
+  * the effects of all songs persist for a short time after a target leaves the area
 
 ### Tier 3: Minstrel
-* unknown
+* **Ability 1: Song 3 (name TBD)**
+  * increases Agility (movement, dodge, jump, fly)
+  * might add speed to minions if it's easy to implement
+* **Ability 1 Alternate: Song 4 (name TBD)**
+  * slows enemies
+* **Ability 2: Song 5 (name TBD)**
+  * allies deal more damage
+  * enemies take more damage
+* **Ability 2 Alternate: Song 6 (name TBD)**
+  * allies take less damage
+  * enemies deal less damage
+* **Passive: name TBD**
+  * passively generate enough Harmonic Power to maintain a song
+  * later, enough to maintain two or three
+* **Passive : name TBD**
+  * while strumming, song radius and effects are magnified
 
 ----------
 
