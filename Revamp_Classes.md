@@ -618,6 +618,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Ability 1 Alternate: Performer**
   * toggle, must be out of combat
   * dramatically reduces all (non-song) damage dealt, but increases the radius and potency of all songs
+  * would be a toggle passive if I implement that system
 * **Ability 2: Song 1 (name TBD)**
   * damage
 * **Ability 2 Alternate: Song 2 (name TBD)**
@@ -640,8 +641,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * allies take less damage
   * enemies deal less damage
 * **Passive: name TBD**
-  * passively generate enough Harmonic Power to maintain a song
-  * later, enough to maintain two or three
+  * passively generate a little bit of Harmonic Power
+  * eventually, enough to maintain one or two songs
 
 ----------
 
