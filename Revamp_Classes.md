@@ -490,7 +490,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 
 ----------
 
-# Support
+# Holy
 ### Tier 2: Cleric
 * **Healing**
   * Scales with the Spirit attribute and with equipment that grants status immunities (strong) or any kind of damage bonus (weak)
@@ -602,6 +602,14 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * If a player with the Destiny status would die, the status is consumed to prevent the death and heal the player (scales with healing)
   * While active, Prophecy bonuses are doubled
   * Long cooldown
+
+# Musical
+
+### Tier 2: Bard
+* abilities will be some sort of song, one for damage and one for healing
+
+### Tier 3: Minstrel
+* unknown
 
 ----------
 
