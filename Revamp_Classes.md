@@ -608,6 +608,7 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 ### Tier 2: Bard
 * **Resource: Harmonic Power**
   * Used to maintain Songs
+  * Capacity increases with level
 * **Songs**
   * toggle, songs drain Harmonic Power while active
   * applies an effect around the player at fixed intervals (aura)
@@ -623,6 +624,8 @@ These idea are not final. If you have feedback or ideas, please share them on ou
   * healing
 * **Passive: Resonance**
   * the effects of all songs persist for a short time after a target leaves the area
+* **Passive : name TBD**
+  * while strumming, song radius and effects are magnified
 
 ### Tier 3: Minstrel
 * **Ability 1: Song 3 (name TBD)**
@@ -639,8 +642,6 @@ These idea are not final. If you have feedback or ideas, please share them on ou
 * **Passive: name TBD**
   * passively generate enough Harmonic Power to maintain a song
   * later, enough to maintain two or three
-* **Passive : name TBD**
-  * while strumming, song radius and effects are magnified
 
 ----------
 
