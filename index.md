@@ -10,23 +10,16 @@ My other mods can be found [here](https://github.com/SaerusTierialis?utf8=%E2%9C
 * [Report a bug or request a feature](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/issues/new/choose)
 
 ## Revamp Links:
-* [Revamp Classes](./Revamp_Classes.md)
-* [Temporary Documentation](./Temporary_Rework_User_Documentation.md) (includes current cleric abilities)
-* [Progress and Plans (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/milestones)
-* [Status Overview (ongoing)](https://github.com/SaerusTierialis/tModLoader_ExperienceAndClasses/projects/1)
+* [Current Release Documentation](./Temporary_Rework_User_Documentation.md) (includes current cleric abilities)
+* [Upcoming Class Ideas](./Revamp_Classes.md)
 
-## Revamp Highlights:
-ETA: Soon™
-
-There is a **major** revamp is in the works! Please visit our Discord if you have any questions or to provide input. Here are some highlights:
-* Classes will no longer be accessories and will instead be toggled on/off in a new UI
-* Level/XP will be per class
-* Bonuses will be reduced. This will be most noticeable on damage-related stats.
-* Core bonuses will be collapsed into *Attributes* (strength, dexterity, etc.)
-* Multi-classing will be easier and more worthwhile, but you will be limited to one sub-class
-* All classes will receive active abilities that enable new, unique playstyles (not all abilities will be ready for 2.0 release; remaining abilities will be added in later patches)
+There is a **major** revamp is in the works and the beta is available on Discord now! Here are some highlights:
+* Classes are no longer accessories and are instead selected in a new UI
+* Level/XP is per class
+* Bonuses have been collapsed into *Attributes* (Strength, Dexterity, etc.) and rebalanced
+* Sub-classing is now easier and more worthwhile
 * UI improvements should make out-of-game documentation unneccessary
-* Everything is being rebuilt from the ground up with a variety of improvements
+* All classes will eventually receive active abilities that enable new, unique playstyles (work in progress)
 
 ## Acknowledgement for sprite use
 Sprites adapted from: game-icons.net (used with modifications)
